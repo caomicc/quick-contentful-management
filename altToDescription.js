@@ -40,7 +40,7 @@ async function updateEntry(environment, entry) {
 }
 
 // Main function to process entries
-async function updateEntries() {
+async function altToDescription() {
   try {
     // Get the space and environment
     const space = await client.getSpace(spaceId);
@@ -86,4 +86,4 @@ async function updateEntries() {
   }
 }
 
-updateEntries();
+altToDescription();
