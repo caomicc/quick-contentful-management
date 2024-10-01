@@ -20,7 +20,7 @@ async function fetchEntries(environment, skip = 0, limit = 100) {
 }
 
 // Function to publish an entry if it's in changed mode
-async function publishChangedEntry(entry) {
+async function publishChangedEntry(entry, count, totalEntries) {
   try {
     const currentVersion = entry.sys.version;
     const publishedVersion = entry.sys.publishedVersion || 0;
@@ -29,12 +29,12 @@ async function publishChangedEntry(entry) {
     if (currentVersion > publishedVersion) {
       // Publish the entry
       await entry.publish();
-      console.log(`Published entry: ${entry.sys.id} (version: ${currentVersion}, published: ${publishedVersion})`);
+      console.log(`${count}/${totalEntries} - Published entry: ${entry.sys.id} (version: ${currentVersion}, published: ${publishedVersion})`);
     } else {
-      console.log(`Entry: ${entry.sys.id} is already published (version: ${currentVersion})`);
+      console.log(`${count}/${totalEntries} - Entry already published: ${entry.sys.id} (version: ${currentVersion})`);
     }
   } catch (error) {
-    console.error(`Error publishing entry: ${entry.sys.id}`, error);
+    console.error(`${count}/${totalEntries} - Error publishing entry: ${entry.sys.id}`, error);
   }
 }
 
@@ -48,6 +48,7 @@ async function publishChangedEntries() {
     let skip = 0;
     const limit = 100;
     let totalEntries = 0;
+    let count = 0; // Initialize a counter for processed entries
 
     while (true) {
       // Fetch a batch of entries
@@ -56,8 +57,10 @@ async function publishChangedEntries() {
 
       // Process each entry
       for (const entry of entries.items) {
+        count += 1; // Increment the count
+
         // Publish the entry if it is in changed mode
-        await publishChangedEntry(entry);
+        await publishChangedEntry(entry, count, totalEntries);
       }
 
       // Increment the skip value to fetch the next batch
