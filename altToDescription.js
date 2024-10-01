@@ -20,15 +20,15 @@ async function fetchEntries(environment, skip = 0, limit = 100) {
 }
 
 // Function to update an entry
-async function updateEntry(environment, entry) {
+async function updateEntry(environment, entry, count, totalEntries) {
   try {
     // Try updating the entry
     await entry.update();
-    console.log(`Updated entry: ${entry.sys.id}`);
+    console.log(`${count}/${totalEntries} - Updated entry: ${entry.sys.id}`);
 
     // Publish the entry
     await entry.publish();
-    console.log(`Published entry: ${entry.sys.id}`);
+    console.log(`${count}/${totalEntries} - Published entry: ${entry.sys.id}`);
   } catch (error) {
     if (error.name === 'VersionMismatch') {
       // Skip this entry and move to the next one
@@ -49,6 +49,7 @@ async function altToDescription() {
     let skip = 0;
     const limit = 100;
     let totalEntries = 0;
+    let count = 0; // Initialize a counter for processed entries
 
     while (true) {
       // Fetch a batch of entries
@@ -57,6 +58,8 @@ async function altToDescription() {
 
       // Process each entry
       for (const entry of entries.items) {
+        count += 1; // Increment the count
+
         const alt = entry.fields.alt;
         const description = entry.fields.description;
 
@@ -64,10 +67,10 @@ async function altToDescription() {
           entry.fields.description = entry.fields.description || {};
           entry.fields.description['en-US'] = alt['en-US'];
 
-          // Try to update the entry and skip on conflict
-          await updateEntry(environment, entry);
+          // Update the entry and log the progress with count
+          await updateEntry(environment, entry, count, totalEntries);
         } else {
-          console.log(`Skipped entry: ${entry.sys.id} (description not empty)`);
+          console.log(`${count}/${totalEntries} - Skipped entry: ${entry.sys.id} (description not empty)`);
         }
       }
 
