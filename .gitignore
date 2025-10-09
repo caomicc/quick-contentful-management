@@ -12,6 +12,8 @@ tests/coverage-report
 playwright-report
 /build-storyook.log
 
+logs/
+
 # next.js
 .next/
 out/
