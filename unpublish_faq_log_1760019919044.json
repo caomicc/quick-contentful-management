@@ -1,0 +1,63 @@
+{
+  "timestamp": "2025-10-09T14:25:19.042Z",
+  "contentType": "faq",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 7,
+  "successful": 7,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "5Fl2dPyTSQaGjo2Xad2PmL",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2025-02-19T18:01:14.261Z"
+    },
+    {
+      "id": "6TZ8NsJFlRLVsg4XjqUEYV",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2025-01-16T19:31:08.659Z"
+    },
+    {
+      "id": "40PslHobvUfEV7VMDHkyVC",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2025-01-16T19:31:08.641Z"
+    },
+    {
+      "id": "64hKZxFzZ4PWoNsiLa27r0",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2025-01-16T19:31:08.625Z"
+    },
+    {
+      "id": "4Apd9htERbjbr6Y9brXfRf",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-01T16:54:25.387Z"
+    },
+    {
+      "id": "2c3dpDXt4KtdiHLOw6PbkH",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-01T16:54:15.041Z"
+    },
+    {
+      "id": "2kWtxaMqt10keoc3c7x5Fo",
+      "contentType": "faq",
+      "title": "",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-01T16:52:03.162Z"
+    }
+  ],
+  "failedEntries": []
+}

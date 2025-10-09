@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-10-09T14:27:47.643Z",
+  "contentType": "card",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 12,
+  "successful": 12,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "4IisWaynI19pJzN9y3ao68",
+      "contentType": "card",
+      "title": "Gallup Shows What Drives Engagement",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-02T18:10:37.090Z"
+    },
+    {
+      "id": "6OUiWsRIj0L8dgWyxvtfGX",
+      "contentType": "card",
+      "title": "Surprise – AI Makes Work More Human",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-02T18:10:05.770Z"
+    },
+    {
+      "id": "4k4MDeS5EhWa4F3PyQjQxx",
+      "contentType": "card",
+      "title": "Lifting the employee experience in manufacturing",
+      "referenceType": "No References",
+      "updatedAt": "2024-06-28T01:06:36.132Z"
+    },
+    {
+      "id": "4p3nFbiccCjr0CQzctgjRE",
+      "contentType": "card",
+      "title": "London | June 4, 2024",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-03-27T15:19:49.043Z"
+    },
+    {
+      "id": "76eoDwHHpTBu1TH9YX5oLR",
+      "contentType": "card",
+      "title": "Workhuman (Nordamerika)",
+      "referenceType": "No References",
+      "updatedAt": "2024-03-13T14:38:35.467Z"
+    },
+    {
+      "id": "3q3YVbIwBHggKzzWOUkAnR",
+      "contentType": "card",
+      "title": "Leave a lasting impression",
+      "referenceType": "No References",
+      "updatedAt": "2024-02-14T17:12:45.214Z"
+    },
+    {
+      "id": "4j5MsW3FB2KIIMhh6UuVQC",
+      "contentType": "card",
+      "title": "From thank you to thriving",
+      "referenceType": "No References",
+      "updatedAt": "2024-02-14T17:12:07.950Z"
+    },
+    {
+      "id": "2G4fpeHFWmN9wFxiwfRvfK",
+      "contentType": "card",
+      "title": "Recognize. Analyze.  Drive business forward.",
+      "referenceType": "No References",
+      "updatedAt": "2024-02-14T17:11:19.919Z"
+    },
+    {
+      "id": "6BSKDAlfdMIIMI2NmicdmO",
+      "contentType": "card",
+      "title": "Workhuman (Europa)",
+      "referenceType": "No References",
+      "updatedAt": "2024-01-29T19:59:14.861Z"
+    },
+    {
+      "id": "iJnt2j1ZK2vHWoBctMk7O",
+      "contentType": "card",
+      "title": "Workhuman Live Forum | London 2024",
+      "referenceType": "No References",
+      "updatedAt": "2023-08-31T13:40:55.051Z"
+    },
+    {
+      "id": "2JmrE2pkaDOptQo9Mqe4gP",
+      "contentType": "card",
+      "title": "Workhuman LinkedIn Live",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-07T17:45:33.150Z"
+    },
+    {
+      "id": "7jGTVv4yIppPxUMfl7hQum",
+      "contentType": "card",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T02:47:59.302Z"
+    }
+  ],
+  "failedEntries": []
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-09T14:52:40.581Z",
+  "contentType": "buttonLink",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 3,
+  "successful": 3,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "7E4zFKGOmyLj4vnaUb3Eya",
+      "contentType": "buttonLink",
+      "title": "ABM Test CTA Button (1)",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-04-25T15:53:15.581Z"
+    },
+    {
+      "id": "6GDrAiPpwhJH3TjEbM9yOA",
+      "contentType": "buttonLink",
+      "title": "ABM Test CTA Button (2)",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-03-11T20:20:01.146Z"
+    },
+    {
+      "id": "1AZwnUXyIvCWHY7AWnTvwW",
+      "contentType": "buttonLink",
+      "title": "Click here - Register jump link",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-02-06T19:40:09.721Z"
+    }
+  ],
+  "failedEntries": []
+}

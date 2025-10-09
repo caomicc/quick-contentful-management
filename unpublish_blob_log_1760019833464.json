@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-10-09T14:23:53.462Z",
+  "contentType": "blob",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 13,
+  "successful": 13,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "3EVbFvcNhKVpLyLhwU7V6j",
+      "contentType": "blob",
+      "title": "Consulting practice hero blob.",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-10-01T17:27:16.847Z"
+    },
+    {
+      "id": "c51dTbwEPfphrknlvDQFf",
+      "contentType": "blob",
+      "title": "About us Hero Image",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-05T21:04:40.912Z"
+    },
+    {
+      "id": "1cdMaem8qEKQ7iE5pePYpE",
+      "contentType": "blob",
+      "title": "Sara LaBelle Headshot",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-08-17T17:56:46.250Z"
+    },
+    {
+      "id": "5x1MXARV9so7kSIJC31EJ9",
+      "contentType": "blob",
+      "title": "CAA Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-31T23:49:03.877Z"
+    },
+    {
+      "id": "2ToQDYRsGTq3jNCMO4M7B6",
+      "contentType": "blob",
+      "title": "Baystate Health Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-31T23:36:52.732Z"
+    },
+    {
+      "id": "2IKyGdkBhXk0BoUminmZpF",
+      "contentType": "blob",
+      "title": "Citizens Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:31:35.089Z"
+    },
+    {
+      "id": "4jtuxA5jtI3GBRWGVBX24w",
+      "contentType": "blob",
+      "title": "Qlik Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:30:58.321Z"
+    },
+    {
+      "id": "5p2a8EPUdWvgF0u2AauPIQ",
+      "contentType": "blob",
+      "title": "Merck Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:29:43.119Z"
+    },
+    {
+      "id": "41AM93Q5Hmw6PKlhVslWXC",
+      "contentType": "blob",
+      "title": "Cardinal Health Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:28:28.904Z"
+    },
+    {
+      "id": "5AF3w0hMWh4JlwYbnezdrH",
+      "contentType": "blob",
+      "title": "Cisco Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:27:50.964Z"
+    },
+    {
+      "id": "1jkE7ZCev1rSgeHN6oGcUZ",
+      "contentType": "blob",
+      "title": "Eaton Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:25:07.601Z"
+    },
+    {
+      "id": "5Kn9KGHeUWTiPmLafAssGm",
+      "contentType": "blob",
+      "title": "Version 1 Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-27T18:24:18.837Z"
+    },
+    {
+      "id": "7HMiJuB6x3Biqm3l93eEEq",
+      "contentType": "blob",
+      "title": "Conga Case Study Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-05-23T02:44:14.584Z"
+    }
+  ],
+  "failedEntries": []
+}

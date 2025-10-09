@@ -1,0 +1,168 @@
+{
+  "timestamp": "2025-10-09T14:36:41.467Z",
+  "contentType": "tab",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 22,
+  "successful": 22,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "2pt4HUJbmLMVSFPdE94ID",
+      "contentType": "tab",
+      "title": "Our Awards",
+      "referenceType": "No References",
+      "updatedAt": "2025-08-07T16:12:53.907Z"
+    },
+    {
+      "id": "1N4C9f3mDPF3ByGZU4rKze",
+      "contentType": "tab",
+      "title": "Milestones Tab",
+      "referenceType": "No References",
+      "updatedAt": "2025-08-07T16:12:53.704Z"
+    },
+    {
+      "id": "1D9DKcsdOJbVizboD7AT7G",
+      "contentType": "tab",
+      "title": "Innovations Tab",
+      "referenceType": "No References",
+      "updatedAt": "2025-08-07T16:12:53.643Z"
+    },
+    {
+      "id": "2JAKYgFQ446iLbZ3BVkUXJ",
+      "contentType": "tab",
+      "title": "Recognition Tab",
+      "referenceType": "No References",
+      "updatedAt": "2025-08-07T16:12:53.559Z"
+    },
+    {
+      "id": "2HaUFHJbsUzXkF271oKn1K",
+      "contentType": "tab",
+      "title": "Veranstaltungen und Programme",
+      "referenceType": "Archived References",
+      "updatedAt": "2025-05-27T14:27:08.166Z"
+    },
+    {
+      "id": "4qY4vxmJSERQTD2U6R7FA5",
+      "contentType": "tab",
+      "title": "Kundenservice",
+      "referenceType": "Archived References",
+      "updatedAt": "2025-05-27T14:27:08.119Z"
+    },
+    {
+      "id": "3tM3bInhttuJ7F5mLbdary",
+      "contentType": "tab",
+      "title": "Verkaufs-Aktionen",
+      "referenceType": "Archived References",
+      "updatedAt": "2025-05-27T14:27:08.084Z"
+    },
+    {
+      "id": "3Zk1k3JfraOwmT9EwqIHTw",
+      "contentType": "tab",
+      "title": "Medienberichterstattung",
+      "referenceType": "No References",
+      "updatedAt": "2024-06-25T17:13:33.532Z"
+    },
+    {
+      "id": "4nT9rwFlemgoYceqZtBAAP",
+      "contentType": "tab",
+      "title": "Blog",
+      "referenceType": "No References",
+      "updatedAt": "2024-06-25T17:03:02.704Z"
+    },
+    {
+      "id": "28KoVokaAbZfvdKOe8gKDx",
+      "contentType": "tab",
+      "title": "Vorgestellt",
+      "referenceType": "No References",
+      "updatedAt": "2024-06-25T16:59:45.239Z"
+    },
+    {
+      "id": "8uarT7S4ZAw76tYh9wgDw",
+      "contentType": "tab",
+      "title": "Merck & CAA Club Group",
+      "referenceType": "No References",
+      "updatedAt": "2024-03-28T16:23:11.095Z"
+    },
+    {
+      "id": "5E16NM8DqyI6l60Utc4lxw",
+      "contentType": "tab",
+      "title": "Media Relations",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-02-14T20:33:07.080Z"
+    },
+    {
+      "id": "2ZUhUEpJxd9Oo7oFGcI0rS",
+      "contentType": "tab",
+      "title": "Investor Relations",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-02-14T20:32:54.908Z"
+    },
+    {
+      "id": "7aJNKkGHjjxx5ptNBDHgD6",
+      "contentType": "tab",
+      "title": "Unsere Awards",
+      "referenceType": "No References",
+      "updatedAt": "2024-01-13T08:25:46.608Z"
+    },
+    {
+      "id": "70K2JrId5ePXKPf3aIkjCL",
+      "contentType": "tab",
+      "title": "Spotlight 2024 episode 1",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-12-18T15:22:18.409Z"
+    },
+    {
+      "id": "4tBq2xXz5HLEIEbBAREuCN",
+      "contentType": "tab",
+      "title": "Integrations - Microsoft Outlook",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-25T18:19:18.354Z"
+    },
+    {
+      "id": "1USkKLb2tIijbGLk6IYH4T",
+      "contentType": "tab",
+      "title": "Integrations - Slack",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-25T18:19:09.217Z"
+    },
+    {
+      "id": "5VLQIxrXVpNKcMuWaW5Ncm",
+      "contentType": "tab",
+      "title": "Integrations - Microsoft Teams",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-25T18:18:56.136Z"
+    },
+    {
+      "id": "6vDiLoDumA2gtYtfQZGyHd",
+      "contentType": "tab",
+      "title": "Integrations - Workday",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-25T18:18:42.918Z"
+    },
+    {
+      "id": "2KERg4LsSNmAjWnRSbTBQK",
+      "contentType": "tab",
+      "title": "Ireland Benefits",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-16T20:37:17.396Z"
+    },
+    {
+      "id": "3sfDGt0IndM4jOzJSfx27x",
+      "contentType": "tab",
+      "title": "United States Benefits",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-16T20:10:51.207Z"
+    },
+    {
+      "id": "4bDQiyxRaO69AnMOPPgPdJ",
+      "contentType": "tab",
+      "title": "Tab - For SMB",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:20:41.914Z"
+    }
+  ],
+  "failedEntries": []
+}

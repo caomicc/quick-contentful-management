@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-09T14:37:43.004Z",
+  "contentType": "lottie",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 3,
+  "successful": 3,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "3VTWcbRnzx2wdHQVVgYSpa",
+      "contentType": "lottie",
+      "title": "Product Innovations",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-14T13:37:15.880Z"
+    },
+    {
+      "id": "15i1YGS8E6tsb26NFY9nRM",
+      "contentType": "lottie",
+      "title": "Lottie Dots Separator",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-02T14:37:19.130Z"
+    },
+    {
+      "id": "62mKiZBqlhdrfXuric81Bp",
+      "contentType": "lottie",
+      "title": "Test Middle Lottie Meshy",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-02T14:29:15.018Z"
+    }
+  ],
+  "failedEntries": []
+}

@@ -1,0 +1,70 @@
+{
+  "timestamp": "2025-10-09T14:59:27.061Z",
+  "contentType": "hero",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 8,
+  "successful": 8,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "2Nyt0NLjs0HKMgHa4RcGtt",
+      "contentType": "hero",
+      "title": "Careers",
+      "referenceType": "Archived References",
+      "updatedAt": "2025-01-17T15:07:58.984Z"
+    },
+    {
+      "id": "6zYcVw10AaebvidfXhPrAq",
+      "contentType": "hero",
+      "title": "Marketing",
+      "referenceType": "Archived References",
+      "updatedAt": "2024-08-19T19:25:58.980Z"
+    },
+    {
+      "id": "7JcSy0mciR5rCe7NWrwInf",
+      "contentType": "hero",
+      "title": "on demand hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-26T20:29:39.819Z"
+    },
+    {
+      "id": "44JiSOw2aW2s6fjZdq2vuX",
+      "contentType": "hero",
+      "title": "Product Documentation for Experiences Redemption Early Adoption",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-09-12T19:53:18.228Z"
+    },
+    {
+      "id": "3UErNJXpbWH63FlXTxiGQI",
+      "contentType": "hero",
+      "title": "Reshaping the workplace and the world",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-06-13T15:27:31.601Z"
+    },
+    {
+      "id": "14g9ZDX83phY5s0AaROJ5y",
+      "contentType": "hero",
+      "title": "Homepage Hero",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-05-23T14:22:22.577Z"
+    },
+    {
+      "id": "5WiaQ7yFzbTHj6sXR2uLOe",
+      "contentType": "hero",
+      "title": "Block Test Page",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-05-23T14:13:37.638Z"
+    },
+    {
+      "id": "1LFCj1u29Tf567E38dToYz",
+      "contentType": "hero",
+      "title": "Test Page",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-05-23T02:42:12.713Z"
+    }
+  ],
+  "failedEntries": []
+}

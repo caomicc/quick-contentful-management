@@ -57,11 +57,16 @@ function findEntryLinksRecursive(obj, incomingRefs) {
 }
 
 // Function to build a map of which entries are referenced by others
+// Returns two maps: one for all references, one for only archived references
 function buildIncomingReferencesMap(allEntries) {
-  const incomingRefs = new Map(); // entryId -> count of references to it
+  const incomingRefs = new Map(); // entryId -> count of references to it (non-archived only)
+  const archivedRefs = new Map(); // entryId -> count of references from archived entries
 
   for (const entry of allEntries) {
     if (!entry.fields) continue;
+
+    const isArchived = !!entry.sys.archivedVersion;
+    const refs = new Map();
 
     for (const fieldName in entry.fields) {
       const fieldValue = entry.fields[fieldName];
@@ -72,12 +77,21 @@ function buildIncomingReferencesMap(allEntries) {
 
         // Use recursive function to find all entry links
         // This handles Rich Text fields, nested structures, and regular references
-        findEntryLinksRecursive(value, incomingRefs);
+        findEntryLinksRecursive(value, refs);
+      }
+    }
+
+    // Add references to appropriate map based on whether parent is archived
+    for (const [refId, count] of refs.entries()) {
+      if (isArchived) {
+        archivedRefs.set(refId, (archivedRefs.get(refId) || 0) + count);
+      } else {
+        incomingRefs.set(refId, (incomingRefs.get(refId) || 0) + count);
       }
     }
   }
 
-  return incomingRefs;
+  return { incomingRefs, archivedRefs };
 }
 
 // Main function to audit orphaned entries
@@ -95,11 +109,11 @@ async function auditOrphanedEntries() {
     console.log(`Non-archived entries: ${nonArchivedEntries.length}`);
     console.log(`Archived entries (excluded): ${allEntries.length - nonArchivedEntries.length}`);
 
-    // Build map of incoming references
+    // Build map of incoming references (including from archived entries)
     console.log('\nBuilding reference map...');
-    const incomingRefs = buildIncomingReferencesMap(nonArchivedEntries);
+    const { incomingRefs, archivedRefs } = buildIncomingReferencesMap(allEntries);
 
-    // Find entries with no incoming references
+    // Find entries with no incoming references from non-archived entries
     const orphanedEntries = nonArchivedEntries.filter(entry => {
       const refCount = incomingRefs.get(entry.sys.id) || 0;
       return refCount === 0;
@@ -110,8 +124,7 @@ async function auditOrphanedEntries() {
 
     // Separate entries by content type and publish status
     // Exclude published page content types that should remain even if orphaned
-    const pageContentTypes = ['page', 'blogPost', 'newsArticle', 'podcasts', 'webinar', 'caseStudy', 'customerSuccessStory', 'spotlight', 'document', 'abmTemplate', 'listingPages'];
-    const excludedTypes = ['imageWithAiTags', 'colorBlocks'];
+    const pageContentTypes = ['page', 'blogPost', 'newsArticle', 'podcasts', 'webinar', 'caseStudy', 'customerSnapshot', 'spotlight', 'document', 'abmTemplate', 'listingPages', 'landingPage', 'pressReleaseHome', 'announcementBar', 'careersConfiguration', 'promotionWrapper', 'event', 'cerosLandingPage'];
     const mainEntriesPublished = [];
     const mainEntriesDraft = [];
     const imageWithAiTagsEntriesPublished = [];
@@ -152,15 +165,26 @@ async function auditOrphanedEntries() {
     // Function to generate CSV rows for entries
     function generateCsvRows(entries) {
       const rows = [
-        'Entry ID,Content Type,Status,Created At,Updated At,Title/Name,Contentful Link'
+        'Entry ID,Content Type,Status,Reference Type,Created At,Updated At,Title/Name,Contentful Link'
       ];
 
-      for (const entry of entries) {
+      // Sort entries by content type
+      const sortedEntries = entries.sort((a, b) => {
+        const contentTypeA = a.sys.contentType.sys.id.toLowerCase();
+        const contentTypeB = b.sys.contentType.sys.id.toLowerCase();
+        return contentTypeA.localeCompare(contentTypeB);
+      });
+
+      for (const entry of sortedEntries) {
         const id = entry.sys.id;
         const contentType = entry.sys.contentType.sys.id;
         const status = entry.sys.publishedVersion ? 'Published' : 'Draft';
         const createdAt = entry.sys.createdAt;
         const updatedAt = entry.sys.updatedAt;
+
+        // Determine reference type
+        const hasArchivedRefs = (archivedRefs.get(id) || 0) > 0;
+        const referenceType = hasArchivedRefs ? 'Archived References' : 'No References';
 
         // Create direct link to Contentful
         const contentfulLink = `https://app.contentful.com/spaces/${spaceId}/environments/${sourceEnvironmentId}/entries/${id}`;
@@ -169,7 +193,7 @@ async function auditOrphanedEntries() {
         let title = '';
         if (entry.fields) {
           // Common title field names
-          const titleFields = ['title', 'name', 'internalName', 'heading', 'slug'];
+          const titleFields = ['title', 'name', 'internalName', 'heading', 'slug', 'internalTitle', 'ctaTitle', 'pageHeading'];
           for (const fieldName of titleFields) {
             if (entry.fields[fieldName]) {
               const locales = Object.keys(entry.fields[fieldName]);
@@ -185,7 +209,7 @@ async function auditOrphanedEntries() {
         // Escape CSV values
         title = `"${(title || '').replace(/"/g, '""')}"`;
 
-        rows.push(`${id},${contentType},${status},${createdAt},${updatedAt},${title},${contentfulLink}`);
+        rows.push(`${id},${contentType},${status},${referenceType},${createdAt},${updatedAt},${title},${contentfulLink}`);
       }
 
       return rows;

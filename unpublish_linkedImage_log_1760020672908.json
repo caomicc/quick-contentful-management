@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-10-09T14:37:52.907Z",
+  "contentType": "linkedImage",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 6,
+  "successful": 6,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "7mlPGdlKUi4pa5maOPeyjj",
+      "contentType": "linkedImage",
+      "title": "Workhuman Live April 15th Logo",
+      "referenceType": "No References",
+      "updatedAt": "2023-09-29T15:57:59.716Z"
+    },
+    {
+      "id": "16DA0RvZlgfostXAUkNV8E",
+      "contentType": "linkedImage",
+      "title": "Social Recognition",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:19:03.084Z"
+    },
+    {
+      "id": "3mR3LddtEiytUrkx8nEH1i",
+      "contentType": "linkedImage",
+      "title": "Conversations",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:19:02.781Z"
+    },
+    {
+      "id": "5gQhTN8EwxoXhWU04MU8Ij",
+      "contentType": "linkedImage",
+      "title": "Service Milestones",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:19:02.486Z"
+    },
+    {
+      "id": "Elya1qqNwMiLQzsGRgCsU",
+      "contentType": "linkedImage",
+      "title": "Life Events",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:19:02.160Z"
+    },
+    {
+      "id": "2M2lEJIp8jar1z4WV9Sa0G",
+      "contentType": "linkedImage",
+      "title": "Community Celebrations",
+      "referenceType": "No References",
+      "updatedAt": "2023-05-23T03:19:01.835Z"
+    }
+  ],
+  "failedEntries": []
+}

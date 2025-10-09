@@ -1,0 +1,133 @@
+{
+  "timestamp": "2025-10-09T14:07:12.701Z",
+  "contentType": "blob",
+  "referenceTypes": [
+    "No References",
+    "Archived References"
+  ],
+  "total": 17,
+  "successful": 17,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "54wkWf4npAHl5c77KpNdlc",
+      "contentType": "blob",
+      "title": "Jennifer Kew",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T22:19:40.802Z"
+    },
+    {
+      "id": "3EOabeKUMJEPfjYeDMkkM2",
+      "contentType": "blob",
+      "title": "Carla Spina",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T21:47:34.806Z"
+    },
+    {
+      "id": "B9tX6bEx2mZJ29FeBtYbf",
+      "contentType": "blob",
+      "title": "Mara Notarfonzo",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T14:51:50.937Z"
+    },
+    {
+      "id": "3FdfdshZONyeyv7TfxWNxg",
+      "contentType": "blob",
+      "title": "Christopher Cardarelli",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T14:21:43.067Z"
+    },
+    {
+      "id": "2UCcrnDF72JgcRCGQdu1Jj",
+      "contentType": "blob",
+      "title": "Christopher Cardardelli",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T13:49:10.638Z"
+    },
+    {
+      "id": "gwE2Z59ga9pd52XILvkzx",
+      "contentType": "blob",
+      "title": "Christopher Cardarelli Executive Director of Global Diversity and inclusion, Merck headshot",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T01:30:51.550Z"
+    },
+    {
+      "id": "2BsRErjCtvB3MaxR2tdu3Z",
+      "contentType": "blob",
+      "title": "Dave Bond, Senior Director, Talent Management, Total Rewards & HR Systems Minto Group headshot",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T01:01:13.105Z"
+    },
+    {
+      "id": "Rk0TzY7XMjQ5bFbp7z5Xo",
+      "contentType": "blob",
+      "title": "Lark Kalstad",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-10-17T00:20:32.365Z"
+    },
+    {
+      "id": "lYDGn6ZlSWhntyCAGANtr",
+      "contentType": "blob",
+      "title": "GoTo’s Christine Grant, staff compensation analyst",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-08-30T22:52:16.802Z"
+    },
+    {
+      "id": "3qBGaN83UODfsmn6s8Lo7f",
+      "contentType": "blob",
+      "title": "Leslie Bingham, Hyliion, director of executive compensation and total rewards.",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-08-30T22:41:50.401Z"
+    },
+    {
+      "id": "6tdwoPy212Nev6gB9b7Ffv",
+      "contentType": "blob",
+      "title": "Teams & Workday logo integrations blob",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-08-22T19:35:05.874Z"
+    },
+    {
+      "id": "4NxdTEM97diQ4ieHvHYDrF",
+      "contentType": "blob",
+      "title": "P&G Callout Image 2",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-08-22T15:59:08.158Z"
+    },
+    {
+      "id": "3B3ncdyWGAHUigFijuf3mb",
+      "contentType": "blob",
+      "title": "P&G Callout Image 1",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-30T16:39:09.637Z"
+    },
+    {
+      "id": "4pq1RJKb8FF9LCESHvTC9D",
+      "contentType": "blob",
+      "title": "Cardinal Health: Callout image 3",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-30T16:35:28.639Z"
+    },
+    {
+      "id": "3UFFJvndtE4AoLEOL5xrGe",
+      "contentType": "blob",
+      "title": "Cardinal Health: Callout image 2",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-30T16:34:56.488Z"
+    },
+    {
+      "id": "5x8xrSoWP51Xt24LP0b3Wz",
+      "contentType": "blob",
+      "title": "Cardinal Health: Callout image 1",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-07-30T16:33:11.150Z"
+    },
+    {
+      "id": "4FR91X4oSPb8n7A76FAKrw",
+      "contentType": "blob",
+      "title": "Linked in Hero Image",
+      "referenceType": "Archived References",
+      "updatedAt": "2023-06-14T18:02:19.697Z"
+    }
+  ],
+  "failedEntries": []
+}

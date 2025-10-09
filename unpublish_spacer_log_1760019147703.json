@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-10-09T14:12:27.701Z",
+  "contentType": "spacer",
+  "referenceTypes": [
+    "No References"
+  ],
+  "total": 14,
+  "successful": 14,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "1oXVKnAjyy5ZW3pG0dFAKd",
+      "contentType": "spacer",
+      "title": "WHL Hub Page Bottom",
+      "referenceType": "No References",
+      "updatedAt": "2025-08-07T18:27:14.191Z"
+    },
+    {
+      "id": "7f17rSgAq8l2ahiMLk6uz0",
+      "contentType": "spacer",
+      "title": "Admin Hub - One Hub Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2025-02-19T21:35:00.327Z"
+    },
+    {
+      "id": "6ODGT7OqpI3DTnsVcYKzmH",
+      "contentType": "spacer",
+      "title": "Additional Spacer 8rem",
+      "referenceType": "No References",
+      "updatedAt": "2025-02-05T18:36:39.612Z"
+    },
+    {
+      "id": "2B7EhKMsPRZqe0SaBD31JX",
+      "contentType": "spacer",
+      "title": "HI Thank You Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2025-01-23T20:16:33.819Z"
+    },
+    {
+      "id": "2nerfozFfl0qQH2h0iurjz",
+      "contentType": "spacer",
+      "title": "Human Intel spacer",
+      "referenceType": "No References",
+      "updatedAt": "2025-01-16T15:47:30.912Z"
+    },
+    {
+      "id": "6qMlZI4vStX1Kd8XnSjAY9",
+      "contentType": "spacer",
+      "title": "High performance cultures are kind of our thing - Spacer for Careers",
+      "referenceType": "No References",
+      "updatedAt": "2024-12-03T19:14:40.842Z"
+    },
+    {
+      "id": "5pGypq1BD80OhZeHJPZBXY",
+      "contentType": "spacer",
+      "title": "Careers ERG Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-24T18:34:09.351Z"
+    },
+    {
+      "id": "3ph6GKbLJQtR6FFmeEQ55k",
+      "contentType": "spacer",
+      "title": "Spacer for Homepage",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-15T08:00:05.183Z"
+    },
+    {
+      "id": "4D5i9vrPxUFEp5KIAbR0te",
+      "contentType": "spacer",
+      "title": "AI Assistant Spacer 2",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-08T17:14:06.529Z"
+    },
+    {
+      "id": "7FVRTCv0FC3d2ZDImXKvxW",
+      "contentType": "spacer",
+      "title": "Product Innovations Fall 2024 Top Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-03T18:40:00.771Z"
+    },
+    {
+      "id": "4pjsjl2SRw4hZNlEKW4pWK",
+      "contentType": "spacer",
+      "title": "Our Customers Workhuman Difference Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-20T16:26:00.757Z"
+    },
+    {
+      "id": "AQvoXLx3DopqJv7q0ibjE",
+      "contentType": "spacer",
+      "title": "Demo Page Spacer",
+      "referenceType": "No References",
+      "updatedAt": "2024-08-08T13:48:37.736Z"
+    },
+    {
+      "id": "3r6rnyMJet3edNuDYZd5U",
+      "contentType": "spacer",
+      "title": "The Workhuman Difference Bottom Padding",
+      "referenceType": "No References",
+      "updatedAt": "2024-07-30T15:18:12.349Z"
+    },
+    {
+      "id": "4gW4d3qESRJKxGt4ylhbV4",
+      "contentType": "spacer",
+      "title": "demo page bottom spacer",
+      "referenceType": "No References",
+      "updatedAt": "2024-05-20T14:35:38.318Z"
+    }
+  ],
+  "failedEntries": []
+}

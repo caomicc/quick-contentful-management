@@ -1,0 +1,181 @@
+{
+  "timestamp": "2025-10-09T14:08:11.751Z",
+  "contentType": "gridItem",
+  "referenceTypes": [
+    "No References"
+  ],
+  "total": 24,
+  "successful": 24,
+  "failed": 0,
+  "successfulEntries": [
+    {
+      "id": "nsJ81Ua3IGBAK0euvsYz3",
+      "contentType": "gridItem",
+      "title": "Customer Logo: Baker Hughes",
+      "referenceType": "No References",
+      "updatedAt": "2025-04-30T18:24:52.376Z"
+    },
+    {
+      "id": "4A4tKaLoqk3GwmnEF0PCPI",
+      "contentType": "gridItem",
+      "title": "Connections",
+      "referenceType": "No References",
+      "updatedAt": "2025-04-24T14:06:36.359Z"
+    },
+    {
+      "id": "2v3FGU5F4yHpY1H5RMj7NL",
+      "contentType": "gridItem",
+      "title": "Empty Grid Item",
+      "referenceType": "No References",
+      "updatedAt": "2025-04-09T15:38:43.635Z"
+    },
+    {
+      "id": "zx1U3UhT1TQw9QPIqezXe",
+      "contentType": "gridItem",
+      "title": "Centralized and simplified",
+      "referenceType": "No References",
+      "updatedAt": "2025-02-03T20:23:07.432Z"
+    },
+    {
+      "id": "5NdPpOxhjy9PbD2AEAIjh7",
+      "contentType": "gridItem",
+      "title": "GPTW 2024-2025 USA",
+      "referenceType": "No References",
+      "updatedAt": "2024-11-15T17:57:53.170Z"
+    },
+    {
+      "id": "41J7DI9BlPwDaGgY8vKI86",
+      "contentType": "gridItem",
+      "title": "Grid Item - Respect for Urgency",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-24T18:30:39.262Z"
+    },
+    {
+      "id": "7odnMYz2yAFVD2a9KiI9Or",
+      "contentType": "gridItem",
+      "title": "Grid Item - Respect for Customers",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-24T18:30:09.151Z"
+    },
+    {
+      "id": "2PbRvnojoRXFBJxb9WCgHx",
+      "contentType": "gridItem",
+      "title": "G2 Badge - Leader in United Kingdom Winter 2024",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-15T08:00:06.979Z"
+    },
+    {
+      "id": "687WgjCFERNUWDRgqojIyl",
+      "contentType": "gridItem",
+      "title": "G2 Badge - Leader in India Winter 2024",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-15T08:00:06.927Z"
+    },
+    {
+      "id": "2efuj9LzDrVYrH1W6TSyr9",
+      "contentType": "gridItem",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T23:37:47.535Z"
+    },
+    {
+      "id": "4hxje2z6Jj3etQVVxkZkGd",
+      "contentType": "gridItem",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T23:36:41.542Z"
+    },
+    {
+      "id": "30TY2YS7WdPAIxJDaRdXO2",
+      "contentType": "gridItem",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T23:34:23.488Z"
+    },
+    {
+      "id": "7LiRY8H9dx4Ch2Z4on3ohP",
+      "contentType": "gridItem",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T23:32:50.530Z"
+    },
+    {
+      "id": "1GgIf9FACn1uMtxQauGcLR",
+      "contentType": "gridItem",
+      "title": "",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T23:32:02.617Z"
+    },
+    {
+      "id": "3M0ILQxAZe71wYd55y1Bqc",
+      "contentType": "gridItem",
+      "title": "2022-23 Great Place to Work Certification",
+      "referenceType": "No References",
+      "updatedAt": "2024-10-01T20:56:44.650Z"
+    },
+    {
+      "id": "6IScApNokVLPW9JVMSLKMR",
+      "contentType": "gridItem",
+      "title": "Workhuman Live Forum London 2024",
+      "referenceType": "No References",
+      "updatedAt": "2024-03-19T18:05:43.198Z"
+    },
+    {
+      "id": "70Wp9mfIk9ONhVRftdwjK4",
+      "contentType": "gridItem",
+      "title": "CAA Stat",
+      "referenceType": "No References",
+      "updatedAt": "2024-03-14T17:15:53.556Z"
+    },
+    {
+      "id": "79KyoaIlLFDurrtugVZGbQ",
+      "contentType": "gridItem",
+      "title": "High performance cultures are kind of our thing.",
+      "referenceType": "No References",
+      "updatedAt": "2024-02-21T19:47:03.093Z"
+    },
+    {
+      "id": "zyDb3oGzRnVQpB5OH1A9R",
+      "contentType": "gridItem",
+      "title": "CAE logo",
+      "referenceType": "No References",
+      "updatedAt": "2023-09-12T21:04:56.990Z"
+    },
+    {
+      "id": "7JlCZM5OQNzC5VvNAxAq0u",
+      "contentType": "gridItem",
+      "title": "Customer Logo: Conga",
+      "referenceType": "No References",
+      "updatedAt": "2023-09-05T13:09:52.958Z"
+    },
+    {
+      "id": "3bFlVRa4X1VcXY4bWpl56l",
+      "contentType": "gridItem",
+      "title": "Customer Logo: Minto",
+      "referenceType": "No References",
+      "updatedAt": "2023-09-05T13:06:37.917Z"
+    },
+    {
+      "id": "30DK5Ay47AubN5Mm1gdJxC",
+      "contentType": "gridItem",
+      "title": "Growth",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-26T16:13:32.789Z"
+    },
+    {
+      "id": "SDUgipWFUr6KSxNkFx5Aq",
+      "contentType": "gridItem",
+      "title": "Empowerment",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-26T16:13:17.925Z"
+    },
+    {
+      "id": "3QYlJ0SIOUoJu9JHeXX8ke",
+      "contentType": "gridItem",
+      "title": "Belonging",
+      "referenceType": "No References",
+      "updatedAt": "2023-06-26T16:09:49.081Z"
+    }
+  ],
+  "failedEntries": []
+}
