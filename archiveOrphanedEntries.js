@@ -11,7 +11,7 @@ const client = contentfulManagement.createClient({
 });
 
 // Parse CSV and extract entries based on filters
-async function getEntriesToUnpublish(csvFilePath, contentType, referenceTypes, skipRecent = true) {
+async function getEntriesToArchive(csvFilePath, contentType, referenceTypes, skipRecent = true) {
   return new Promise((resolve, reject) => {
     const entries = [];
     const oneWeekAgo = new Date();
@@ -53,27 +53,33 @@ async function getEntriesToUnpublish(csvFilePath, contentType, referenceTypes, s
   });
 }
 
-// Unpublish a single entry
-async function unpublishEntry(environment, entryId) {
+// Archive a single entry
+async function archiveEntry(environment, entryId) {
   try {
     const entry = await environment.getEntry(entryId);
 
-    // Check if entry is published
+    // Check if entry is already archived
+    if (entry.isArchived()) {
+      return { success: false, reason: 'Already archived' };
+    }
+
+    // Unpublish if published
     if (entry.isPublished()) {
       await entry.unpublish();
-      return { success: true, entry };
-    } else {
-      return { success: false, reason: 'Not published' };
     }
+
+    // Archive the entry
+    await entry.archive();
+    return { success: true, entry };
   } catch (error) {
     return { success: false, reason: error.message };
   }
 }
 
 // Main function
-async function unpublishEntries(contentType, referenceTypes, dryRun = false, skipRecent = true) {
+async function archiveEntries(contentType, referenceTypes, dryRun = false, skipRecent = true) {
   try {
-    const csvFilePath = './orphaned_entries_published.csv';
+    const csvFilePath = './orphaned_entries_draft.csv';
 
     if (dryRun) {
       console.log('🔍 DRY RUN MODE - No changes will be made\n');
@@ -85,9 +91,9 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
     console.log(`   - Reference Types: ${referenceTypes.join(', ')}`);
     console.log(`   - Skip Recent (< 7 days): ${skipRecent ? 'Yes' : 'No'}\n`);
 
-    const entries = await getEntriesToUnpublish(csvFilePath, contentType, referenceTypes, skipRecent);
+    const entries = await getEntriesToArchive(csvFilePath, contentType, referenceTypes, skipRecent);
 
-    console.log(`\n📊 Found ${entries.length} entries to unpublish`);
+    console.log(`\n📊 Found ${entries.length} draft entries to archive`);
 
     // Count by reference type
     const noRefs = entries.filter(e => e.referenceType === 'No References').length;
@@ -108,12 +114,12 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
     }
 
     if (entries.length === 0) {
-      console.log('✅ No entries to unpublish!');
+      console.log('✅ No entries to archive!');
       return;
     }
 
-    // Display entries that will be unpublished
-    console.log(`\n📋 Entries to ${dryRun ? 'be unpublished (DRY RUN)' : 'unpublish'}:`);
+    // Display entries that will be archived
+    console.log(`\n📋 Entries to ${dryRun ? 'be archived (DRY RUN)' : 'archive'}:`);
     console.log('─'.repeat(80));
     entries.forEach((entry, index) => {
       const contentTypeLabel = contentType === 'all' ? `${entry.contentType} | ` : '';
@@ -124,7 +130,7 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
     // If dry run, exit here
     if (dryRun) {
       console.log('\n✅ DRY RUN COMPLETE - No changes were made');
-      console.log('💡 Run without --dry-run flag to actually unpublish these entries');
+      console.log('💡 Run without --dry-run flag to actually archive these entries');
       return;
     }
 
@@ -134,15 +140,15 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
       output: process.stdout
     });
 
-    readline.question('\n⚠️  Do you want to proceed with unpublishing these entries? (yes/no): ', async (answer) => {
+    readline.question('\n⚠️  Do you want to proceed with archiving these entries? (yes/no): ', async (answer) => {
       readline.close();
 
       if (answer.toLowerCase() !== 'yes' && answer.toLowerCase() !== 'y') {
-        console.log('❌ Cancelled. No entries were unpublished.');
+        console.log('❌ Cancelled. No entries were archived.');
         return;
       }
 
-      console.log('\n🚀 Starting unpublish process...\n');
+      console.log('\n🚀 Starting archive process...\n');
 
       const space = await client.getSpace(spaceId);
       const environment = await space.getEnvironment(sourceEnvironmentId);
@@ -152,19 +158,19 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
         failed: []
       };
 
-      // Unpublish entries one by one
+      // Archive entries one by one
       for (let i = 0; i < entries.length; i++) {
         const entry = entries[i];
-        console.log(`[${i + 1}/${entries.length}] Unpublishing ${entry.id}...`);
+        console.log(`[${i + 1}/${entries.length}] Archiving ${entry.id}...`);
 
-        const result = await unpublishEntry(environment, entry.id);
+        const result = await archiveEntry(environment, entry.id);
 
         if (result.success) {
           results.success.push(entry);
-          console.log(`  ✅ Successfully unpublished: ${entry.title}`);
+          console.log(`  ✅ Successfully archived: ${entry.title}`);
         } else {
           results.failed.push({ ...entry, reason: result.reason });
-          console.log(`  ❌ Failed to unpublish: ${entry.title} (${result.reason})`);
+          console.log(`  ❌ Failed to archive: ${entry.title} (${result.reason})`);
         }
 
         // Add a small delay to avoid rate limiting
@@ -175,7 +181,7 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
       console.log('\n' + '='.repeat(80));
       console.log('📊 SUMMARY');
       console.log('='.repeat(80));
-      console.log(`✅ Successfully unpublished: ${results.success.length}`);
+      console.log(`✅ Successfully archived: ${results.success.length}`);
       console.log(`❌ Failed: ${results.failed.length}`);
 
       if (results.failed.length > 0) {
@@ -197,7 +203,7 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
         failedEntries: results.failed
       };
 
-      const logFileName = `logs/unpublish_${contentType}_log_${Date.now()}.json`;
+      const logFileName = `logs/archive_${contentType}_log_${Date.now()}.json`;
       fs.writeFileSync(
         logFileName,
         JSON.stringify(logData, null, 2),
@@ -216,7 +222,7 @@ async function unpublishEntries(contentType, referenceTypes, dryRun = false, ski
 function parseArgs() {
   const args = process.argv.slice(2);
 
-  let contentType = 'seo'; // default
+  let contentType = 'all'; // default to all for archiving
   let referenceTypes = ['No References', 'Archived References']; // default to both
   let dryRun = false;
   let skipRecent = true; // default to skip entries created in last 7 days
@@ -243,34 +249,39 @@ function parseArgs() {
       i++;
     } else if (arg === '--help' || arg === '-h') {
       console.log(`
-Usage: node unpublishSeoEntries.js [options]
+Usage: node archiveOrphanedEntries.js [options]
 
 Options:
-  --content-type, -t <type>       Content type to unpublish (default: seo, use 'all' for all types)
+  --content-type, -t <type>       Content type to archive (default: all)
+                                   Use specific type like 'block', 'seo', etc.
+                                   Use 'all' for all content types
   --reference-type, -r <type>     Reference type filter:
                                     - no-references: Only "No References"
                                     - archived-references: Only "Archived References"
                                     - both: Both types (default)
-  --dry-run                       Preview changes without unpublishing
+  --dry-run                       Preview changes without archiving
   --include-recent                Include entries created within the last 7 days
                                    (by default, recent entries are skipped for safety)
   --help, -h                      Show this help message
 
 Examples:
-  # Dry run for SEO entries with no references
-  node unpublishSeoEntries.js --dry-run -t seo -r no-references
+  # Dry run for all draft entries with no references
+  node archiveOrphanedEntries.js --dry-run -r no-references
 
-  # Unpublish all SEO entries (both reference types)
-  node unpublishSeoEntries.js -t seo -r both
+  # Archive all draft block entries (both reference types)
+  node archiveOrphanedEntries.js -t block -r both
 
-  # Unpublish block entries with archived references only
-  node unpublishSeoEntries.js -t block -r archived-references
+  # Archive draft seo entries with archived references only
+  node archiveOrphanedEntries.js -t seo -r archived-references
 
-  # Dry run for all content types with no references
-  node unpublishSeoEntries.js --dry-run -t all -r no-references
+  # Dry run for all draft entries with no references
+  node archiveOrphanedEntries.js --dry-run -t all -r no-references
+
+  # Archive all orphaned draft entries (default)
+  node archiveOrphanedEntries.js
 
   # Include entries created within the last week
-  node unpublishSeoEntries.js --include-recent -t seo
+  node archiveOrphanedEntries.js --include-recent -t block
       `);
       process.exit(0);
     }
@@ -281,4 +292,4 @@ Examples:
 
 // Run the script
 const { contentType, referenceTypes, dryRun, skipRecent } = parseArgs();
-unpublishEntries(contentType, referenceTypes, dryRun, skipRecent);
+archiveEntries(contentType, referenceTypes, dryRun, skipRecent);
