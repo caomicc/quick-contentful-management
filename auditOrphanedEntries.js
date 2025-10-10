@@ -122,15 +122,11 @@ async function auditOrphanedEntries() {
     console.log(`\nOrphaned entries (no incoming references): ${orphanedEntries.length}`);
     console.log(`Referenced entries: ${nonArchivedEntries.length - orphanedEntries.length}`);
 
-    // Separate entries by content type and publish status
+    // Separate entries by publish status only (no content type splitting)
     // Exclude published page content types that should remain even if orphaned
     const pageContentTypes = ['page', 'blogPost', 'newsArticle', 'podcasts', 'webinar', 'caseStudy', 'customerSnapshot', 'spotlight', 'document', 'abmTemplate', 'listingPages', 'landingPage', 'pressReleaseHome', 'announcementBar', 'careersConfiguration', 'promotionWrapper', 'event', 'cerosLandingPage'];
-    const mainEntriesPublished = [];
-    const mainEntriesDraft = [];
-    const imageWithAiTagsEntriesPublished = [];
-    const imageWithAiTagsEntriesDraft = [];
-    const colorBlocksEntriesPublished = [];
-    const colorBlocksEntriesDraft = [];
+    const allEntriesPublished = [];
+    const allEntriesDraft = [];
 
     for (const entry of orphanedEntries) {
       const contentType = entry.sys.contentType.sys.id;
@@ -141,24 +137,10 @@ async function auditOrphanedEntries() {
         continue;
       }
 
-      if (contentType === 'imageWithAiTags') {
-        if (isPublished) {
-          imageWithAiTagsEntriesPublished.push(entry);
-        } else {
-          imageWithAiTagsEntriesDraft.push(entry);
-        }
-      } else if (contentType === 'colorBlocks') {
-        if (isPublished) {
-          colorBlocksEntriesPublished.push(entry);
-        } else {
-          colorBlocksEntriesDraft.push(entry);
-        }
+      if (isPublished) {
+        allEntriesPublished.push(entry);
       } else {
-        if (isPublished) {
-          mainEntriesPublished.push(entry);
-        } else {
-          mainEntriesDraft.push(entry);
-        }
+        allEntriesDraft.push(entry);
       }
     }
 
@@ -218,46 +200,19 @@ async function auditOrphanedEntries() {
     // Save main CSV files (excluding large content types)
     console.log('\n📁 Saving orphaned entries reports...');
 
-    // Main - Published
-    if (mainEntriesPublished.length > 0) {
-      const mainPublishedCsvRows = generateCsvRows(mainEntriesPublished);
-      fs.writeFileSync('orphaned_entries_published.csv', mainPublishedCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned published entries saved to orphaned_entries_published.csv (${mainEntriesPublished.length} entries)`);
+    // Write CSV files - only two files now (published and draft)
+    // Published entries
+    if (allEntriesPublished.length > 0) {
+      const publishedCsvRows = generateCsvRows(allEntriesPublished);
+      fs.writeFileSync('orphaned_entries_published.csv', publishedCsvRows.join('\n'), 'utf8');
+      console.log(`✅ All orphaned published entries saved to orphaned_entries_published.csv (${allEntriesPublished.length} entries)`);
     }
 
-    // Main - Draft
-    if (mainEntriesDraft.length > 0) {
-      const mainDraftCsvRows = generateCsvRows(mainEntriesDraft);
-      fs.writeFileSync('orphaned_entries_draft.csv', mainDraftCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned draft entries saved to orphaned_entries_draft.csv (${mainEntriesDraft.length} entries)`);
-    }
-
-    // imageWithAiTags - Published
-    if (imageWithAiTagsEntriesPublished.length > 0) {
-      const imagesPublishedCsvRows = generateCsvRows(imageWithAiTagsEntriesPublished);
-      fs.writeFileSync('orphaned_entries_imageWithAiTags_published.csv', imagesPublishedCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned imageWithAiTags (published) saved to orphaned_entries_imageWithAiTags_published.csv (${imageWithAiTagsEntriesPublished.length} entries)`);
-    }
-
-    // imageWithAiTags - Draft
-    if (imageWithAiTagsEntriesDraft.length > 0) {
-      const imagesDraftCsvRows = generateCsvRows(imageWithAiTagsEntriesDraft);
-      fs.writeFileSync('orphaned_entries_imageWithAiTags_draft.csv', imagesDraftCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned imageWithAiTags (draft) saved to orphaned_entries_imageWithAiTags_draft.csv (${imageWithAiTagsEntriesDraft.length} entries)`);
-    }
-
-    // colorBlocks - Published
-    if (colorBlocksEntriesPublished.length > 0) {
-      const colorsPublishedCsvRows = generateCsvRows(colorBlocksEntriesPublished);
-      fs.writeFileSync('orphaned_entries_colorBlocks_published.csv', colorsPublishedCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned colorBlocks (published) saved to orphaned_entries_colorBlocks_published.csv (${colorBlocksEntriesPublished.length} entries)`);
-    }
-
-    // colorBlocks - Draft
-    if (colorBlocksEntriesDraft.length > 0) {
-      const colorsDraftCsvRows = generateCsvRows(colorBlocksEntriesDraft);
-      fs.writeFileSync('orphaned_entries_colorBlocks_draft.csv', colorsDraftCsvRows.join('\n'), 'utf8');
-      console.log(`✅ Orphaned colorBlocks (draft) saved to orphaned_entries_colorBlocks_draft.csv (${colorBlocksEntriesDraft.length} entries)`);
+    // Draft entries
+    if (allEntriesDraft.length > 0) {
+      const draftCsvRows = generateCsvRows(allEntriesDraft);
+      fs.writeFileSync('orphaned_entries_draft.csv', draftCsvRows.join('\n'), 'utf8');
+      console.log(`✅ All orphaned draft entries saved to orphaned_entries_draft.csv (${allEntriesDraft.length} entries)`);
     }
 
     // Display summary by content type
