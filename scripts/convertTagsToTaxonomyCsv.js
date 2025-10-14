@@ -6,8 +6,8 @@ const path = require('path');
 const csvParse = require('csv-parse/sync');
 const csvStringify = require('csv-stringify/sync');
 
-const INPUT = path.join(__dirname, 'contentful_tags.csv');
-const OUTPUT = path.join(__dirname, 'contentful_tags_taxonomy_ready.csv');
+const INPUT = path.join('contentful_tags.csv');
+const OUTPUT = path.join('contentful_tags_taxonomy_ready.csv');
 
 function inferScheme(id, name) {
   // 1. Prefix before double underscore in id

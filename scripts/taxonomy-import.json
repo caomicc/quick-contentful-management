@@ -1,0 +1,2878 @@
+{
+  "taxonomy": {
+    "version": 1,
+    "conceptSchemes": [
+      {
+        "sys": {
+          "id": "abm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Abm"
+        }
+      },
+      {
+        "sys": {
+          "id": "composely",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Composely"
+        }
+      },
+      {
+        "sys": {
+          "id": "topics",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Topics"
+        }
+      },
+      {
+        "sys": {
+          "id": "unlisted",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Unlisted"
+        }
+      },
+      {
+        "sys": {
+          "id": "person",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Person"
+        }
+      },
+      {
+        "sys": {
+          "id": "latestposts",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Latestposts"
+        }
+      },
+      {
+        "sys": {
+          "id": "events",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Events"
+        }
+      },
+      {
+        "sys": {
+          "id": "ml",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ml"
+        }
+      },
+      {
+        "sys": {
+          "id": "lz",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Lz"
+        }
+      },
+      {
+        "sys": {
+          "id": "db",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Db"
+        }
+      },
+      {
+        "sys": {
+          "id": "kk",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Kk"
+        }
+      },
+      {
+        "sys": {
+          "id": "cf",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cf"
+        }
+      },
+      {
+        "sys": {
+          "id": "be",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Be"
+        }
+      },
+      {
+        "sys": {
+          "id": "tp",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Tp"
+        }
+      },
+      {
+        "sys": {
+          "id": "tc",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Tc"
+        }
+      },
+      {
+        "sys": {
+          "id": "ru",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ru"
+        }
+      },
+      {
+        "sys": {
+          "id": "lh",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Lh"
+        }
+      },
+      {
+        "sys": {
+          "id": "bm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Bm"
+        }
+      },
+      {
+        "sys": {
+          "id": "sl",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Sl"
+        }
+      },
+      {
+        "sys": {
+          "id": "cb",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cb"
+        }
+      },
+      {
+        "sys": {
+          "id": "lm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Lm"
+        }
+      },
+      {
+        "sys": {
+          "id": "dc",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Dc"
+        }
+      },
+      {
+        "sys": {
+          "id": "cc",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cc"
+        }
+      },
+      {
+        "sys": {
+          "id": "tr",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Tr"
+        }
+      },
+      {
+        "sys": {
+          "id": "ms",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ms"
+        }
+      },
+      {
+        "sys": {
+          "id": "jb",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Jb"
+        }
+      },
+      {
+        "sys": {
+          "id": "sc",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Sc"
+        }
+      },
+      {
+        "sys": {
+          "id": "mw",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Mw"
+        }
+      },
+      {
+        "sys": {
+          "id": "es",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Es"
+        }
+      },
+      {
+        "sys": {
+          "id": "dm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Dm"
+        }
+      },
+      {
+        "sys": {
+          "id": "ll",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ll"
+        }
+      },
+      {
+        "sys": {
+          "id": "jr",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Jr"
+        }
+      },
+      {
+        "sys": {
+          "id": "ls",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ls"
+        }
+      },
+      {
+        "sys": {
+          "id": "ds",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ds"
+        }
+      },
+      {
+        "sys": {
+          "id": "sp",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Sp"
+        }
+      },
+      {
+        "sys": {
+          "id": "lb",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Lb"
+        }
+      },
+      {
+        "sys": {
+          "id": "cd",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cd"
+        }
+      },
+      {
+        "sys": {
+          "id": "jl",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Jl"
+        }
+      },
+      {
+        "sys": {
+          "id": "md",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Md"
+        }
+      },
+      {
+        "sys": {
+          "id": "rm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Rm"
+        }
+      },
+      {
+        "sys": {
+          "id": "dj",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Dj"
+        }
+      },
+      {
+        "sys": {
+          "id": "cp",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cp"
+        }
+      },
+      {
+        "sys": {
+          "id": "jh",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Jh"
+        }
+      },
+      {
+        "sys": {
+          "id": "em",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Em"
+        }
+      },
+      {
+        "sys": {
+          "id": "am",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Am"
+        }
+      },
+      {
+        "sys": {
+          "id": "sm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Sm"
+        }
+      },
+      {
+        "sys": {
+          "id": "zc",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Zc"
+        }
+      },
+      {
+        "sys": {
+          "id": "ep",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ep"
+        }
+      },
+      {
+        "sys": {
+          "id": "mm",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Mm"
+        }
+      },
+      {
+        "sys": {
+          "id": "jw",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Jw"
+        }
+      },
+      {
+        "sys": {
+          "id": "cg",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Cg"
+        }
+      },
+      {
+        "sys": {
+          "id": "sb",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Sb"
+        }
+      },
+      {
+        "sys": {
+          "id": "st",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "St"
+        }
+      },
+      {
+        "sys": {
+          "id": "ae",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ae"
+        }
+      },
+      {
+        "sys": {
+          "id": "ai",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ai"
+        }
+      },
+      {
+        "sys": {
+          "id": "rs",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Rs"
+        }
+      },
+      {
+        "sys": {
+          "id": "mg",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Mg"
+        }
+      },
+      {
+        "sys": {
+          "id": "customervideos",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customervideos"
+        }
+      },
+      {
+        "sys": {
+          "id": "ap",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ap"
+        }
+      },
+      {
+        "sys": {
+          "id": "az",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Az"
+        }
+      },
+      {
+        "sys": {
+          "id": "region",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Region"
+        }
+      },
+      {
+        "sys": {
+          "id": "casestudies",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Casestudies"
+        }
+      },
+      {
+        "sys": {
+          "id": "translation",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Translation"
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Reporting"
+        }
+      },
+      {
+        "sys": {
+          "id": "resources",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Resources"
+        }
+      },
+      {
+        "sys": {
+          "id": "ac",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ac"
+        }
+      },
+      {
+        "sys": {
+          "id": "ak",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Ak"
+        }
+      },
+      {
+        "sys": {
+          "id": "whyworkhuman",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Whyworkhuman"
+        }
+      },
+      {
+        "sys": {
+          "id": "blog",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Blog"
+        }
+      },
+      {
+        "sys": {
+          "id": "board",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Board"
+        }
+      },
+      {
+        "sys": {
+          "id": "leadership",
+          "type": "TaxonomyConceptScheme",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Leadership"
+        }
+      }
+    ],
+    "concepts": [
+      {
+        "sys": {
+          "id": "abm_Alternative",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "ABM: Alternative"
+        },
+        "conceptSchemeId": "abm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "composely",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Composely"
+        },
+        "conceptSchemeId": "composely",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_ai",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: AI"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "unlisted",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Unlisted"
+        },
+        "conceptSchemeId": "unlisted",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "person_CSuite",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "person: C-suite"
+        },
+        "conceptSchemeId": "person",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "latestPosts_homepage_featured_post",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Latest Posts: Homepage featured post"
+        },
+        "conceptSchemeId": "latestposts",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "events_tradeshows",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "events: Tradeshows"
+        },
+        "conceptSchemeId": "events",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_feedback",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Feedback"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ML",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "ML"
+        },
+        "conceptSchemeId": "ml",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "lz",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LZ"
+        },
+        "conceptSchemeId": "lz",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "db",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "DB"
+        },
+        "conceptSchemeId": "db",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "kk",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "KK"
+        },
+        "conceptSchemeId": "kk",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cf",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CF"
+        },
+        "conceptSchemeId": "cf",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "be",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "BE"
+        },
+        "conceptSchemeId": "be",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "tp",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "TP"
+        },
+        "conceptSchemeId": "tp",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "tc",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "TC"
+        },
+        "conceptSchemeId": "tc",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ru",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "RU"
+        },
+        "conceptSchemeId": "ru",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "lh",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LH"
+        },
+        "conceptSchemeId": "lh",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "bm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "BM"
+        },
+        "conceptSchemeId": "bm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "sl",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "SL"
+        },
+        "conceptSchemeId": "sl",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cb",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CB"
+        },
+        "conceptSchemeId": "cb",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "lm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LM"
+        },
+        "conceptSchemeId": "lm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "dc",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "DC"
+        },
+        "conceptSchemeId": "dc",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cc",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CC"
+        },
+        "conceptSchemeId": "cc",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "tr",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "TR"
+        },
+        "conceptSchemeId": "tr",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ms",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "MS"
+        },
+        "conceptSchemeId": "ms",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "jb",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "JB"
+        },
+        "conceptSchemeId": "jb",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "sc",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "SC"
+        },
+        "conceptSchemeId": "sc",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "mw",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "MW"
+        },
+        "conceptSchemeId": "mw",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "es",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "ES"
+        },
+        "conceptSchemeId": "es",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "dm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "DM"
+        },
+        "conceptSchemeId": "dm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ll",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LL"
+        },
+        "conceptSchemeId": "ll",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "jr",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "JR"
+        },
+        "conceptSchemeId": "jr",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ls",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LS"
+        },
+        "conceptSchemeId": "ls",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ds",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "DS"
+        },
+        "conceptSchemeId": "ds",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "sp",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "SP"
+        },
+        "conceptSchemeId": "sp",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "lb",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "LB"
+        },
+        "conceptSchemeId": "lb",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cd",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CD"
+        },
+        "conceptSchemeId": "cd",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "jl",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "JL"
+        },
+        "conceptSchemeId": "jl",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "md",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "MD"
+        },
+        "conceptSchemeId": "md",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "rm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "RM"
+        },
+        "conceptSchemeId": "rm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "dj",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "DJ"
+        },
+        "conceptSchemeId": "dj",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cp",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CP"
+        },
+        "conceptSchemeId": "cp",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "jh",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "JH"
+        },
+        "conceptSchemeId": "jh",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "em",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "EM"
+        },
+        "conceptSchemeId": "em",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "am",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AM"
+        },
+        "conceptSchemeId": "am",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "sm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "SM"
+        },
+        "conceptSchemeId": "sm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "zc",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "zc"
+        },
+        "conceptSchemeId": "zc",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ep",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "EP"
+        },
+        "conceptSchemeId": "ep",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "mm",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "MM"
+        },
+        "conceptSchemeId": "mm",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "jw",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "JW"
+        },
+        "conceptSchemeId": "jw",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "cg",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "CG"
+        },
+        "conceptSchemeId": "cg",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "sb",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "SB"
+        },
+        "conceptSchemeId": "sb",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "st",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "ST"
+        },
+        "conceptSchemeId": "st",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ae",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AE"
+        },
+        "conceptSchemeId": "ae",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "ai",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AI"
+        },
+        "conceptSchemeId": "ai",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "rs",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "RS"
+        },
+        "conceptSchemeId": "rs",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "mg",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "MG"
+        },
+        "conceptSchemeId": "mg",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "customerVideosCulture",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customer Videos: Culture"
+        },
+        "conceptSchemeId": "customervideos",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "customerVideosGlobalCapabilities",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customer Videos: Global Capabilities"
+        },
+        "conceptSchemeId": "customervideos",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "customerVideosProductInnovation",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customer Videos: Product Innovation"
+        },
+        "conceptSchemeId": "customervideos",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "customerVideosDei",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customer Videos: DEI"
+        },
+        "conceptSchemeId": "customervideos",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "customerVideosClientSuccessRoi",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Customer Videos: Client Success & ROI"
+        },
+        "conceptSchemeId": "customervideos",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "AP",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AP"
+        },
+        "conceptSchemeId": "ap",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "az",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AZ"
+        },
+        "conceptSchemeId": "az",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "regionGlobalPublic",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Region: Global (public)"
+        },
+        "conceptSchemeId": "region",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "regionIrePublic",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Region: IRE (public)"
+        },
+        "conceptSchemeId": "region",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "regionUsPublic",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Region: US (public)"
+        },
+        "conceptSchemeId": "region",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "regionUkPublic",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Region: UK (public)"
+        },
+        "conceptSchemeId": "region",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "caseStudies_customer_snapshot",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Case Studies: Customer Snapshot"
+        },
+        "conceptSchemeId": "casestudies",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "translation_german",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "translation: German"
+        },
+        "conceptSchemeId": "translation",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "translation_french",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "translation: French"
+        },
+        "conceptSchemeId": "translation",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_new",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: new"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_management_leadership",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Management & Leadership"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_Partner_Content",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Partner Content"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_human_resources",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Human Resources"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resourcesGartner",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Gartner"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_ContentPit",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: ContentPit"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_DC",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: DC"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "AC",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AC"
+        },
+        "conceptSchemeId": "ac",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_In-house",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: In-house"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_optimized",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: optimized"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_SB",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: SB"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "reporting_DC_optimized",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "reporting: DC optimized"
+        },
+        "conceptSchemeId": "reporting",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_Press_Releases",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Press Releases"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "AK",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "AK"
+        },
+        "conceptSchemeId": "ak",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_Media_Coverage",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Media Coverage"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resourcesWhyWorkhuman",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Why Workhuman"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resourcesGallup",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Gallup"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_Awards_and_Accolades",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Awards and Accolades"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resources_product_briefs",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Product Briefs"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "person_board_member",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "person: Board Member"
+        },
+        "conceptSchemeId": "person",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "person_Leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "person: Leader"
+        },
+        "conceptSchemeId": "person",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "whyWorkhuman_thought_leadership",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "whyWorkhuman: Thought Leadership"
+        },
+        "conceptSchemeId": "whyworkhuman",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "blog_life_at_workhuman",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "blog: Life at Workhuman"
+        },
+        "conceptSchemeId": "blog",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "whyWorkhuman_case_studies",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "whyWorkhuman: Case Studies"
+        },
+        "conceptSchemeId": "whyworkhuman",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resources_thought_leadership",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Thought Leadership"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resources_research",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Research"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "events_webinars",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "events: Webinars"
+        },
+        "conceptSchemeId": "events",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_technology_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Technology Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_emea",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: EMEA"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resources_human_workplace_index",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Human Workplace Index"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_workhuman_live",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Workhuman Live"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "resources_workhuman_iq_report",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "resources: Workhuman iQ Report"
+        },
+        "conceptSchemeId": "resources",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_finance_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Finance Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_team_building",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Team Building"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_remote_work",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Remote Work"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_retention_and_turnover",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Retention & Turnover"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_healthcare_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Healthcare Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_hr_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: HR Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_talent_acquisition_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Talent Acquisition Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_performance",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Performance"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_wellbeing",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Wellbeing"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_future_of_work",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Future of Work"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_recognition",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Recognition"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_surveys",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Surveys"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_appreciation",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Appreciation"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_compensation_benefits_leader",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Compensation & Benefits Leader"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_development",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Development"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_future_of_dei",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Diversity & Inclusion"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_engagement",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Engagement"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_experience",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Experience"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_compensation_benefits",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Compensation & Benefits"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_back_to_basics",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Back to Basics"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "tagBoardMember",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Board Member"
+        },
+        "conceptSchemeId": "board",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "tagLeadershipGroup",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "Leadership group"
+        },
+        "conceptSchemeId": "leadership",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      },
+      {
+        "sys": {
+          "id": "topics_company_culture",
+          "type": "TaxonomyConcept",
+          "version": 1
+        },
+        "prefLabel": {
+          "en-US": "topics: Company Culture"
+        },
+        "conceptSchemeId": "topics",
+        "hiddenLabels": {
+          "en-US": []
+        },
+        "altLabels": {
+          "en-US": []
+        }
+      }
+    ]
+  }
+}
