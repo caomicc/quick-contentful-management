@@ -9,11 +9,13 @@ const OUTPUT_JSON = path.join(__dirname, 'taxonomy-import.json');
 
 // Function to sanitize IDs for Contentful taxonomy
 function sanitizeId(id) {
-  return id
+  const timestamp = Date.now().toString().slice(-4); // Last 4 digits of timestamp
+  return (id
     .replace(/[^a-zA-Z0-9\-_]/g, '') // Remove invalid characters
     .replace(/_{2,}/g, '_') // Replace multiple underscores with single
     .replace(/^[^a-zA-Z]/, 'id') // Ensure starts with letter
-    .substring(0, 64); // Limit length
+    .substring(0, 60) + '_' + timestamp) // Add timestamp to make unique
+    .substring(0, 64); // Limit total length
 }
 
 function main() {
