@@ -18,11 +18,8 @@ const headers = {
 
 async function fetchAllPages(path) {
   const items = [];
-  let offset = 0;
-  const limit = 100;
-  while (true) {
-    const sep = path.includes('?') ? '&' : '?';
-    const url = `${BASE}${path}${sep}limit=${limit}&offset=${offset}`;
+  let url = `${BASE}${path}?limit=100`;
+  while (url) {
     const res = await fetch(url, { headers });
     if (!res.ok) {
       const body = await res.text();
@@ -30,8 +27,10 @@ async function fetchAllPages(path) {
     }
     const data = await res.json();
     items.push(...data.items);
-    if (items.length >= data.total) break;
-    offset += limit;
+    // Contentful taxonomy uses cursor-based pagination via pages.next
+    url = data.pages?.next
+      ? `https://api.contentful.com${data.pages.next}`
+      : null;
   }
   return items;
 }

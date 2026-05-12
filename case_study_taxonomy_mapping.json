@@ -1,0 +1,194 @@
+{
+  "description": "Proposed SKOS taxonomy concept mappings for published case studies. Entries marked 'existing' already have concepts; 'proposed' lists what should be added or set.",
+  "mappings": [
+    {
+      "title": "Baystate Health: Humanizing the Patient and Employee Experience",
+      "status": "already tagged (22 concepts)",
+      "existing": ["appreciation", "companyCulture", "doctors", "employeeExperience", "engagement", "executivesLeadership", "frontlineWorkers", "healthcare", "healthcareProfessionals", "healthcareStaff", "hospitals", "hrStrategy", "humanResources", "northAmerica", "nurses", "peopleLeaders", "recognition", "retentionTurnover", "teamBuilding", "unitedStates"],
+      "proposed_add": ["enterprise", "b2c"],
+      "notes": "Missing Company Size and Market Model. Large not-for-profit integrated health system in MA."
+    },
+    {
+      "title": "bp: Globally Consistent Recognition and Rewards",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "appreciation", "executivesLeadership", "peopleLeaders", "frontlineWorkers", "energyUtilities", "oilGas", "global", "enterprise", "b2b"],
+      "notes": "Global energy company, 73K employees. Launched first global peer-to-peer recognition program."
+    },
+    {
+      "title": "British Airways: Taking Employee Recognition to New Heights",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "appreciation", "companyCulture", "executivesLeadership", "peopleLeaders", "frontlineWorkers", "transportationTravel", "aviation", "global", "emea", "unitedKingdom", "enterprise", "b2c"],
+      "notes": "Global airline, post-pandemic recognition relaunch, CEO-led appreciation, boosted eNPS."
+    },
+    {
+      "title": "CAA Club Group of Companies Discovers Powerful Link Between Wellness and Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "wellbeing", "engagement", "employeeExperience", "companyCulture", "peopleLeaders", "frontlineWorkers", "transportationTravel", "roadsideAssistance", "automotiveServices", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "Canada's largest not-for-profit automobile association. Wellness + recognition link."
+    },
+    {
+      "title": "CAA: Building a Culture of Appreciation and Belonging",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "appreciation", "companyCulture", "employeeExperience", "engagement", "deiWellbeing", "peopleLeaders", "frontlineWorkers", "transportationTravel", "roadsideAssistance", "automotiveServices", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "Same org as above, culture/belonging focus. Dispersed workforce."
+    },
+    {
+      "title": "Cisco: Connect People and Transform Culture",
+      "status": "partially tagged (3 concepts)",
+      "existing": ["networking", "software", "technology"],
+      "proposed_add": ["recognition", "engagement", "companyCulture", "employeeExperience", "compensationBenefits", "executivesLeadership", "peopleLeaders", "global", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "Only Industry concepts were tagged. Missing Topics, Audience, Region, Company Size, Market Model. Global peer-to-peer recognition funded at 1% of payroll."
+    },
+    {
+      "title": "Citizens: Creating a Culture of Connection With Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "retentionTurnover", "executivesLeadership", "peopleLeaders", "financialServices", "banking", "northAmerica", "unitedStates", "enterprise", "financialInstitution", "b2c"],
+      "notes": "One of nation's oldest/largest financial institutions, 18K employees, Providence RI."
+    },
+    {
+      "title": "Conga: Building Culture Through Connection",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "peopleLeaders", "technology", "saaS", "software", "northAmerica", "unitedStates", "midMarket", "b2b", "saaSProvider"],
+      "notes": "SaaS company, peer-to-peer recognition platform, building relationship capital."
+    },
+    {
+      "title": "Corpay: Bringing New Meaning to Brand Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "companyCulture", "employeeExperience", "engagement", "executivesLeadership", "peopleLeaders", "financialServices", "payments", "global", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "Formerly FLEETCOR, 20+ year payments industry leader. Global recognition program tied to rebrand."
+    },
+    {
+      "title": "Customer Snapshot: How PepsiCo Ties Behaviors to Business Impact",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "performance", "humanResources", "hrStrategy", "executivesLeadership", "peopleLeaders", "consumerGoodsRetail", "foodBeverage", "global", "northAmerica", "unitedStates", "enterprise", "b2c", "consumerBrand"],
+      "notes": "Food & beverage leader, integrated recognition with HRIS, employee portal, and comms platforms."
+    },
+    {
+      "title": "Customer Snapshot: How SSOE Delivers Equitable Recognition Across the Globe",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "retentionTurnover", "deiWellbeing", "executivesLeadership", "peopleLeaders", "engineersTechnicalTeams", "professionalServices", "architecture", "engineering", "global", "midMarket", "b2b", "professionalServicesFirm"],
+      "notes": "Architecture/engineering firm, equitable purchasing power globally, years-of-service celebrations."
+    },
+    {
+      "title": "Customer Snapshot: How Tennant Unites Its Workforce With Global Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "peopleLeaders", "frontlineWorkers", "manufacturingWorkers", "manufacturingIndustrial", "global", "northAmerica", "unitedStates", "enterprise", "b2b", "manufacturer"],
+      "notes": "150+ year cleaning industry leader, years-of-service + rewards & recognition."
+    },
+    {
+      "title": "Customer Snapshot: How Zimmer Biomet Made Recognition a Critical Strategic Pillar",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "retentionTurnover", "companyCulture", "engagement", "hrStrategy", "executivesLeadership", "peopleLeaders", "healthcare", "medicalDevices", "global", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "Global medical technology leader, built business case for recognition, retention focus."
+    },
+    {
+      "title": "Data Snapshot: Recognition and Employee Performance – Which Comes First?",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "performance", "engagement", "employeeExperience", "hrStrategy", "humanResources", "executivesLeadership", "peopleLeaders", "technology", "emea", "ireland", "midMarket", "b2b"],
+      "notes": "Research piece using data from a ~2,500-employee Ireland-based tech org. Causal relationship study."
+    },
+    {
+      "title": "Eaton: Driving Retention with Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "retentionTurnover", "engagement", "employeeExperience", "companyCulture", "executivesLeadership", "peopleLeaders", "frontlineWorkers", "manufacturingWorkers", "manufacturingIndustrial", "powerManagement", "industrialEquipment", "global", "enterprise", "b2b", "manufacturer"],
+      "notes": "Founded 1911, 85K employees, global power management. Culturally relevant awards."
+    },
+    {
+      "title": "EmblemHealth: Healthy Culture Built Through Recognition",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "companyCulture", "employeeExperience", "engagement", "peopleLeaders", "healthcareProfessionals", "healthcare", "healthInsurance", "northAmerica", "unitedStates", "enterprise", "b2c", "insurer"],
+      "notes": "Not-for-profit health insurer, 3M+ people served in NYC/tri-state, 80+ years."
+    },
+    {
+      "title": "First Tech: Connecting Employees with Human Applications",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "feedback", "peopleLeaders", "financialServices", "banking", "northAmerica", "unitedStates", "midMarket", "b2c", "financialInstitution"],
+      "notes": "Not-for-profit credit union, 1,500 employees, 8 states. Tech community roots."
+    },
+    {
+      "title": "How Recognition Became a Cornerstone of Culture-Building at GoTo",
+      "status": "already tagged (16 concepts)",
+      "existing": ["companyCulture", "cultureLeadership", "deiWellbeing", "employeeExperience", "engagement", "hrStrategy", "humanResources", "northAmerica", "recognition", "remoteWork", "retentionTurnover", "saaS", "software", "technology", "unitedStates"],
+      "proposed_add": ["peopleLeaders", "enterprise", "b2b", "saaSProvider"],
+      "notes": "Missing Audience, Company Size, Market Model. ~3,500 employees, SaaS/cloud tools for remote work."
+    },
+    {
+      "title": "How The Bank of Princeton Turned Recognition into a Cultural Cornerstone",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "companyCulture", "employeeExperience", "engagement", "appreciation", "peopleLeaders", "frontlineWorkers", "financialServices", "banking", "northAmerica", "unitedStates", "smallBusiness", "b2c", "financialInstitution"],
+      "notes": "NJ state-chartered community bank, FDIC member, branches across NJ/NY/PA."
+    },
+    {
+      "title": "LinkedIn: Linking social recognition to retention",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "retentionTurnover", "performance", "engagement", "employeeExperience", "executivesLeadership", "peopleLeaders", "technology", "saaS", "software", "global", "northAmerica", "unitedStates", "enterprise", "b2b", "platformProvider"],
+      "notes": "World's largest professional network, 630M+ members. Bravo! peer-to-peer program."
+    },
+    {
+      "title": "Merck: Culturally Energizing, Global Social Recognition",
+      "status": "already tagged (19 concepts)",
+      "existing": ["appreciation", "b2b", "companyCulture", "compensationBenefits", "cultureLeadership", "deiWellbeing", "employeeExperience", "engagement", "enterprise", "global", "healthcare", "healthcareProfessionals", "healthcareStaff", "hrStrategy", "humanResources", "pharmaceuticals", "recognition", "retentionTurnover", "wellbeing"],
+      "proposed_add": ["peopleLeaders", "executivesLeadership"],
+      "notes": "Very well tagged. 67K employees, 125-year history. Could add Audience concepts."
+    },
+    {
+      "title": "Morgan: Engaging and Retaining Offline Workers With Recognition",
+      "status": "already tagged (16 concepts)",
+      "existing": ["appreciation", "b2b", "companyCulture", "engagement", "enterprise", "frontlineWorkers", "humanResources", "manufacturingIndustrial", "manufacturingWorkers", "northAmerica", "operations", "peopleLeaders", "recognition", "retentionTurnover", "transportationEquipment", "unitedStates"],
+      "proposed_add": ["employeeExperience"],
+      "notes": "Well tagged. 2,400 team members across 14 manufacturing sites. Could add employeeExperience."
+    },
+    {
+      "title": "Pfizer: Launching Recognition at Lightspeed",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "deiWellbeing", "executivesLeadership", "peopleLeaders", "healthcareProfessionals", "healthcare", "pharmaceuticals", "global", "enterprise", "b2b"],
+      "notes": "80K employees, 165 countries. Scalable, agile, global, peer-to-peer, equitable recognition."
+    },
+    {
+      "title": "Qlik: Transition to Continuous Performance Development",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["performance", "feedback", "employeeExperience", "hrStrategy", "humanResources", "peopleLeaders", "technology", "software", "dataAnalytics", "global", "emea", "northAmerica", "unitedStates", "midMarket", "b2b", "saaSProvider"],
+      "notes": "Visual analytics leader, founded in Sweden, HQ in PA. Performance management transformation."
+    },
+    {
+      "title": "Recognition: A Vital Piece of Success at R1 RCM",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "engagement", "employeeExperience", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcare", "healthcareTechnology", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "Technology-driven healthcare solutions, seamless integration with recognition platform."
+    },
+    {
+      "title": "SSOE: Building a Culture of Recognition",
+      "status": "already tagged (15 concepts)",
+      "existing": ["appreciation", "architecture", "businessLeaders", "companyCulture", "employeeExperience", "engagement", "engineering", "feedback", "global", "humanResources", "peopleLeaders", "professionalServices", "recognition", "retentionTurnover"],
+      "proposed_add": ["executivesLeadership", "engineersTechnicalTeams", "b2b", "professionalServicesFirm", "midMarket"],
+      "notes": "Could add Audience, Market Model, and Company Size. Founded 1948, 150+ long-term clients."
+    },
+    {
+      "title": "Tennant: How Recognition Drives Culture & Retention",
+      "status": "no concepts",
+      "existing": [],
+      "proposed": ["recognition", "retentionTurnover", "companyCulture", "engagement", "employeeExperience", "peopleLeaders", "frontlineWorkers", "manufacturingWorkers", "manufacturingIndustrial", "global", "northAmerica", "unitedStates", "enterprise", "b2b", "manufacturer"],
+      "notes": "150+ year cleaning industry leader, sustainable solutions. Same company as snapshot version."
+    }
+  ]
+}
