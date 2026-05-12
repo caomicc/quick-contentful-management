@@ -1,51 +1,137 @@
 #!/usr/bin/env node
 require('dotenv').config();
-const { execSync } = require('child_process');
+const fs = require('fs');
 
 const organizationId = process.env.CONTENTFUL_ORGANIZATION_ID;
+const managementToken = process.env.CONTENTFUL_MANAGEMENT_TOKEN;
 
-if (!organizationId) {
-  console.error('Missing required environment variable: CONTENTFUL_ORGANIZATION_ID');
+if (!organizationId || !managementToken) {
+  console.error('Missing required env vars: CONTENTFUL_ORGANIZATION_ID, CONTENTFUL_MANAGEMENT_TOKEN');
   process.exit(1);
 }
 
-console.log('🗑️ Deleting all taxonomy from organization:', organizationId);
-console.log('⚠️  This will delete ALL concept schemes and concepts!');
+const BASE = `https://api.contentful.com/organizations/${organizationId}/taxonomy`;
+const headers = {
+  Authorization: `Bearer ${managementToken}`,
+  'Content-Type': 'application/json',
+};
 
-// Give user a chance to cancel
-console.log('Press Ctrl+C to cancel, or wait 5 seconds to continue...');
-setTimeout(() => {
-  try {
-    console.log('\n🔍 Listing existing taxonomy...');
-    
-    // List concept schemes
-    try {
-      const listSchemesCmd = `contentful organization taxonomy list-concept-schemes --organization-id ${organizationId}`;
-      console.log('Running:', listSchemesCmd);
-      const schemes = execSync(listSchemesCmd, { encoding: 'utf8' });
-      console.log('Concept Schemes:');
-      console.log(schemes);
-    } catch (error) {
-      console.log('No concept schemes found or error listing schemes');
+async function fetchAllPages(path) {
+  const items = [];
+  let offset = 0;
+  const limit = 100;
+  while (true) {
+    const sep = path.includes('?') ? '&' : '?';
+    const url = `${BASE}${path}${sep}limit=${limit}&offset=${offset}`;
+    const res = await fetch(url, { headers });
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`GET ${url} → ${res.status}: ${body}`);
     }
-    
-    // List concepts
-    try {
-      const listConceptsCmd = `contentful organization taxonomy list-concepts --organization-id ${organizationId}`;
-      console.log('\nRunning:', listConceptsCmd);
-      const concepts = execSync(listConceptsCmd, { encoding: 'utf8' });
-      console.log('Concepts:');
-      console.log(concepts);
-    } catch (error) {
-      console.log('No concepts found or error listing concepts');
-    }
-    
-    // Try to delete all (this may need to be done manually)
-    console.log('\n⚠️  CLI deletion commands may not be available.');
-    console.log('You may need to delete taxonomy manually from the Contentful web interface.');
-    console.log('Or we can try the Management API approach...');
-    
-  } catch (error) {
-    console.error('❌ Error:', error.message);
+    const data = await res.json();
+    items.push(...data.items);
+    if (items.length >= data.total) break;
+    offset += limit;
   }
-}, 5000);
+  return items;
+}
+
+async function main() {
+  console.log('📋 Fetching taxonomy from organization:', organizationId);
+
+  // Fetch concept schemes
+  console.log('\n🔖 Concept Schemes:');
+  const schemes = await fetchAllPages('/concept-schemes');
+
+  if (schemes.length === 0) {
+    console.log('  (none found)');
+  } else {
+    for (const scheme of schemes) {
+      const name = scheme.prefLabel?.['en-US'] || scheme.prefLabel?.en || JSON.stringify(scheme.prefLabel);
+      console.log(`  • ${name} (${scheme.sys.id})`);
+    }
+  }
+  console.log(`  Total: ${schemes.length}`);
+
+  // Fetch concepts
+  console.log('\n🏷️  Concepts:');
+  const concepts = await fetchAllPages('/concepts');
+
+  if (concepts.length === 0) {
+    console.log('  (none found)');
+  } else {
+    // Group concepts by scheme
+    const byScheme = {};
+    const unassigned = [];
+    for (const concept of concepts) {
+      const label = concept.prefLabel?.['en-US'] || concept.prefLabel?.en || JSON.stringify(concept.prefLabel);
+      const schemeIds = (concept.conceptSchemes || []).map(s => s.sys?.id).filter(Boolean);
+      if (schemeIds.length === 0) {
+        unassigned.push({ label, id: concept.sys.id, broader: concept.broader });
+      } else {
+        for (const sid of schemeIds) {
+          if (!byScheme[sid]) byScheme[sid] = [];
+          byScheme[sid].push({ label, id: concept.sys.id, broader: concept.broader });
+        }
+      }
+    }
+
+    for (const scheme of schemes) {
+      const name = scheme.prefLabel?.['en-US'] || scheme.prefLabel?.en || JSON.stringify(scheme.prefLabel);
+      const schemeConcepts = byScheme[scheme.sys.id] || [];
+      console.log(`\n  📂 ${name} (${schemeConcepts.length} concepts)`);
+      printTree(schemeConcepts, '    ');
+    }
+
+    if (unassigned.length > 0) {
+      console.log(`\n  📂 (unassigned) (${unassigned.length} concepts)`);
+      printTree(unassigned, '    ');
+    }
+  }
+  console.log(`\n  Total concepts: ${concepts.length}`);
+
+  // Save raw data
+  const output = { schemes, concepts };
+  fs.writeFileSync('taxonomy_export.json', JSON.stringify(output, null, 2), 'utf8');
+  console.log('\n✅ Raw taxonomy saved to taxonomy_export.json');
+}
+
+function printTree(concepts, indent) {
+  // Build a tree from broader relationships
+  const byId = new Map(concepts.map(c => [c.id, c]));
+  const children = new Map();
+  const roots = [];
+
+  for (const c of concepts) {
+    const parentIds = (c.broader || []).map(b => b.sys?.id).filter(Boolean);
+    let isRoot = true;
+    for (const pid of parentIds) {
+      if (byId.has(pid)) {
+        if (!children.has(pid)) children.set(pid, []);
+        children.get(pid).push(c);
+        isRoot = false;
+      }
+    }
+    if (isRoot) roots.push(c);
+  }
+
+  roots.sort((a, b) => a.label.localeCompare(b.label));
+
+  function print(node, prefix) {
+    console.log(`${prefix}• ${node.label}`);
+    const kids = children.get(node.id) || [];
+    kids.sort((a, b) => a.label.localeCompare(b.label));
+    for (const kid of kids) {
+      print(kid, prefix + '  ');
+    }
+  }
+
+  for (const root of roots) {
+    print(root, indent);
+  }
+}
+
+main().catch(err => {
+  console.error('❌ Error:', err.message);
+  process.exit(1);
+});
