@@ -1,0 +1,325 @@
+{
+  "description": "Proposed SKOS taxonomy concept mappings for published webinars. Most webinars are thought leadership targeting HR/People leaders — Industry/Region/CompanySize/MarketModel only applied when content is customer-specific or explicitly scoped.",
+  "mappings": [
+    {
+      "title": "2026 Workplace Trends to Watch",
+      "proposed": ["futureTrends", "recognition", "deiWellbeing", "companyCulture", "executivesLeadership", "peopleLeaders", "global"],
+      "notes": "Trends webinar: culture, recognition, gender equity shaping 2026."
+    },
+    {
+      "title": "2026 Workplace Trends to Watch Unlisted ",
+      "proposed": ["futureTrends", "recognition", "deiWellbeing", "companyCulture", "executivesLeadership", "peopleLeaders", "global"],
+      "notes": "Unlisted duplicate of above."
+    },
+    {
+      "title": "Boosting Connection, Engagement, and Belonging: Health First's Story",
+      "proposed": ["engagement", "recognition", "wellbeing", "deiWellbeing", "appreciation", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcareProfessionals", "healthcare", "hospitals", "northAmerica", "unitedStates"],
+      "notes": "Health First (FL wellness/healthcare system) customer story. Recognition energizing culture."
+    },
+    {
+      "title": "Boosting Productivity, Retention, and Engagement: Unlocking ROI Through Personalized Recognition",
+      "proposed": ["recognition", "engagement", "retentionTurnover", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "ROI of personalized recognition. General thought leadership."
+    },
+    {
+      "title": "Building a Culture of Connection: Citizens' Story",
+      "proposed": ["companyCulture", "recognition", "engagement", "executivesLeadership", "peopleLeaders", "financialServices", "banking", "northAmerica", "unitedStates", "enterprise"],
+      "notes": "Citizens bank customer story. 13th largest US retail bank."
+    },
+    {
+      "title": "Building a Positive Employee Experience and Culture: Organon's Story",
+      "proposed": ["employeeExperience", "companyCulture", "recognition", "executivesLeadership", "peopleLeaders", "healthcare", "pharmaceuticals", "global"],
+      "notes": "Organon global healthcare spinoff. Change management, cultural values from day one."
+    },
+    {
+      "title": "Building Resilient and Engaged Organizational Cultures: Insights from Gallup ",
+      "proposed": ["engagement", "companyCulture", "futureTrends", "technologyAi", "executivesLeadership", "peopleLeaders", "global"],
+      "notes": "Gallup research. Resilience, adaptability, upskilling, new technologies."
+    },
+    {
+      "title": "Building the Business Case: The ROI of Recognition",
+      "proposed": ["recognition", "hrStrategy", "compensationBenefits", "executivesLeadership", "peopleLeaders"],
+      "notes": "How to build business case and shift budgets toward recognition."
+    },
+    {
+      "title": "Conversations: How Feedback Fosters Wellbeing at Work",
+      "proposed": ["feedback", "wellbeing", "performance", "engagement", "peopleLeaders"],
+      "notes": "Feedback as catalyst for emotional fitness, connection, empathy, trust."
+    },
+    {
+      "title": "Culture of Connection: Workplace Recognition Programs Drive Business Impact",
+      "proposed": ["recognition", "companyCulture", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Declining engagement, human connection, recognition driving business impact."
+    },
+    {
+      "title": "Driving Engagement and Retention: New Insights from Gallup to Leverage Recognition and Transform Culture",
+      "proposed": ["engagement", "retentionTurnover", "recognition", "companyCulture", "executivesLeadership", "peopleLeaders", "global", "northAmerica", "unitedStates", "emea"],
+      "notes": "Gallup research across US and Western Europe. Recognition for human-centered workplaces."
+    },
+    {
+      "title": "Empowering Women's Advancement: How to Set a New Standard for Workplace Culture",
+      "proposed": ["deiWellbeing", "futureOfDei", "companyCulture", "executivesLeadership", "peopleLeaders"],
+      "notes": "Women's representation in corporate spaces, leadership gender gap."
+    },
+    {
+      "title": "Evolution With Purpose: Building the Right Future of Work For Your Business and Your People",
+      "proposed": ["futureOfWork", "futureTrends", "hrStrategy", "companyCulture", "executivesLeadership", "peopleLeaders", "emea"],
+      "notes": "Fosway HR Realities research, trends for HR leaders in 2026. EMEA-focused."
+    },
+    {
+      "title": "Four Key Trends Driving the Future of Work in 2022",
+      "proposed": ["futureOfWork", "futureTrends", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "2022 workplace trends. Modern approach to workplace management."
+    },
+    {
+      "title": "From Moment to Movement: The Keys to Creating an Effective DE&I Strategy",
+      "proposed": ["deiWellbeing", "futureOfDei", "companyCulture", "executivesLeadership", "peopleLeaders"],
+      "notes": "Effective DE&I strategy for long-term success."
+    },
+    {
+      "title": "From Surviving to Thriving: Promoting Wellbeing and Combating Burnout in the Workplace",
+      "proposed": ["wellbeing", "engagement", "retentionTurnover", "companyCulture", "executivesLeadership", "peopleLeaders"],
+      "notes": "Burnout costs $322B globally. Strategies to prevent burnout."
+    },
+    {
+      "title": "Gallup Research Debut: Driving Workplace Culture by Leveraging Recognition",
+      "proposed": ["recognition", "companyCulture", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup data-backed strategies for recognition-driven culture."
+    },
+    {
+      "title": "Gallup Research on the Power of Recognition: A Toolkit to Impact Behavior Shifts",
+      "proposed": ["recognition", "performance", "engagement", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup research linking recognition to behavior shifts and business performance."
+    },
+    {
+      "title": "How Baystate Health Is Building a People-First Culture",
+      "proposed": ["recognition", "companyCulture", "deiWellbeing", "employeeExperience", "executivesLeadership", "peopleLeaders", "healthcareProfessionals", "healthcare", "hospitals", "northAmerica", "unitedStates"],
+      "notes": "Baystate Health customer story. People-first culture, DE&I approaches."
+    },
+    {
+      "title": "How Prioritizing Wellbeing Drives Employee Engagement: GoTo's Story",
+      "proposed": ["wellbeing", "recognition", "engagement", "companyCulture", "peopleLeaders", "technology", "saaS", "software", "northAmerica", "unitedStates", "midMarket", "b2b", "saaSProvider"],
+      "notes": "GoTo customer story. SaaS/cloud company, recognition promoting wellbeing."
+    },
+    {
+      "title": "How to Be a Diversity and Inclusion Ambassador",
+      "proposed": ["deiWellbeing", "futureOfDei", "companyCulture", "executivesLeadership", "peopleLeaders", "frontlineWorkers"],
+      "notes": "Everyone from C-suite to frontline can drive D&I. Book-based webinar."
+    },
+    {
+      "title": "How to Boost Morale and Community: Merck's Story",
+      "proposed": ["recognition", "appreciation", "engagement", "remoteWork", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcare", "pharmaceuticals", "global", "enterprise", "b2b"],
+      "notes": "Merck customer story. Remote work, gratitude, human connection."
+    },
+    {
+      "title": "How to Build a Culture of Gratitude",
+      "proposed": ["appreciation", "recognition", "companyCulture", "retentionTurnover", "engagement", "wellbeing", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gratitude as foundation for teamwork, retention, engagement, well-being."
+    },
+    {
+      "title": "How to Build a Radically Candid Culture of Feedback",
+      "proposed": ["feedback", "performance", "companyCulture", "peopleLeaders"],
+      "notes": "Kim Scott (Radical Candor). Feedback culture in hybrid environments."
+    },
+    {
+      "title": "How to Create a Connected & Engaged Culture: GLG's Story",
+      "proposed": ["engagement", "appreciation", "companyCulture", "peopleLeaders", "professionalServices", "consulting", "northAmerica", "unitedStates"],
+      "notes": "GLG customer story. Professional expertise platform, culture of appreciation."
+    },
+    {
+      "title": "How to Create a Connected and Engaged Culture: Rocket Central's Story",
+      "proposed": ["engagement", "companyCulture", "employeeExperience", "remoteWork", "executivesLeadership", "peopleLeaders", "financialServices", "northAmerica", "unitedStates"],
+      "notes": "Rocket Central customer story. Hybrid work, positive team member experiences."
+    },
+    {
+      "title": "How to Create a Connected Culture Rich in Human Work Experiences",
+      "proposed": ["engagement", "companyCulture", "employeeExperience", "deiWellbeing", "executivesLeadership", "peopleLeaders"],
+      "notes": "General thought leadership. Inclusive workplaces, engagement, turnover mitigation."
+    },
+    {
+      "title": "How to Drive DEI with Appreciation: Findings from Gallup",
+      "proposed": ["deiWellbeing", "futureOfDei", "appreciation", "recognition", "retentionTurnover", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup research. Recognition elevating DEI, buffering burnout and turnover."
+    },
+    {
+      "title": "How To Implement Wellbeing as a Strategic Priority With Gallup",
+      "proposed": ["wellbeing", "hrStrategy", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup research. Customized wellbeing programs, performance metrics."
+    },
+    {
+      "title": "How to Increase Engagement and Improve Work Culture: CAA's Story",
+      "proposed": ["engagement", "recognition", "companyCulture", "appreciation", "executivesLeadership", "peopleLeaders", "transportationTravel", "roadsideAssistance", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "CAA customer story. 6 years of recognition-driven engagement."
+    },
+    {
+      "title": "How to Transform Today's DEI Practices: A Case Study from BLK Men in Tech",
+      "proposed": ["deiWellbeing", "futureOfDei", "employeeExperience", "executivesLeadership", "peopleLeaders", "technology"],
+      "notes": "BLK Men in Tech partnership. DEI practices for people of color in tech."
+    },
+    {
+      "title": "HR in the Age of AI: Transforming Culture and Performance ",
+      "proposed": ["technologyAi", "ai", "performance", "recognition", "companyCulture", "hrStrategy", "humanResources", "executivesLeadership", "peopleLeaders", "northAmerica", "unitedStates"],
+      "notes": "AI in HR. Human Intelligence™, AI trained on authentic human data."
+    },
+    {
+      "title": "HR in the Age of AI: Transforming Culture and Performance EMEA",
+      "proposed": ["technologyAi", "ai", "performance", "recognition", "companyCulture", "hrStrategy", "humanResources", "executivesLeadership", "peopleLeaders", "emea"],
+      "notes": "EMEA version of AI in HR webinar."
+    },
+    {
+      "title": "HR Leaders Workshop - Find Hidden Spend, and Re-invest to Drive Measurable ROI",
+      "proposed": ["recognition", "hrStrategy", "compensationBenefits", "executivesLeadership", "peopleLeaders", "emea"],
+      "notes": "EMEA workshop. Finding hidden recognition spend, shifting to measurable programs."
+    },
+    {
+      "title": "HR Myth Busting: Secrets to Supercharge Workplace Culture",
+      "proposed": ["companyCulture", "hrStrategy", "feedback", "wellbeing", "executivesLeadership", "peopleLeaders"],
+      "notes": "Debunking HR myths with research and data."
+    },
+    {
+      "title": "HR Trends Shaping the Future of Work in 2024",
+      "proposed": ["futureTrends", "futureOfWork", "hrStrategy", "technologyAi", "ai", "wellbeing", "executivesLeadership", "peopleLeaders"],
+      "notes": "2024 trends. AI reshaping HR, upskilling, corporate wellbeing."
+    },
+    {
+      "title": "Human-Centered Leadership: Transformation Through Creativity and Connection",
+      "proposed": ["companyCulture", "engagement", "performance", "cultureLeadership", "executivesLeadership", "businessLeaders", "peopleLeaders"],
+      "notes": "Human connection, organizational resilience, behaviors, performance at scale."
+    },
+    {
+      "title": "Human-Centered Leadership: Transformation Through Creativity and Connection Unlisted",
+      "proposed": ["companyCulture", "engagement", "performance", "cultureLeadership", "executivesLeadership", "businessLeaders", "peopleLeaders"],
+      "notes": "Unlisted duplicate."
+    },
+    {
+      "title": "Human-Centred Leadership: Transformation Through Creativity and Connection Replay EMEA ",
+      "proposed": ["companyCulture", "engagement", "performance", "cultureLeadership", "executivesLeadership", "businessLeaders", "peopleLeaders", "emea"],
+      "notes": "EMEA replay. British spelling variant."
+    },
+    {
+      "title": "Improving Employee Connection and Strengthening Workplace Culture: Pfizer's Story",
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "executivesLeadership", "peopleLeaders", "healthcare", "pharmaceuticals", "global", "enterprise", "b2b"],
+      "notes": "Pfizer customer story. Global unified recognition programme post-pandemic."
+    },
+    {
+      "title": "Innovating Compensation: Realigning Based on Workforce Changes",
+      "proposed": ["compensationBenefits", "remoteWork", "futureOfWork", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "Compensation strategy realignment for remote/hybrid workforce."
+    },
+    {
+      "title": "Maximizing Recognition ROI: Elevating ERGs as Culture-Driving Forces through Strategic Recognition",
+      "proposed": ["recognition", "deiWellbeing", "engagement", "companyCulture", "executivesLeadership", "peopleLeaders"],
+      "notes": "ERGs + recognition alignment. Leadership development, belonging."
+    },
+    {
+      "title": "New Insights from Gallup to Leverage Recognition and Transform Culture",
+      "proposed": ["recognition", "companyCulture", "engagement", "retentionTurnover", "executivesLeadership", "peopleLeaders", "global", "northAmerica", "emea"],
+      "notes": "Gallup research. US and Western Europe recognition insights."
+    },
+    {
+      "title": "Optimize and Scale Recognition with Human Intelligence",
+      "proposed": ["recognition", "technologyAi", "ai", "performance", "retentionTurnover", "executivesLeadership", "peopleLeaders"],
+      "notes": "Human Intelligence™, predictive AI, peer recognition at scale."
+    },
+    {
+      "title": "Product Innovations to Evolve Your Company Culture",
+      "proposed": ["companyCulture", "engagement", "retentionTurnover", "recognition", "executivesLeadership", "peopleLeaders"],
+      "notes": "Workhuman product features driving engagement, retention, culture."
+    },
+    {
+      "title": "Reimagining the Workplace: Leadership, Recognition, and Real Change",
+      "proposed": ["recognition", "companyCulture", "cultureLeadership", "executivesLeadership", "businessLeaders", "peopleLeaders"],
+      "notes": "Cy Wakeman + Hamza Khan. Leadership, accountability, compassion."
+    },
+    {
+      "title": "Shifting Needs: The Vital Roles of Wellbeing and Recognition in Retaining and Engaging Employees",
+      "proposed": ["wellbeing", "recognition", "retentionTurnover", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup. Wellbeing + recognition for shifting employee needs."
+    },
+    {
+      "title": "Strategic Culture-Building with Gallup: The Long-Term Value of Recognition",
+      "proposed": ["recognition", "companyCulture", "retentionTurnover", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup. Long-term recognition value, purpose, belonging. (Two entries with same title — both mapped.)"
+    },
+    {
+      "title": "Strategic Culture-Building with Gallup: The Long-Term Value of Recognition ",
+      "proposed": ["recognition", "companyCulture", "retentionTurnover", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Duplicate with trailing space."
+    },
+    {
+      "title": "Strategic Recognition: How an Investment in Your People Can Save Your Culture",
+      "proposed": ["recognition", "companyCulture", "wellbeing", "engagement", "retentionTurnover", "executivesLeadership", "peopleLeaders"],
+      "notes": "Gallup. ROI of recognition: lower turnover, safety, absenteeism, productivity."
+    },
+    {
+      "title": "The Financial and Cultural Impacts of Effective Recognition",
+      "proposed": ["recognition", "companyCulture", "performance", "retentionTurnover", "engagement", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "CFO + CHRO perspective on recognition ROI."
+    },
+    {
+      "title": "The Key HR Trends Driving the Future of Work in 2023",
+      "proposed": ["futureOfWork", "futureTrends", "hrStrategy", "humanResources", "executivesLeadership", "peopleLeaders"],
+      "notes": "2023 workplace trends. Human-centered high-performing cultures."
+    },
+    {
+      "title": "The New State of Work: 5 Defining Challenges of 2026",
+      "proposed": ["futureTrends", "hrStrategy", "executivesLeadership", "peopleLeaders"],
+      "notes": "5 challenges for employees in 2026. Solutions for HR and leadership."
+    },
+    {
+      "title": "The Power of Recognition in Healthcare: Arkansas Children's Workhuman Experience",
+      "proposed": ["recognition", "companyCulture", "retentionTurnover", "executivesLeadership", "peopleLeaders", "healthcareProfessionals", "frontlineWorkers", "healthcareStaff", "healthcare", "hospitals", "northAmerica", "unitedStates"],
+      "notes": "Arkansas Children's customer story. Healthcare burnout, staff shortages, culture shift."
+    },
+    {
+      "title": "The Power of Workplace Wellbeing: Strategies to Prevent Burnout and Build a More Human Workplace  ",
+      "proposed": ["wellbeing", "engagement", "executivesLeadership", "peopleLeaders", "northAmerica", "unitedStates"],
+      "notes": "Deloitte + Workhuman. Burnout strategies, stress management."
+    },
+    {
+      "title": "The Power of Workplace Wellbeing: Strategies to Prevent Burnout and Build a More Human Workplace EMEA",
+      "proposed": ["wellbeing", "engagement", "executivesLeadership", "peopleLeaders", "emea"],
+      "notes": "EMEA version of wellbeing/burnout webinar."
+    },
+    {
+      "title": "The ROI of Strategic Employee Recognition: By the Numbers",
+      "proposed": ["recognition", "hrStrategy", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Data-driven business case for recognition. Gallup research."
+    },
+    {
+      "title": "The Top 5 Myths About the Future of Work Debunked",
+      "proposed": ["futureOfWork", "futureTrends", "engagement", "executivesLeadership", "peopleLeaders"],
+      "notes": "Debunking myths about human connection at work."
+    },
+    {
+      "title": "Transformative HR Trends Shaping the Workplace in 2025",
+      "proposed": ["futureTrends", "futureOfWork", "hrStrategy", "technologyAi", "ai", "executivesLeadership", "peopleLeaders", "global"],
+      "notes": "2025 trends. Geopolitical unrest, economic uncertainty, tech advancements."
+    },
+    {
+      "title": "Unlock the Skills-Powered Organization With Recognition Data",
+      "proposed": ["recognition", "performance", "hrStrategy", "technologyAi", "executivesLeadership", "peopleLeaders"],
+      "notes": "Mercer research. Recognition data for skill appraisal. (Two entries — both mapped.)"
+    },
+    {
+      "title": "Unlocking ROI: The Total  Economic Impact™ of  Recognition Featuring Forrester",
+      "proposed": ["recognition", "hrStrategy", "engagement", "retentionTurnover", "executivesLeadership", "peopleLeaders"],
+      "notes": "Forrester TEI study. Data-backed recognition ROI. (Two entries — both mapped.)"
+    },
+    {
+      "title": "Welcome to the Future of DE&I: A Conversation Exploring Progressive Practices",
+      "proposed": ["deiWellbeing", "futureOfDei", "executivesLeadership", "peopleLeaders"],
+      "notes": "Korn Ferry research. 1,700+ business leaders, long-term D&I practices."
+    },
+    {
+      "title": "Wellbeing in the Workplace: How Amplifying and Integrating Wellbeing Helps Employees Thrive",
+      "proposed": ["wellbeing", "employeeExperience", "companyCulture", "engagement", "executivesLeadership", "peopleLeaders", "technology", "networking", "global", "enterprise"],
+      "notes": "Cisco customer story. Wellbeing integration, psychological safety."
+    },
+    {
+      "title": "What Your HR Dashboards Miss:  The Untapped Workforce Intelligence Driving Change",
+      "proposed": ["technologyAi", "ai", "performance", "hrStrategy", "humanResources", "companyCulture", "executivesLeadership", "peopleLeaders"],
+      "notes": "Human Intelligence™. Workforce data beyond surveys and reviews. (Two entries — both mapped.)"
+    }
+  ]
+}
