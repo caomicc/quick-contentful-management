@@ -1,0 +1,80 @@
+{
+  "description": "Taxonomy concept mappings for published Customer Snapshots. These are short customer story highlights — mapped using company context from case studies + snapshot content.",
+  "mappings": [
+    {
+      "title": "How Merck Drives Outcomes With Measurable Recognition",
+      "proposed": ["recognition", "performance", "engagement", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcare", "pharmaceuticals", "global", "enterprise", "b2b"],
+      "notes": "Merck (69K employees, biopharma). Measurable recognition outcomes."
+    },
+    {
+      "title": "How Minto Group Builds Recognition Into Its DNA",
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "peopleLeaders", "northAmerica", "canada", "midMarket"],
+      "notes": "Minto Group — Canadian real estate/construction company. Recognition as core culture."
+    },
+    {
+      "title": "Connection and Belonging Through Recognition",
+      "proposed": ["recognition", "deiWellbeing", "engagement", "companyCulture", "employeeExperience", "peopleLeaders"],
+      "notes": "General snapshot about belonging through recognition. No specific company named in title."
+    },
+    {
+      "title": "How Recognition Drives Culture and Business Results at CAA Club Group",
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "peopleLeaders", "frontlineWorkers", "transportationTravel", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "CAA Club Group. Canada's largest not-for-profit auto club. Recognition driving culture + results."
+    },
+    {
+      "title": "How CAA Club Group Creates Meaning With Recognition",
+      "proposed": ["recognition", "appreciation", "companyCulture", "engagement", "peopleLeaders", "frontlineWorkers", "transportationTravel", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "CAA Club Group. Recognition creating meaningful employee moments."
+    },
+    {
+      "title": "How R1 Scales Recognition With Integrations",
+      "proposed": ["recognition", "technologyAi", "engagement", "employeeExperience", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcare", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "R1 (healthcare technology/revenue cycle). Workhuman integrations scaling recognition."
+    },
+    {
+      "title": "How PepsiCo Ties Behaviors to Business Impact",
+      "proposed": ["recognition", "performance", "engagement", "hrStrategy", "executivesLeadership", "peopleLeaders", "consumerGoodsRetail", "global", "northAmerica", "unitedStates", "enterprise", "b2c", "consumerBrand"],
+      "notes": "PepsiCo. Tying recognition behaviors to measurable business impact."
+    },
+    {
+      "title": "How Tennant Unites Its Workforce With Global Recognition",
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "peopleLeaders", "frontlineWorkers", "manufacturingWorkers", "manufacturingIndustrial", "global", "northAmerica", "unitedStates", "enterprise", "b2b", "manufacturer"],
+      "notes": "Tennant (industrial cleaning equipment). Global workforce unity through recognition."
+    },
+    {
+      "title": "How Recognition Scales Culture Globally at GoTo",
+      "proposed": ["recognition", "companyCulture", "engagement", "wellbeing", "peopleLeaders", "technology", "northAmerica", "unitedStates", "enterprise", "b2b", "saaSProvider"],
+      "notes": "GoTo (SaaS, formerly LogMeIn). Navigating change, scaling culture globally."
+    },
+    {
+      "title": "How SSOE Delivers Equitable Recognition Across the Globe",
+      "proposed": ["recognition", "deiWellbeing", "engagement", "employeeExperience", "executivesLeadership", "peopleLeaders", "engineersTechnicalTeams", "professionalServices", "architecture", "global", "midMarket", "b2b", "professionalServicesFirm"],
+      "notes": "SSOE Group (architecture & engineering). Equitable global recognition since 2016."
+    },
+    {
+      "title": "How CAA Club Group Builds Culture With Recognition",
+      "proposed": ["recognition", "companyCulture", "engagement", "appreciation", "peopleLeaders", "frontlineWorkers", "transportationTravel", "northAmerica", "canada", "midMarket", "b2c"],
+      "notes": "CAA Club Group. Social Recognition program since 2015."
+    },
+    {
+      "title": "How Inclusion Advisor Enhances Equity at Merck",
+      "proposed": ["recognition", "deiWellbeing", "futureOfDei", "technologyAi", "ai", "companyCulture", "executivesLeadership", "peopleLeaders", "healthcare", "pharmaceuticals", "global", "enterprise", "b2b"],
+      "notes": "Merck. Inclusion Advisor (AI tool) enhancing equity in recognition language."
+    },
+    {
+      "title": "How Zimmer Biomet Made Recognition a Critical Strategic Pillar",
+      "proposed": ["recognition", "retentionTurnover", "companyCulture", "engagement", "hrStrategy", "executivesLeadership", "peopleLeaders", "healthcare", "medicalDevices", "global", "northAmerica", "unitedStates", "enterprise", "b2b"],
+      "notes": "Zimmer Biomet (medical devices). Recognition as strategic pillar for culture + retention."
+    },
+    {
+      "title": "How Recognition Encourages Employee Cohesion at Hyliion",
+      "proposed": ["recognition", "companyCulture", "engagement", "employeeExperience", "executivesLeadership", "peopleLeaders", "engineersTechnicalTeams", "technology", "northAmerica", "unitedStates", "midMarket", "b2b"],
+      "notes": "Hyliion (clean transportation/electrification startup). Recognition for cohesion."
+    },
+    {
+      "title": "How Lam Research Improved the Global Employee Experience",
+      "proposed": ["recognition", "employeeExperience", "engagement", "companyCulture", "executivesLeadership", "peopleLeaders", "technology", "manufacturingIndustrial", "global", "enterprise", "b2b", "manufacturer"],
+      "notes": "Lam Research (semiconductor equipment manufacturer). Global employee experience since 2020."
+    }
+  ]
+}
