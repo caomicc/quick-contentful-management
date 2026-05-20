@@ -1,15 +1,32 @@
 #!/usr/bin/env node
 /**
  * Analyzes published documents and determines which taxonomy concepts
- * can be automatically mapped based on existing tags, titles, and teasers.
+ * can be automatically mapped based on existing tags, titles, teasers, and body text.
+ *
+ * Uses cached content from data/documents_content.json (run fetchDocumentContent.js first).
+ * Falls back to data/documents_published.json (title+teaser only) if cache not found.
  */
 require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 
-const documents = JSON.parse(
-  fs.readFileSync(path.join(__dirname, '..', 'data', 'documents_published.json'), 'utf-8')
-);
+const CONTENT_CACHE_PATH = path.join(__dirname, '..', 'data', 'documents_content.json');
+const PUBLISHED_PATH = path.join(__dirname, '..', 'data', 'documents_published.json');
+
+let documents;
+let usingBodyText = false;
+
+if (fs.existsSync(CONTENT_CACHE_PATH)) {
+  console.log('Loading cached document content from data/documents_content.json...');
+  documents = JSON.parse(fs.readFileSync(CONTENT_CACHE_PATH, 'utf-8'));
+  usingBodyText = true;
+  console.log(`Loaded ${documents.length} documents with body text.\n`);
+} else {
+  console.log('No cached content found. Run fetchDocumentContent.js first for body text analysis.');
+  console.log('Falling back to documents_published.json (title+teaser only)...\n');
+  documents = JSON.parse(fs.readFileSync(PUBLISHED_PATH, 'utf-8'));
+}
+
 const taxonomy = JSON.parse(
   fs.readFileSync(path.join(__dirname, '..', 'taxonomy_export.json'), 'utf-8')
 );
@@ -114,6 +131,16 @@ function textContains(text, keywords) {
   return keywords.some(kw => lower.includes(kw.toLowerCase()));
 }
 
+// Count how many distinct keywords from a list match in text
+function countKeywordHits(text, keywords) {
+  const lower = text.toLowerCase();
+  return keywords.filter(kw => lower.includes(kw.toLowerCase())).length;
+}
+
+// Body text requires BODY_THRESHOLD distinct keyword hits to qualify.
+// Title/teaser still only need 1 hit.
+const BODY_THRESHOLD = 3;
+
 // ─── ANALYZE EACH DOCUMENT ───
 const results = [];
 const stats = {
@@ -144,16 +171,21 @@ for (const doc of documents) {
     confidence: {},
   };
 
-  const searchText = `${doc.title || ''} ${doc.teaser || ''}`;
+  const titleTeaser = `${doc.title || ''} ${doc.teaser || ''}`;
+  const bodyText = doc.bodyText || '';
 
   // Map tags → topics
   const topicSet = new Set();
   for (const tag of doc.tags) {
     if (tagToTopics[tag]) topicSet.add(tagToTopics[tag]);
   }
-  // Keyword-based topic detection
+  // Keyword-based topic detection — title/teaser needs 1 hit, body needs BODY_THRESHOLD
   for (const [conceptId, keywords] of Object.entries(topicKeywords)) {
-    if (textContains(searchText, keywords)) topicSet.add(conceptId);
+    if (textContains(titleTeaser, keywords)) {
+      topicSet.add(conceptId);
+    } else if (bodyText && countKeywordHits(bodyText, keywords) >= BODY_THRESHOLD) {
+      topicSet.add(conceptId);
+    }
   }
   mapping.recommended.topics = [...topicSet];
   mapping.confidence.topics = topicSet.size > 0 ? 'high' : 'none';
@@ -174,10 +206,14 @@ for (const doc of documents) {
   mapping.recommended.buyingStage = [...stageSet];
   mapping.confidence.buyingStage = stageSet.size > 0 ? 'medium' : 'none';
 
-  // Keyword → audience
+  // Keyword → audience — title/teaser needs 1 hit, body needs 2 hits
   const audSet = new Set();
   for (const [conceptId, keywords] of Object.entries(audienceKeywords)) {
-    if (textContains(searchText, keywords)) audSet.add(conceptId);
+    if (textContains(titleTeaser, keywords)) {
+      audSet.add(conceptId);
+    } else if (bodyText && countKeywordHits(bodyText, keywords) >= 2) {
+      audSet.add(conceptId);
+    }
   }
   // Leader tags → audience
   const leaderTags = doc.tags.filter(t => t.includes('_leader'));
@@ -192,10 +228,14 @@ for (const doc of documents) {
   mapping.recommended.audience = [...audSet];
   mapping.confidence.audience = audSet.size > 0 ? 'low' : 'none';
 
-  // Keyword → industry
+  // Keyword → industry — title/teaser needs 1 hit, body needs 2 hits
   const indSet = new Set();
   for (const [conceptId, keywords] of Object.entries(industryKeywords)) {
-    if (textContains(searchText, keywords)) indSet.add(conceptId);
+    if (textContains(titleTeaser, keywords)) {
+      indSet.add(conceptId);
+    } else if (bodyText && countKeywordHits(bodyText, keywords) >= 2) {
+      indSet.add(conceptId);
+    }
   }
   mapping.recommended.industry = [...indSet];
   mapping.confidence.industry = indSet.size > 0 ? 'low' : 'none';
@@ -214,8 +254,9 @@ for (const doc of documents) {
 
 // ─── PRINT SUMMARY ───
 console.log('\n╔══════════════════════════════════════════════════════╗');
-console.log('║   DOCUMENT TAXONOMY ANALYSIS – 361 Published Docs   ║');
+console.log(`║   DOCUMENT TAXONOMY ANALYSIS – ${stats.total} Published Docs   ║`);
 console.log('╚══════════════════════════════════════════════════════╝\n');
+console.log(`  Keyword source: ${usingBodyText ? 'title + teaser + body text (full content)' : 'title + teaser only'}\n`);
 
 console.log('COVERAGE BY SCHEME:');
 console.log('─'.repeat(50));

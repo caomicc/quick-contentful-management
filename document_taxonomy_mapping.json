@@ -70,7 +70,8 @@
         "companyCulture",
         "engagement",
         "experience",
-        "recognition"
+        "recognition",
+        "humanResources"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -274,6 +275,7 @@
         "futureOfWork",
         "recognition",
         "engagement",
+        "companyCulture",
         "awareness"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -283,6 +285,7 @@
       "proposed": [
         "recognition",
         "engagement",
+        "companyCulture",
         "emea"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -319,6 +322,7 @@
     {
       "title": "3 Ways to Combat Burnout (EMEA)",
       "proposed": [
+        "recognition",
         "wellbeing",
         "emea"
       ],
@@ -374,7 +378,9 @@
       "title": "4 Keys to Building Today’s Human Workplace (EMEA)",
       "proposed": [
         "engagement",
+        "performance",
         "companyCulture",
+        "retentionTurnover",
         "executivesLeadership",
         "humanResources",
         "emea"
@@ -615,6 +621,7 @@
       "title": "5 Ways Leaders Can Amplify Employee Wellbeing With Recognition (EMEA)",
       "proposed": [
         "recognition",
+        "engagement",
         "wellbeing",
         "executivesLeadership",
         "emea"
@@ -674,7 +681,8 @@
       "title": "5 Ways to Measure Wellbeing and Inclusion",
       "proposed": [
         "futureOfDei",
-        "wellbeing"
+        "wellbeing",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -817,6 +825,7 @@
       "title": "8 Smart Questions to Ask About Homegrown Recognition Programs",
       "proposed": [
         "recognition",
+        "retentionTurnover",
         "awareness"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -968,6 +977,7 @@
       "proposed": [
         "performance",
         "recognition",
+        "futureOfDei",
         "awareness"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -978,6 +988,7 @@
         "recognition",
         "retentionTurnover",
         "awareness",
+        "executivesLeadership",
         "humanResources",
         "manufacturingIndustrial"
       ],
@@ -1112,7 +1123,8 @@
         "experience",
         "recognition",
         "retentionTurnover",
-        "wellbeing"
+        "wellbeing",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -1472,6 +1484,7 @@
     {
       "title": "FAQs About Workhuman Research",
       "proposed": [
+        "futureOfDei",
         "awareness",
         "decision"
       ],
@@ -1538,6 +1551,8 @@
     {
       "title": "Feature Brief: The Value of Team Awards",
       "proposed": [
+        "recognition",
+        "companyCulture",
         "solutionOverview"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -1774,7 +1789,8 @@
     {
       "title": "Guaranteed Impact: Why Workhuman Is the Strategic Recognition Partner You Need",
       "proposed": [
-        "recognition"
+        "recognition",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -1795,7 +1811,8 @@
       "proposed": [
         "performance",
         "recognition",
-        "awareness"
+        "awareness",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -1825,6 +1842,7 @@
       "title": "How Does Recognition Improve Safety - EMEA",
       "proposed": [
         "recognition",
+        "engagement",
         "trendsResearch",
         "awareness",
         "emea"
@@ -1835,6 +1853,7 @@
       "title": "How Does Recognition Improve Safety?",
       "proposed": [
         "recognition",
+        "engagement",
         "trendsResearch",
         "awareness"
       ],
@@ -1843,7 +1862,8 @@
     {
       "title": "How Does Recognition Improve Safety?",
       "proposed": [
-        "recognition"
+        "recognition",
+        "engagement"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -2311,6 +2331,7 @@
     {
       "title": "Product Brief: iQ (EMEA)",
       "proposed": [
+        "futureOfDei",
         "emea"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -2420,6 +2441,7 @@
       "proposed": [
         "engagement",
         "recognition",
+        "performance",
         "companyCulture",
         "trendsResearch",
         "awareness",
@@ -2591,6 +2613,7 @@
       "proposed": [
         "futureOfDei",
         "recognition",
+        "companyCulture",
         "retentionTurnover",
         "feedback",
         "analystResearch",
@@ -2824,6 +2847,7 @@
       "proposed": [
         "awareness",
         "trendsResearch",
+        "executivesLeadership",
         "financialServices"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -2833,7 +2857,8 @@
       "proposed": [
         "futureOfWork",
         "awareness",
-        "trendsResearch"
+        "trendsResearch",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -2846,6 +2871,7 @@
         "recognition",
         "wellbeing",
         "engagement",
+        "retentionTurnover",
         "trendsResearch",
         "awareness"
       ],
@@ -2857,6 +2883,7 @@
         "recognition",
         "engagement",
         "companyCulture",
+        "retentionTurnover",
         "emea"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -2956,8 +2983,8 @@
         "retentionTurnover",
         "wellbeing",
         "thoughtLeadership",
-        "financeProcurement",
-        "executivesLeadership"
+        "executivesLeadership",
+        "financeProcurement"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -2987,7 +3014,8 @@
         "recognition",
         "performance",
         "companyCulture",
-        "awareness"
+        "awareness",
+        "executivesLeadership"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
     },
@@ -3014,6 +3042,7 @@
       "title": "The ROI of Human Applications",
       "proposed": [
         "futureOfWork",
+        "futureOfDei",
         "awareness"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."
@@ -3385,6 +3414,7 @@
         "recognition",
         "engagement",
         "wellbeing",
+        "companyCulture",
         "awareness",
         "decision"
       ],
@@ -3440,6 +3470,7 @@
     {
       "title": "Workhuman Named Strategic Leader in Fosway 9-Grid for Talent and People Success 2024",
       "proposed": [
+        "companyCulture",
         "futureOfWork",
         "executivesLeadership",
         "humanResources"
@@ -3450,6 +3481,7 @@
       "title": "Workhuman Named Strategic Leader in Fosway 9-Grid for Talent and People Success 2024",
       "proposed": [
         "recognition",
+        "companyCulture",
         "futureOfWork",
         "peerValidation",
         "awareness",
@@ -3466,6 +3498,7 @@
         "peerValidation",
         "awareness",
         "decision",
+        "executivesLeadership",
         "technology"
       ],
       "notes": "Auto-generated from document taxonomy analysis. Review before apply."

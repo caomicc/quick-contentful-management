@@ -1,0 +1,625 @@
+[
+  {
+    "id": "4wxvKfzSbfEVMjmVrTKgM3",
+    "title": "How SSOE Delivers Equitable Recognition Across the Globe",
+    "slug": "how-ssoe-delivers-equitable-recognition-across-the-globe",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "professionalServicesFirm"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices",
+        "architecture"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content discusses SSOE Group's use of Workhuman's recognition platform, highlighting its impact on employee engagement, retention, and company culture, which aligns with multiple topics in employee experience and culture leadership. SSOE operates as a professional services firm in the architecture industry, and the audience includes executives and HR leaders. The buying stage is classified as decision due to the customer story format, and the company is identified as an enterprise due to its size and international presence.",
+    "usage": {
+      "promptTokens": 1839,
+      "completionTokens": 238
+    }
+  },
+  {
+    "id": "1pEFnMVjb1Yel91IuzAzH4",
+    "title": "How R1 Scales Recognition With Integrations",
+    "slug": "how-r1-scales-recognition-with-integrations",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "technologyAi",
+        "futureOfWork",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on R1, a healthcare technology provider, discussing their use of Workhuman's recognition solutions, which highlights employee experience and recognition. The audience is likely HR leaders and executives interested in scaling recognition programs. The company operates on a large scale, hence classified as enterprise, and the content is relevant to the healthcare industry.",
+    "usage": {
+      "promptTokens": 1870,
+      "completionTokens": 211
+    }
+  },
+  {
+    "id": "4tI1UImbd8cFl0DBQ61IJm",
+    "title": "How Recognition Scales Culture Globally at GoTo",
+    "slug": "how-recognition-scales-culture-globally-at-goto",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "saaS"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on GoTo's use of the Workhuman platform for recognition and culture enhancement, highlighting employee engagement and company culture, which aligns with the topics of employee experience and culture leadership. GoTo operates as a B2B SaaS provider in the technology industry, targeting executives and people leaders, and the snapshot reflects a decision stage in the buying process.",
+    "usage": {
+      "promptTokens": 1816,
+      "completionTokens": 211
+    }
+  },
+  {
+    "id": "3BvoaxYyPXhu9QKBA3y0WI",
+    "title": "How Zimmer Biomet Made Recognition a Critical Strategic Pillar",
+    "slug": "how-zimmer-biomet-made-recognition-a-critical-strategic-pillar",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on Zimmer Biomet's use of recognition to enhance employee engagement and culture, making it relevant to employee experience and HR strategy topics. As a global medical technology leader, it falls under the healthcare industry. The audience includes executives and people leaders, and the buying stage is at the decision level, showcasing a customer story. The company is classified as an enterprise in the B2B SaaS market model.",
+    "usage": {
+      "promptTokens": 1860,
+      "completionTokens": 230
+    }
+  },
+  {
+    "id": "4hHJJ3k4hxre7v1pIrka0n",
+    "title": "How Recognition Encourages Employee Cohesion at Hyliion",
+    "slug": "how-recognition-encourages-employee-cohesion-at-hyliion",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "saaS"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on employee recognition and its impact on cohesion, which aligns with employee experience and company culture topics. Hyliion operates as a B2B SaaS provider in the technology industry, targeting enterprise-level organizations. The audience includes executives and people leaders interested in employee engagement strategies. The snapshot represents a decision stage customer story, and the company operates globally.",
+    "usage": {
+      "promptTokens": 1839,
+      "completionTokens": 171
+    }
+  },
+  {
+    "id": "3puRLkfYe1WGfzN7uU0hQb",
+    "title": "How Tennant Unites Its Workforce With Global Recognition",
+    "slug": "how-tennant-unites-its-workforce-with-global-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content highlights Tennant's use of the Workhuman recognition platform, focusing on employee recognition and company culture, which aligns with the topics of employee experience and recognition. Tennant operates as a B2B SaaS provider in the cleaning industry, and the audience includes executives and HR leaders. The snapshot reflects a decision stage as it shares a customer story, and the company size is classified as enterprise due to its large employee base.",
+    "usage": {
+      "promptTokens": 1821,
+      "completionTokens": 221
+    }
+  },
+  {
+    "id": "51AAyxnJMhRqarE0NIx8Uz",
+    "title": "How Lam Research Improved the Global Employee Experience",
+    "slug": "how-lam-research-improved-the-global-employee-experience",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "performance",
+        "cultureLeadership",
+        "companyCulture",
+        "engagement",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "manufacturer"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "manufacturingIndustrial",
+        "industrialEquipment"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on Lam Research's use of Workhuman's platform to enhance employee experience through recognition and performance management, highlighting their efforts in building a connected culture. The company operates in the manufacturing sector, specifically in industrial equipment, and is classified as an enterprise-sized organization. The audience includes executives and people leaders who would be interested in the decision-making aspects of the platform.",
+    "usage": {
+      "promptTokens": 1851,
+      "completionTokens": 222
+    }
+  },
+  {
+    "id": "bYspnyTHYShkWpxDU25KA",
+    "title": "How CAA Club Group Builds Culture With Recognition",
+    "slug": "how-caa-club-group-builds-culture-with-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on CAA Club Group's use of recognition to enhance culture and engagement, which aligns with multiple topics related to employee experience and HR strategy. The market model is B2B as they are a SaaS provider. The audience consists of executives and people leaders interested in culture and recognition strategies. The buying stage is decision, as it highlights a customer story. The industry is financial services, specifically insurance, and the company size is enterprise due to the scale of operations.",
+    "usage": {
+      "promptTokens": 1845,
+      "completionTokens": 250
+    }
+  },
+  {
+    "id": "67y8VNB3phSqCto22vzdHW",
+    "title": "How Recognition Drives Culture and Business Results at CAA Club Group",
+    "slug": "how-recognition-drives-culture-and-business-results-at-caa-club-group",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail",
+        "transportationTravel"
+      ],
+      "region": [
+        "northAmerica",
+        "canada"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content highlights the recognition program at CAA Club Group, emphasizing its impact on employee connection, culture, and turnover, which aligns with topics of employee experience and culture leadership. CAA Club Group operates as a not-for-profit automobile club in Canada, classifying it under the consumer goods and transportation industries. The audience includes executives and people leaders, and the snapshot is positioned in the decision stage as a customer story.",
+    "usage": {
+      "promptTokens": 1874,
+      "completionTokens": 237
+    }
+  },
+  {
+    "id": "35wOPCqfGDMD7EZ3wGZ4Id",
+    "title": "How CAA Club Group Creates Meaning With Recognition",
+    "slug": "how-caa-club-group-creates-meaning-with-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on how CAA Club Group uses recognition to enhance employee engagement and culture, particularly during organizational changes, which aligns with multiple topics related to employee experience and HR strategy. The company operates as a B2B SaaS provider in the professional services industry, targeting executives and people leaders, and is classified as an enterprise due to its size.",
+    "usage": {
+      "promptTokens": 1851,
+      "completionTokens": 220
+    }
+  },
+  {
+    "id": "5aar7b3d2M9A7sqxmLfQnm",
+    "title": "How Inclusion Advisor Enhances Equity at Merck",
+    "slug": "how-inclusion-advisor-enhances-equity-at-merck",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei",
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "biotechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content highlights Merck's use of Workhuman's Inclusion Advisor to enhance diversity, equity, and inclusion, which aligns with topics related to employee experience and company culture. Merck is identified as a biopharmaceutical company, thus fitting into the healthcare industry. The audience includes executives and people leaders, and the company size is classified as enterprise due to its large workforce.",
+    "usage": {
+      "promptTokens": 1833,
+      "completionTokens": 221
+    }
+  },
+  {
+    "id": "3xy3TVzlJHauyEnA9A5CNe",
+    "title": "How PepsiCo Ties Behaviors to Business Impact",
+    "slug": "how-pepsico-ties-behaviors-to-business-impact",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail",
+        "foodBeverage"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content discusses PepsiCo's experience with Workhuman, focusing on employee recognition and engagement, which aligns with the topics of employee experience and HR strategy. PepsiCo operates in the food and beverage sector, classifying it under consumer goods. The audience includes executives and people leaders, and the snapshot reflects a decision stage in the buying process. The company size is enterprise, and the market model is B2B SaaS.",
+    "usage": {
+      "promptTokens": 1863,
+      "completionTokens": 225
+    }
+  },
+  {
+    "id": "389lNUYWCPOS3q0ETUWaeC",
+    "title": "Connection and Belonging Through Recognition",
+    "slug": "connection-and-belonging-through-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "deiWellbeing",
+        "wellbeing"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on the themes of recognition and belonging, which fall under employee experience and wellbeing. It targets executives and people leaders in a B2B SaaS context, indicating a decision stage with a customer story. The global region and enterprise company size are inferred from the broad applicability of the topic.",
+    "usage": {
+      "promptTokens": 1710,
+      "completionTokens": 153
+    }
+  },
+  {
+    "id": "4BNfrNqUFYKhlEyCtKLkpB",
+    "title": "How Minto Group Builds Recognition Into Its DNA",
+    "slug": "minto-group-builds-recognition-into-dna",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "performance",
+        "retentionTurnover",
+        "deiWellbeing",
+        "futureOfDei"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices"
+      ],
+      "region": [
+        "northAmerica",
+        "canada"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on Minto Group's employee recognition program, highlighting its impact on engagement, performance, and turnover, which aligns with topics in employee experience and DEI. Minto Group operates in the real estate sector, is a B2B SaaS provider, and targets enterprise-level organizations in Canada. The audience includes executives and HR leaders, and the buying stage reflects a decision-making context.",
+    "usage": {
+      "promptTokens": 1833,
+      "completionTokens": 238
+    }
+  },
+  {
+    "id": "1rHMGtEswZ0TxDvLe1FagR",
+    "title": "How Merck Drives Outcomes With Measurable Recognition",
+    "slug": "merck",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "biotechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content discusses Merck's implementation of a recognition tool, highlighting its impact on employee engagement and retention, which aligns with topics in employee experience and HR strategy. Merck operates in the biotechnology sector, is a large enterprise, and the audience includes executives and people leaders. The market model is B2B SaaS, and the buying stage reflects a decision based on a customer story.",
+    "usage": {
+      "promptTokens": 1813,
+      "completionTokens": 222
+    }
+  }
+]

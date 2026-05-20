@@ -1,0 +1,2405 @@
+[
+  {
+    "id": "3tf2ZDAfM1cE551lP4meoA",
+    "title": "Welcome to the Future of DE&I: A Conversation Exploring Progressive Practices",
+    "slug": "welcome-to-the-future-of-de-i-a-conversation-exploring-progressive-practices",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei",
+        "hrStrategy",
+        "humanResources"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on DE&I strategies and practices, making it relevant to the DEI & Wellbeing and HR Strategy topics. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is based on insights from North America, and the target company size is enterprise.",
+    "usage": {
+      "promptTokens": 1899,
+      "completionTokens": 187
+    }
+  },
+  {
+    "id": "6d2PLMRIGr6TKmDr8xzpRc",
+    "title": "HR Trends Shaping the Future of Work in 2024",
+    "slug": "hr-trends-shaping-the-future-of-work-in-2024",
+    "recommended": {
+      "topics": [
+        "technologyAi",
+        "ai",
+        "hrStrategy",
+        "ghofma863u6Ud512esGm1",
+        "deiWellbeing",
+        "wellbeing",
+        "employeeExperience",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar discusses HR trends and strategies for 2024, focusing on AI, employee engagement, and wellbeing, which align with multiple topics in technology, HR strategy, and employee experience. The target audience includes executives and people leaders, and the content is positioned as thought leadership, indicating an awareness stage. The market model is B2B, and the company size is enterprise, while the region is global.",
+    "usage": {
+      "promptTokens": 1942,
+      "completionTokens": 227
+    }
+  },
+  {
+    "id": "1Z2UB3gVyoumQE5qmHiNL5",
+    "title": "Human-Centered Leadership: Transformation Through Creativity and Connection",
+    "slug": "human-centered-leadership-transformation-through-creativity-and-connection",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "companyCulture",
+        "employeeExperience",
+        "engagement",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on human-centered leadership, emphasizing organizational resilience and performance, which aligns with topics in culture and employee experience. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content, making it relevant for the awareness stage. The content is applicable to enterprise-sized organizations and is intended for a global audience.",
+    "usage": {
+      "promptTokens": 1765,
+      "completionTokens": 159
+    }
+  },
+  {
+    "id": "3ZuPiae9Ae7DJdQOcE9mfS",
+    "title": "Human-Centered Leadership: Transformation Through Creativity and Connection Unlisted",
+    "slug": "unlisted-human-centered-leadership-transformation-through-creativity-and-connection",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "companyCulture",
+        "employeeExperience",
+        "engagement",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on human-centered leadership and its impact on organizational resilience and performance, which relates to company culture and employee engagement. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content in the awareness stage. The content is relevant for enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1767,
+      "completionTokens": 154
+    }
+  },
+  {
+    "id": "7q52EUuiZiZ8iflkJGB7eq",
+    "title": "Human-Centred Leadership: Transformation Through Creativity and Connection Replay EMEA ",
+    "slug": "unlisted-human-centered-leadership-transformation-through-creativity-and-connection-emea",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "companyCulture",
+        "employeeExperience",
+        "engagement",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "emea"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on human connection and its impact on organizational resilience and performance, which aligns with topics in culture, employee experience, and HR strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership piece in the awareness stage. The content is region-specific to EMEA and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1769,
+      "completionTokens": 197
+    }
+  },
+  {
+    "id": "1V0lVNk31M7omnQrSdygXt",
+    "title": "Improving Employee Connection and Strengthening Workplace Culture: Pfizer's Story",
+    "slug": "improving-employee-connection-and-strengthening-workplace-culture-pfizers-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on improving employee connection and workplace culture through a recognition program, which aligns with topics of employee experience and culture leadership. It targets a B2B audience, specifically executives and people leaders in the healthcare industry, and is relevant for enterprise-sized organizations. The buying stage reflects thought leadership in awareness of HR strategies.",
+    "usage": {
+      "promptTokens": 1794,
+      "completionTokens": 205
+    }
+  },
+  {
+    "id": "4a9KUeVV39Cu2LfC3doZ6J",
+    "title": "Innovating Compensation: Realigning Based on Workforce Changes",
+    "slug": "innovating-compensation-how-to-review-and-realign-strategies-based-on-workforce-changes",
+    "recommended": {
+      "topics": [
+        "hrStrategy",
+        "compensationBenefits",
+        "remoteWork",
+        "futureOfWork",
+        "employeeExperience",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on compensation strategies and remote work, which aligns with HR strategy and employee experience topics. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership discussion, indicating an awareness stage. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1856,
+      "completionTokens": 200
+    }
+  },
+  {
+    "id": "4duJxbYXlByFYy7VUnADJy",
+    "title": "Maximizing Recognition ROI: Elevating ERGs as Culture-Driving Forces through Strategic Recognition",
+    "slug": "maximizing-recognition-roi-elevating-ergs-as-culture-driving-forces",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on maximizing recognition ROI and aligning ERGs with organizational culture, which relates to employee experience, engagement, recognition, and culture leadership. The target audience includes executives and people leaders in a B2B context, and the content is relevant for enterprise-sized organizations. The buying stage is categorized as awareness and thought leadership due to its focus on strategic insights rather than product demos or specific solutions.",
+    "usage": {
+      "promptTokens": 1908,
+      "completionTokens": 209
+    }
+  },
+  {
+    "id": "6WheOGk1WrcqbQ3RgYIG0S",
+    "title": "New Insights from Gallup to Leverage Recognition and Transform Culture",
+    "slug": "new-insights-from-gallup-to-leverage-recognition-and-transform-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover",
+        "wellbeing"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on recognition and its impact on employee engagement and culture, making it relevant to topics like employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is applicable to enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1944,
+      "completionTokens": 202
+    }
+  },
+  {
+    "id": "7d7OciJTyfZDozNxM1zLUM",
+    "title": "Optimize and Scale Recognition with Human Intelligence",
+    "slug": "unlisted-optimize-and-scale-recognition-with-human-intelligence",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing",
+        "futureOfWork"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee recognition and its impact on performance and retention, which aligns with topics in employee experience and HR strategy. It targets HR leaders and people leaders in a B2B context, indicating a focus on enterprise organizations. The buying stage reflects thought leadership in awareness, and the content is applicable globally.",
+    "usage": {
+      "promptTokens": 1781,
+      "completionTokens": 189
+    }
+  },
+  {
+    "id": "2lZh5p6Z7r9V7MBbH20iLY",
+    "title": "Product Innovations to Evolve Your Company Culture",
+    "slug": "product-innovations-to-evolve-your-company-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "productDemo"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on product innovations aimed at enhancing company culture, employee engagement, and retention, which aligns with multiple topics in employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as a product demo, indicating a decision stage in the buying process. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1759,
+      "completionTokens": 204
+    }
+  },
+  {
+    "id": "7u6K9l4q3pCrIILghz08td",
+    "title": "Reimagining the Workplace: Leadership, Recognition, and Real Change",
+    "slug": "reimagining-the-workplace-leadership-recognition-and-real-change",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on leadership, recognition, and workplace culture, making it relevant to topics like Culture & Leadership, Employee Experience, and HR Strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership event, hence the awareness and thought leadership buying stage. The content is applicable to enterprise-sized organizations and is globally relevant.",
+    "usage": {
+      "promptTokens": 1899,
+      "completionTokens": 193
+    }
+  },
+  {
+    "id": "2wsNXOXc1rv6LpkBiI3oio",
+    "title": "Shifting Needs: The Vital Roles of Wellbeing and Recognition in Retaining and Engaging Employees",
+    "slug": "the-vital-roles-of-wellbeing-and-recognition-in-retaining-and-engaging-employees",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "employeeExperience",
+        "engagement",
+        "employeeExperience",
+        "recognition"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on the importance of wellbeing and recognition in employee retention and engagement, which aligns with the topics of DEI & Wellbeing and Employee Experience. The target audience includes executives and people leaders, and the content is positioned as thought leadership in a B2B context for enterprise organizations.",
+    "usage": {
+      "promptTokens": 1793,
+      "completionTokens": 154
+    }
+  },
+  {
+    "id": "2oCY0xi82ovtu0LFfchadq",
+    "title": "Strategic Culture-Building with Gallup: The Long-Term Value of Recognition",
+    "slug": "strategic-culture-building-with-gallup-the-long-term-value-of-recognition-play",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "deiWellbeing",
+        "wellbeing"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the importance of company culture and recognition in the workplace, making it relevant to topics like employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is applicable to enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1853,
+      "completionTokens": 192
+    }
+  },
+  {
+    "id": "6UHo6JUad77Iznzj8QzfXt",
+    "title": "Strategic Recognition: How an Investment in Your People Can Save Your Culture",
+    "slug": "strategic-recognition-how-an-investment-in-your-people-can-save-your-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing",
+        "wellbeing"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the importance of recognition in workplace culture, which aligns with topics of employee experience and HR strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1889,
+      "completionTokens": 183
+    }
+  },
+  {
+    "id": "4f3joeVfvrLwGYjLNbOCnX",
+    "title": "The Financial and Cultural Impacts of Effective Recognition",
+    "slug": "the-financial-and-cultural-impacts-of-effective-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the impacts of recognition on employee engagement, retention, and company culture, making it relevant to multiple topics within employee experience and HR strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is applicable to enterprise-sized organizations and is relevant on a global scale.",
+    "usage": {
+      "promptTokens": 1861,
+      "completionTokens": 200
+    }
+  },
+  {
+    "id": "14BW9GklB9InB9R26aAfrp",
+    "title": "The Key HR Trends Driving the Future of Work in 2023",
+    "slug": "2023-trends-in-the-workplace-webinar",
+    "recommended": {
+      "topics": [
+        "futureOfWork",
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "deiWellbeing",
+        "wellbeing",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on key HR trends and strategies for the future of work, emphasizing employee engagement, recognition, and wellbeing, which are relevant topics in HR. It targets B2B audiences, specifically executives and people leaders in large organizations, and is positioned as thought leadership content. The content is applicable globally and is aimed at enterprise-level companies.",
+    "usage": {
+      "promptTokens": 1911,
+      "completionTokens": 205
+    }
+  },
+  {
+    "id": "2vgLAQ0soXbU29H6dOgl9R",
+    "title": "The New State of Work: 5 Defining Challenges of 2026",
+    "slug": "the-new-state-of-work-5-defining-challenges-of-2026",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "hrStrategy",
+        "performance",
+        "cultureLeadership"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee challenges and solutions for HR and leadership, which aligns with topics like employee engagement, performance, and change management. It targets a B2B audience, specifically executives and people leaders, and is relevant for enterprise-sized organizations. The buying stage indicates thought leadership in awareness of emerging workplace issues.",
+    "usage": {
+      "promptTokens": 1791,
+      "completionTokens": 156
+    }
+  },
+  {
+    "id": "559HCclCzyo3vDd7ANVUUs",
+    "title": "The Power of Recognition in Healthcare: Arkansas Children's Workhuman Experience",
+    "slug": "the-power-of-recognition-in-healthcare-arkansas-childrens-workhuman",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "This webinar focuses on recognition strategies within the healthcare sector, addressing issues like burnout and staff retention, which aligns with topics of employee experience and wellbeing. It targets B2B audiences, specifically healthcare executives and people leaders, and is classified under the awareness stage as it provides thought leadership insights. The content is specific to the healthcare industry, thus both the parent and child industry concepts are assigned.",
+    "usage": {
+      "promptTokens": 2148,
+      "completionTokens": 219
+    }
+  },
+  {
+    "id": "6gEpxI4NRdVCm8TST5C07N",
+    "title": "The Power of Workplace Wellbeing: Strategies to Prevent Burnout and Build a More Human Workplace  ",
+    "slug": "the-power-of-workplace-wellbeing-strategies-to-prevent-burnout",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "deiWellbeing",
+        "2ltc2PmTjKdjKMAi1ewdqM"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on workplace wellbeing and strategies to prevent burnout, which falls under the DEI & Wellbeing topic. It targets HR professionals and people leaders, making it relevant for a B2B audience. The buying stage is awareness with a thought leadership focus, and it is applicable to enterprise-sized organizations globally.",
+    "usage": {
+      "promptTokens": 1827,
+      "completionTokens": 165
+    }
+  },
+  {
+    "id": "1raDdzgkkkaapYL5GlBeCQ",
+    "title": "The Power of Workplace Wellbeing: Strategies to Prevent Burnout and Build a More Human Workplace EMEA",
+    "slug": "workplace-wellbeing-burnout-strategies-emea",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "2ltc2PmTjKdjKMAi1ewdqM"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "emea"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on workplace wellbeing and strategies to prevent burnout, which aligns with the DEI & Wellbeing topics. It is targeted at HR professionals and people leaders, making it a B2B event. The buying stage is awareness and thought leadership, as it aims to educate attendees on the topic. The content is specific to the EMEA region and is relevant for enterprise-sized organizations.",
+    "usage": {
+      "promptTokens": 1829,
+      "completionTokens": 176
+    }
+  },
+  {
+    "id": "60GSI4M6Adq6Akec7s25UL",
+    "title": "The ROI of Strategic Employee Recognition: By the Numbers",
+    "slug": "the-roi-of-strategic-employee-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "trendsResearch"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on the importance of employee recognition and its ROI, making it relevant to HR professionals and people leaders in a B2B context. It emphasizes data-driven discussions, aligning with the awareness and trends research buying stage. The topics cover employee experience, recognition, HR strategy, and performance, while the audience is specifically targeted at executives and people leaders in enterprise organizations.",
+    "usage": {
+      "promptTokens": 1925,
+      "completionTokens": 196
+    }
+  },
+  {
+    "id": "7j49MwToYhhoIDqMsh1U0A",
+    "title": "The Top 5 Myths About the Future of Work Debunked",
+    "slug": "the-top-5-myths-about-the-future-of-work-debunked",
+    "recommended": {
+      "topics": [
+        "futureOfWork",
+        "employeeExperience",
+        "engagement",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar discusses myths about the future of work, focusing on human connection, which relates to employee experience and engagement. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1829,
+      "completionTokens": 145
+    }
+  },
+  {
+    "id": "48lQtN0z6S7jm7yTFlujG0",
+    "title": "Transformative HR Trends Shaping the Workplace in 2025",
+    "slug": "transformative-hr-trends-shaping-the-workplace-in-2025",
+    "recommended": {
+      "topics": [
+        "futureOfWork",
+        "ghofma863u6Ud512esGm1",
+        "technologyAi",
+        "recognition",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on transformative HR trends, emphasizing the future of work, skills-based talent management, and the role of AI in employee experience, which aligns with topics in employee experience and technology. It targets HR executives and people leaders in a B2B context, indicating a thought leadership stage in the buying process. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 2070,
+      "completionTokens": 207
+    }
+  },
+  {
+    "id": "3D5O56PiicTRKxhOsiuIbk",
+    "title": "Unlock the Skills-Powered Organization With Recognition Data",
+    "slug": "unlisted-unlock-the-skills-powered-organization-with-recognition-data",
+    "recommended": {
+      "topics": [
+        "hrStrategy",
+        "ghofma863u6Ud512esGm1",
+        "employeeExperience",
+        "recognition"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on leveraging recognition data to enhance skills identification and talent development, which aligns with HR strategy and employee experience topics. It targets B2B audiences, specifically executives and people leaders in enterprise organizations. The content is positioned as thought leadership, aiming to raise awareness about the benefits of recognition in skill appraisal. No specific industry is mentioned, and the content is applicable globally.",
+    "usage": {
+      "promptTokens": 2084,
+      "completionTokens": 201
+    }
+  },
+  {
+    "id": "4byUpGsG4L1QjL5w4K4C4G",
+    "title": "Unlocking ROI: The Total  Economic Impact™ of  Recognition Featuring Forrester",
+    "slug": "unlisted-unlocking-roi-the-total-economic-impact-tm-of-recognition-featuring",
+    "recommended": {
+      "topics": [
+        "hrStrategy",
+        "3CeA7jpM1kIRBc0YW5urke",
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "businessLeaders",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the economic impact of recognition programs, which relates to HR strategy and employee experience, particularly in recognition and company culture. It targets B2B audiences, specifically business and people leaders, and is positioned as thought leadership content. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1896,
+      "completionTokens": 206
+    }
+  },
+  {
+    "id": "6cN0hsEE0ghZKZTukojS1I",
+    "title": "Wellbeing in the Workplace: How Amplifying and Integrating Wellbeing Helps Employees Thrive",
+    "slug": "wellbeing-in-the-workplace-cisco-shares-how-amplifying-and-integrating-wellbeing-helps-employees-thrive",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "employeeExperience",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee wellbeing and its integration into workplace culture, making it relevant to topics like wellbeing, employee experience, and performance. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is applicable to global enterprises.",
+    "usage": {
+      "promptTokens": 1898,
+      "completionTokens": 195
+    }
+  },
+  {
+    "id": "7AL8jOLNgF1y5K6HHBLYHk",
+    "title": "What Your HR Dashboards Miss:  The Untapped Workforce Intelligence Driving Change",
+    "slug": "unlisted-what-your-hr-dashboards-miss-the-untapped-workforce-intelligence-driving",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "performance",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "humanResources",
+        "technologyAi",
+        "1akiyritkmMPT2HuLoGNGU"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on the limitations of traditional HR metrics and emphasizes the importance of Human Intelligence in understanding company culture and performance, which aligns with topics in employee experience, performance, and company culture. The target audience includes executives and people leaders, and the content is positioned as thought leadership, indicating an awareness stage. The market model is B2B, and the company size is enterprise, with a global reach.",
+    "usage": {
+      "promptTokens": 1810,
+      "completionTokens": 227
+    }
+  },
+  {
+    "id": "1htadT0nmgGqDg8DsbVNNT",
+    "title": "2026 Workplace Trends to Watch",
+    "slug": "2026-workplace-trends-to-watch",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "deiWellbeing",
+        "hrStrategy"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on workplace trends, specifically highlighting culture, recognition, and gender equity, which fall under multiple topics related to leadership, employee experience, and DEI. It targets B2B audiences, particularly executives and people leaders, and is positioned as thought leadership content, making it relevant for the awareness stage. The content is applicable to enterprise-sized organizations and is intended for a global audience.",
+    "usage": {
+      "promptTokens": 1803,
+      "completionTokens": 195
+    }
+  },
+  {
+    "id": "4awlKrv3Xwr6MGiRa6uAWB",
+    "title": "2026 Workplace Trends to Watch Unlisted ",
+    "slug": "unlisted-2026-workplace-trends-to-watch",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "deiWellbeing",
+        "hrStrategy"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on workplace trends, specifically highlighting culture, recognition, and gender equity, which fall under multiple topics related to leadership, employee experience, and DEI. It targets B2B audiences, particularly executives and people leaders, and is positioned as a thought leadership piece, indicating an awareness stage. The content is relevant for enterprise-sized organizations and is applicable on a global scale.",
+    "usage": {
+      "promptTokens": 1805,
+      "completionTokens": 193
+    }
+  },
+  {
+    "id": "2wmB6CL6gQrPQszwJKuawB",
+    "title": "Boosting Connection, Engagement, and Belonging: Health First’s Story",
+    "slug": "boosting-connection-engagement-and-belonging-health-first-s-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee recognition and its impact on culture and engagement, making it relevant to topics like employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders in the healthcare industry, and is classified as thought leadership in the awareness buying stage. The company size is enterprise, and the content is applicable globally.",
+    "usage": {
+      "promptTokens": 1951,
+      "completionTokens": 213
+    }
+  },
+  {
+    "id": "1f0y59c0baXub6GAvriuxn",
+    "title": "Boosting Productivity, Retention, and Engagement: Unlocking ROI Through Personalized Recognition",
+    "slug": "boosting-productivity-retention-and-engagement-unlocking-roi-through",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee engagement and recognition, which are key topics in employee experience and HR strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership session. The content is relevant for enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 2097,
+      "completionTokens": 192
+    }
+  },
+  {
+    "id": "60IRFve4LaS7jMLAg96sJC",
+    "title": "Building a Culture of Connection: Citizens' Story",
+    "slug": "building-a-culture-of-connection-citizens-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "7taQE7P53ht0P37YH8KwAV"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "financialServices",
+        "banking"
+      ],
+      "region": [
+        "northAmerica",
+        "unitedStates"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on building a culture of connection through employee recognition, which falls under employee experience and culture leadership topics. It targets B2B audiences, specifically executives and people leaders in the financial services industry, particularly banking. The content is relevant for the awareness stage as it shares insights and thought leadership. The company size is enterprise, and the region is specific to North America, particularly the United States.",
+    "usage": {
+      "promptTokens": 1879,
+      "completionTokens": 233
+    }
+  },
+  {
+    "id": "5EmgjLzqVRxl6kTKoVnTXr",
+    "title": "Building a Positive Employee Experience and Culture: Organon’s Story",
+    "slug": "building-a-positive-employee-experience-and-culture-organon-s-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "cultureLeadership",
+        "7taQE7P53ht0P37YH8KwAV"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on building a positive employee experience and culture, which aligns with topics of employee experience and change management. It targets a B2B audience, specifically executives and people leaders in the healthcare industry, and is relevant for enterprise-sized organizations. The buying stage indicates thought leadership in awareness of these topics.",
+    "usage": {
+      "promptTokens": 1764,
+      "completionTokens": 165
+    }
+  },
+  {
+    "id": "5pC3KegFMOHVeyU5BsJksb",
+    "title": "Building Resilient and Engaged Organizational Cultures: Insights from Gallup ",
+    "slug": "building-resilient-and-engaged-organizational-cultures-insights-from-gallup",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "hrStrategy",
+        "deiWellbeing"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on building resilient organizational cultures, emphasizing employee engagement, strategic recognition, and work-life balance, which aligns with topics in culture leadership, employee experience, HR strategy, and DEI & wellbeing. It targets B2B audiences, specifically executives and people leaders, and is relevant for enterprise-sized organizations. The content is globally applicable and positioned as thought leadership.",
+    "usage": {
+      "promptTokens": 1926,
+      "completionTokens": 190
+    }
+  },
+  {
+    "id": "qTcDkTmX92DOt2lYrMzAn",
+    "title": "Building the Business Case: The ROI of Recognition",
+    "slug": "building-a-business-case-the-roi-of-recognition",
+    "recommended": {
+      "topics": [
+        "hrStrategy",
+        "3CeA7jpM1kIRBc0YW5urke",
+        "employeeExperience",
+        "recognition"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "businessLeaders"
+      ],
+      "buyingStage": [
+        "consideration",
+        "businessCaseRoi"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on the ROI of recognition programs, which falls under HR strategy and employee experience, specifically recognition. It targets business leaders in a B2B context, indicating a consideration stage for building a business case. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1785,
+      "completionTokens": 158
+    }
+  },
+  {
+    "id": "4eFwc9rsURGUtChJlU83mN",
+    "title": "Conversations: How Feedback Fosters Wellbeing at Work",
+    "slug": "conversations-how-feedback-fosters-well-being-at-work",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "employeeExperience",
+        "feedback",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the relationship between feedback and workplace well-being, covering topics like emotional fitness, employee development, and company culture, which are relevant to HR professionals and people leaders in enterprise organizations. It is classified as B2B and global in scope, with a focus on thought leadership in the awareness stage.",
+    "usage": {
+      "promptTokens": 1945,
+      "completionTokens": 197
+    }
+  },
+  {
+    "id": "53aRit2686N1DzqXgqU9r4",
+    "title": "Culture of Connection: Workplace Recognition Programs Drive Business Impact",
+    "slug": "culture-of-connection-workplace-recognition-programs-drive-business-impact",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "cultureLeadership",
+        "companyCulture",
+        "7taQE7P53ht0P37YH8KwAV"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee engagement and recognition programs, which fall under employee experience and HR strategy topics. It targets B2B audiences, specifically executives and people leaders in enterprise organizations. The content aims to raise awareness and provide thought leadership on the importance of workplace culture and connection, hence the buying stage classification. There are no specific industry mentions, and the content is applicable globally.",
+    "usage": {
+      "promptTokens": 1874,
+      "completionTokens": 223
+    }
+  },
+  {
+    "id": "37pV3jSdB3bTesHtc92Wk5",
+    "title": "Driving Engagement and Retention: New Insights from Gallup to Leverage Recognition and Transform Culture",
+    "slug": "driving-engagement-and-retention-new-insights-from-gallup-to-leverage-recognition-and-transform-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "retentionTurnover",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on employee engagement and retention through recognition, which falls under employee experience and culture leadership topics. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership, indicating an awareness stage. The content is relevant to enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1792,
+      "completionTokens": 188
+    }
+  },
+  {
+    "id": "7AnDDswKROI7RA6XN4lGeK",
+    "title": "Empowering Women’s Advancement: How to Set a New Standard for Workplace Culture",
+    "slug": "empowering-womens-advancement-how-to-set-a-new-standard-for-workplace",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei",
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on empowering women's advancement and creating inclusive workplace cultures, which aligns with DEI and employee experience topics. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is relevant to a global audience and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1931,
+      "completionTokens": 192
+    }
+  },
+  {
+    "id": "2z5W4zYpixLTeFzAqSRqRI",
+    "title": "Evolution With Purpose: Building the Right Future of Work For Your Business and Your People",
+    "slug": "unlisted-evolution-with-purpose-building-the-right-future-of-work-for-your-business",
+    "recommended": {
+      "topics": [
+        "futureOfWork",
+        "companyCulture",
+        "hrStrategy"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "trendsResearch"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on future work trends and company culture, making it relevant to HR leaders and executives. It is a B2B event aimed at enterprise-level organizations, and it discusses research findings, placing it in the awareness and trends research buying stage. No specific industry is targeted, and the content is applicable globally.",
+    "usage": {
+      "promptTokens": 1812,
+      "completionTokens": 153
+    }
+  },
+  {
+    "id": "1bq9WhIKnCsBieC4HEkyJB",
+    "title": "Four Key Trends Driving the Future of Work in 2022",
+    "slug": "four-key-trends-driving-the-future-of-work-in-2022",
+    "recommended": {
+      "topics": [
+        "futureOfWork",
+        "employeeExperience",
+        "cultureLeadership",
+        "deiWellbeing"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on trends in the future of work, which aligns with topics like Future of Work, Employee Experience, Culture & Leadership, and DEI & Wellbeing. It targets HR leaders and executives, making it relevant for a B2B audience. The buying stage is awareness and thought leadership as it discusses trends without promoting a specific product. The content is applicable to a global audience and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1884,
+      "completionTokens": 203
+    }
+  },
+  {
+    "id": "2CDz8R2O9CoQEkmiTFpkjk",
+    "title": "From Moment to Movement: The Keys to Creating an Effective DE&I Strategy",
+    "slug": "from-moment-to-movement-the-keys-to-creating-and-effective-dei-strategy",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei",
+        "employeeExperience",
+        "engagement",
+        "performance",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "This webinar focuses on creating an effective DE&I strategy, which falls under DEI & Wellbeing topics, specifically the future of DEI and its impact on employee engagement and retention. The target audience includes executives and people leaders in a B2B context, and the content is relevant for enterprise-sized organizations. The buying stage is awareness and thought leadership, as it aims to educate attendees on DE&I strategies without promoting a specific product.",
+    "usage": {
+      "promptTokens": 1919,
+      "completionTokens": 216
+    }
+  },
+  {
+    "id": "5RjNjn4jWNN9W9IdLoSCS2",
+    "title": "From Surviving to Thriving: Promoting Wellbeing and Combating Burnout in the Workplace",
+    "slug": "from-surviving-to-thriving-promoting-wellbeing-and-combating-burnout-in-the-workplace",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "deiWellbeing",
+        "2ltc2PmTjKdjKMAi1ewdqM"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on wellbeing and combating burnout, which falls under the DEI & Wellbeing topic. It targets HR leaders and executives, making it relevant for a B2B audience. The buying stage is awareness and thought leadership, as it aims to educate on the topic rather than promote a specific product. The content is applicable to a global audience and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1911,
+      "completionTokens": 209
+    }
+  },
+  {
+    "id": "50g8BqIc6h7583JW4CaOAB",
+    "title": "Gallup Research Debut: Driving Workplace Culture by Leveraging Recognition",
+    "slug": "gallup-research-debut-driving-workplace-culture-by-leveraging-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "engagement",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on leveraging employee recognition to enhance workplace culture, which aligns with topics of employee experience, recognition, and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership event, making it relevant for the awareness buying stage. The content is applicable to enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1966,
+      "completionTokens": 201
+    }
+  },
+  {
+    "id": "3QBE3pkpFcmAgjQUiQPR39",
+    "title": "Gallup Research on the Power of Recognition: A Toolkit to Impact Behavior Shifts",
+    "slug": "gallup-research-on-the-power-of-recognition-a-toolkit-to-impact-behavior",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the importance of recognition in the workplace and its impact on employee behavior and business performance, aligning with topics of employee experience and HR strategy. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is applicable to enterprise-sized organizations and is relevant on a global scale.",
+    "usage": {
+      "promptTokens": 1912,
+      "completionTokens": 189
+    }
+  },
+  {
+    "id": "6ir932vMLbEQML0AAupohi",
+    "title": "How Baystate Health Is Building a People-First Culture",
+    "slug": "how-baystate-health-is-building-a-people-first-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "deiWellbeing",
+        "futureOfDei",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The content focuses on Baystate Health's employee recognition program and DE&I initiatives, which relate to employee experience, recognition, and company culture. It targets executives and people leaders in the healthcare industry, indicating a B2B market model. The buying stage is awareness with a thought leadership focus, and the company size is enterprise.",
+    "usage": {
+      "promptTokens": 1783,
+      "completionTokens": 207
+    }
+  },
+  {
+    "id": "4U997GfuFVwADjFQZTzIml",
+    "title": "How Prioritizing Wellbeing Drives Employee Engagement: GoTo's Story",
+    "slug": "how-prioritizing-wellbeing-drives-employee-engagement-gotos-story",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "employeeExperience",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee wellbeing and engagement, linking recognition to cultural transformation, which aligns with multiple topics in wellbeing, employee experience, and culture leadership. The target audience includes executives and people leaders, and the content is relevant for a B2B market model. It is classified as awareness and thought leadership due to its focus on strategic insights and best practices. The content is applicable to enterprise-sized organizations and is globally relevant.",
+    "usage": {
+      "promptTokens": 1875,
+      "completionTokens": 220
+    }
+  },
+  {
+    "id": "2UF9XFNPeG62mfChX50FPx",
+    "title": "How to Be a Diversity and Inclusion Ambassador",
+    "slug": "how-to-be-a-diversity-and-inclusion-ambassador",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders",
+        "frontlineWorkers"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on diversity and inclusion, which falls under DEI topics. It targets a B2B audience, specifically HR professionals and leaders at all levels, making it relevant for executives and frontline workers. The buying stage is awareness and thought leadership as it aims to educate attendees on the importance of diversity and inclusion. The content is applicable to a global audience and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1792,
+      "completionTokens": 166
+    }
+  },
+  {
+    "id": "2oygtNxpGsBzPznJiTo26A",
+    "title": "How to Boost Morale and Community: Merck's Story",
+    "slug": "how-to-boost-morale-and-community-merck-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "remoteWork",
+        "deiWellbeing",
+        "appreciation"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [
+        "healthcare",
+        "pharmaceuticals"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on boosting employee morale and community through recognition and engagement strategies, particularly in a remote work context, making it relevant to HR leaders and executives. It targets the pharmaceutical industry, specifically Merck, and is classified as a B2B offering aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1858,
+      "completionTokens": 207
+    }
+  },
+  {
+    "id": "6IqAZD50ThpbUgrdSWMH7t",
+    "title": "How to Build a Culture of Gratitude",
+    "slug": "build-culture-of-gratitude",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on building a culture of gratitude, which relates to employee experience and engagement, as well as HR strategy and retention. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is applicable to enterprise-sized organizations and is relevant on a global scale.",
+    "usage": {
+      "promptTokens": 1892,
+      "completionTokens": 191
+    }
+  },
+  {
+    "id": "2WrX6xO36cKFSHrfJvTG1v",
+    "title": "How to Build a Radically Candid Culture of Feedback",
+    "slug": "how-to-build-a-radically-candid-culture-of-feedback",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "feedback",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on building a culture of feedback, which relates to employee experience and performance management, thus covering multiple topics under employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1930,
+      "completionTokens": 191
+    }
+  },
+  {
+    "id": "7M1w3Le0J7ghlFA4l8zVKU",
+    "title": "How to Create a Connected & Engaged Culture: GLG's Story",
+    "slug": "how-to-create-a-connected-engaged-culture-glgs-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "deiWellbeing",
+        "appreciation"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on creating a connected and engaged culture, emphasizing employee engagement and appreciation, which aligns with multiple topics under employee experience and culture leadership. The target audience includes executives and people leaders, and the content is positioned as thought leadership, indicating an awareness stage. The market model is B2B, and the company size is enterprise, while the region is global.",
+    "usage": {
+      "promptTokens": 1807,
+      "completionTokens": 201
+    }
+  },
+  {
+    "id": "30IQeGQ4jAKWeBnmvTsEqc",
+    "title": "How to Create a Connected and Engaged Culture: Rocket Central's Story",
+    "slug": "how-to-create-a-connected-and-engaged-culture-rocket-centrals-story",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "futureOfWork"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on creating a connected and engaged culture, which aligns with topics of culture leadership and employee experience, specifically engagement and recognition. It targets B2B audiences, particularly executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1898,
+      "completionTokens": 186
+    }
+  },
+  {
+    "id": "6h4iMO6bQRVmKZLBDieJKO",
+    "title": "How to Create a Connected Culture Rich in Human Work Experiences",
+    "slug": "how-to-create-a-connected-culture-rich-in-human-work-experiences",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "deiWellbeing",
+        "futureOfDei"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on creating a connected culture through employee recognition and engagement, which aligns with topics in employee experience and culture leadership. It targets HR professionals and people leaders in a B2B context, emphasizing thought leadership on these themes. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1860,
+      "completionTokens": 193
+    }
+  },
+  {
+    "id": "c6AK4QFjxJ9iq2Z6ecayW",
+    "title": "How to Drive DEI with Appreciation: Findings from Gallup",
+    "slug": "how-to-drive-dei-with-appreciation-findings-from-gallup",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "deiWellbeing",
+        "futureOfDei",
+        "employeeExperience",
+        "recognition",
+        "retentionTurnover",
+        "hrStrategy"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on DEI initiatives and their connection to employee recognition, which relates to topics of wellbeing, retention, and HR strategy. The target audience includes executives and people leaders, and the content is positioned as thought leadership in the B2B space, relevant to enterprise-sized organizations globally.",
+    "usage": {
+      "promptTokens": 1896,
+      "completionTokens": 200
+    }
+  },
+  {
+    "id": "4AmyCZpRd4OPNSiHxmm9fO",
+    "title": "How To Implement Wellbeing as a Strategic Priority With Gallup",
+    "slug": "how-to-implement-wellbeing-as-a-strategic-priority-with-gallup",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "wellbeing",
+        "hrStrategy",
+        "performance",
+        "employeeExperience",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on implementing wellbeing as a strategic priority, which aligns with topics of wellbeing, HR strategy, and employee engagement. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is relevant for enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1902,
+      "completionTokens": 189
+    }
+  },
+  {
+    "id": "6j3WhhIqztrpkS9Eb91pfj",
+    "title": "How to Increase Engagement and Improve Work Culture: CAA's Story",
+    "slug": "how-to-increase-engagement-and-improve-work-culture-caas-story",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover",
+        "7taQE7P53ht0P37YH8KwAV"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on employee engagement and recognition strategies, making it relevant to topics like employee experience and culture leadership. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content. The content is applicable to enterprise-sized organizations and has a global reach.",
+    "usage": {
+      "promptTokens": 1951,
+      "completionTokens": 208
+    }
+  },
+  {
+    "id": "3wLMqaSgAOlxKEJmaKb5Cf",
+    "title": "How to Transform Today's DEI Practices: A Case Study from BLK Men in Tech",
+    "slug": "how-to-transform-todays-dei-practices-a-case-study-from-blk-men-in-tech",
+    "recommended": {
+      "topics": [
+        "deiWellbeing",
+        "futureOfDei",
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on DEI practices and their impact on workplace experiences, making it relevant to topics like DEI, employee experience, and company culture. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership in the awareness stage. The content is applicable to a global audience and is aimed at enterprise-level organizations.",
+    "usage": {
+      "promptTokens": 1870,
+      "completionTokens": 199
+    }
+  },
+  {
+    "id": "1vFvkglqOFOMx3WGJwywQT",
+    "title": "HR in the Age of AI: Transforming Culture and Performance ",
+    "slug": "hr-in-the-age-of-ai-transforming-culture-and-performance",
+    "recommended": {
+      "topics": [
+        "technologyAi",
+        "ai",
+        "employeeExperience",
+        "performance",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the use of AI in HR, addressing employee performance and company culture, which aligns with multiple topics in technology and employee experience. It targets B2B audiences, specifically executives and people leaders, and is positioned as a thought leadership event in the awareness stage. The content is relevant for enterprise-sized organizations and is applicable globally.",
+    "usage": {
+      "promptTokens": 1845,
+      "completionTokens": 161
+    }
+  },
+  {
+    "id": "1sVbCc4oTvbJ5DiPTnJs9z",
+    "title": "HR in the Age of AI: Transforming Culture and Performance EMEA",
+    "slug": "hr-in-the-age-of-ai-transforming-culture-and-performance-emea",
+    "recommended": {
+      "topics": [
+        "technologyAi",
+        "ai",
+        "hrStrategy",
+        "performance",
+        "employeeExperience",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "emea"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on the use of AI in HR, addressing performance and employee engagement, which aligns with multiple topics. It targets B2B audiences, specifically executives and people leaders, and is relevant for enterprise-sized organizations. The content is region-specific to EMEA and emphasizes thought leadership in the awareness stage.",
+    "usage": {
+      "promptTokens": 1875,
+      "completionTokens": 155
+    }
+  },
+  {
+    "id": "2WEiBFw3ZSzVc4Qu18uvue",
+    "title": "HR Leaders Workshop - Find Hidden Spend, and Re-invest to Drive Measurable ROI",
+    "slug": "workshop-spend-impact ",
+    "recommended": {
+      "topics": [
+        "hrStrategy",
+        "performance",
+        "employeeExperience",
+        "engagement",
+        "recognition"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on HR strategies related to employee engagement and recognition, emphasizing performance measurement and ROI, which aligns with multiple topics in HR strategy and employee experience. The target audience includes executives and people leaders, and the content is relevant for B2B contexts. It is positioned as thought leadership, aiming to raise awareness about effective spending in employee engagement. The company size is enterprise, and the region is global as no specific geographic focus is mentioned.",
+    "usage": {
+      "promptTokens": 2170,
+      "completionTokens": 214
+    }
+  },
+  {
+    "id": "19Xol0lyoG0cE9cxeHQl0u",
+    "title": "HR Myth Busting: Secrets to Supercharge Workplace Culture",
+    "slug": "hr-myth-busting-secrets-to-supercharge-workplace-culture",
+    "recommended": {
+      "topics": [
+        "cultureLeadership",
+        "companyCulture",
+        "employeeExperience",
+        "feedback",
+        "recognition"
+      ],
+      "marketModel": [
+        "b2b"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "awareness",
+        "thoughtLeadership"
+      ],
+      "industry": [],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The webinar focuses on debunking HR myths and enhancing workplace culture, which aligns with topics related to company culture, employee experience, feedback, and recognition. It targets B2B audiences, specifically executives and people leaders, and is positioned as thought leadership content in the awareness stage. The content is applicable to enterprise-sized organizations and is relevant on a global scale.",
+    "usage": {
+      "promptTokens": 1932,
+      "completionTokens": 192
+    }
+  }
+]

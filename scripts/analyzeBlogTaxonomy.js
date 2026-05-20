@@ -134,6 +134,11 @@ const buyingStageKeywords = {
   awareness: ['what is', 'why', 'how to', 'guide', 'tips', 'ideas', 'ways to', 'benefits of', 'importance of', 'meaning of'],
   consideration: ['vs', 'versus', 'comparison', 'alternative', 'platform', 'software', 'solution', 'tool'],
   decision: ['roi', 'case study', 'customer story', 'success story', 'workhuman vs'],
+  // Child concepts — these use title-only matching via special logic below
+  competitiveDifferentiation: ['workhuman vs', 'vs workhuman', 'vs. workhuman', 'workhuman vs.', 'awardco', 'bonusly', 'nectar', 'worktango', 'culture amp', 'oc tanner', 'achievers', 'motivosity', 'bi worldwide', 'reward gateway'],
+  pricingPackaging: ['pricing', 'price', 'cost per employee', 'plan', 'package', 'tier'],
+  implementationOnboarding: ['implementation', 'onboarding', 'rollout', 'go-live'],
+  integrationEcosystem: ['integration', 'integrate', 'hris', 'connector', 'workday', 'sap', 'successfactors'],
 };
 
 function textContains(text, keywords) {
@@ -226,16 +231,20 @@ async function main() {
 
     // Buying stage — title/teaser needs 1 hit, body needs 2 hits
     const stageSet = new Set();
-    for (const [stage, keywords] of Object.entries(buyingStageKeywords)) {
-      if (textContains(titleTeaser, keywords)) {
-        stageSet.add(stage);
-      } else if (bodyText && countKeywordHits(bodyText, keywords) >= 2) {
-        stageSet.add(stage);
+    // Skip buying stage for "Life at Workhuman" posts (brand/culture, not funnel content)
+    const skipBuyingStage = bc === 'Life at Workhuman';
+    if (!skipBuyingStage) {
+      for (const [stage, keywords] of Object.entries(buyingStageKeywords)) {
+        if (textContains(titleTeaser, keywords)) {
+          stageSet.add(stage);
+        } else if (bodyText && countKeywordHits(bodyText, keywords) >= 3) {
+          stageSet.add(stage);
+        }
       }
-    }
-    // Default: blog posts without specific signals are awareness/thought leadership
-    if (stageSet.size === 0 && topicSet.size > 0) {
-      stageSet.add('awareness');
+      // Default: blog posts with topics but no explicit signal are awareness
+      if (stageSet.size === 0 && topicSet.size > 0) {
+        stageSet.add('awareness');
+      }
     }
     mapping.recommended.buyingStage = [...stageSet];
     mapping.confidence.buyingStage = stageSet.size > 0 ? 'medium' : 'none';

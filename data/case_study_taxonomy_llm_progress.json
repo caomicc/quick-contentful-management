@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "9HuDx3utfE1XYO7s3lsJN",
+    "title": "How LegalZoom Powers an Inclusive Culture Through Recognition & Recognition Insights",
+    "slug": "how-legalzoom-powers-an-inclusive-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing",
+        "futureOfDei"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices",
+        "businessServices"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "midMarket"
+      ]
+    },
+    "reasoning": "The case study focuses on LegalZoom, a B2B SaaS provider in the professional services industry, highlighting their employee recognition program and its impact on company culture and performance. The audience includes executives and people leaders interested in employee engagement strategies. The content is positioned at the decision stage, showcasing a customer story about the implementation of Workhuman's solutions. LegalZoom has around 1,200 employees, categorizing them as mid-market.",
+    "usage": {
+      "promptTokens": 2480,
+      "completionTokens": 244
+    }
+  },
+  {
+    "id": "6iOnNyeHWoXORJJ8zPW14k",
+    "title": "Tennant: How Recognition Drives Culture & Retention",
+    "slug": "tennant-how-recognition-drives-culture-and-retention",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Tennant Company, a global leader in the cleaning industry, showcasing their use of Workhuman's recognition platform to enhance company culture and employee retention. It highlights topics such as employee recognition, company culture, and retention strategies, making it relevant for executives and HR leaders. The market model is B2B as Tennant operates in a business context, and the company size is classified as enterprise due to its large workforce. The industry is identified as consumer goods and specifically cleaning, while the region is global as the company operates in multiple countries.",
+    "usage": {
+      "promptTokens": 2451,
+      "completionTokens": 277
+    }
+  },
+  {
+    "id": "7LogMkgZesNgwXRwrACUsK",
+    "title": "Customer Snapshot: How PepsiCo Ties Behaviors to Business Impact",
+    "slug": "customer-snapshot-how-pepsico-ties-behaviors-to-business-impact",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail",
+        "foodBeverage"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "PepsiCo is a large B2B food and beverage company, making it an enterprise customer in the consumer goods and retail industry. The case study highlights topics related to employee engagement and recognition, which are crucial for HR leaders and executives. The buying stage is classified as decision with a focus on customer stories, as it showcases how PepsiCo improved its recognition practices through Workhuman's solutions.",
+    "usage": {
+      "promptTokens": 1916,
+      "completionTokens": 237
+    }
+  },
+  {
+    "id": "1jF6zMSzvLm1BQq8rxz8Bn",
+    "title": "Recognition: A Vital Piece of Success at R1 RCM",
+    "slug": "recognition-a-vital-piece-of-success-at-r1-rcm",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing",
+        "futureOfDei"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "hospitals"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on R1 RCM, a B2B healthcare technology provider, highlighting their employee recognition program and its impact on performance and engagement. It targets executives and people leaders, showcasing a decision-making story about their partnership with Workhuman. The company operates globally and has over 30,000 employees, classifying it as an enterprise organization.",
+    "usage": {
+      "promptTokens": 2518,
+      "completionTokens": 218
+    }
+  },
+  {
+    "id": "54nPzWGzYel3XRJH3gYJqO",
+    "title": "How The Bank of Princeton Turned Recognition into a Cultural Cornerstone ",
+    "slug": "the-bank-of-princeton-cultural-cornerstone",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "engagement"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices",
+        "banking"
+      ],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "midMarket"
+      ]
+    },
+    "reasoning": "The case study highlights The Bank of Princeton's use of Workhuman's recognition platform to enhance their company culture and employee engagement, making it relevant to HR leaders and executives. The bank operates in the financial services industry, specifically banking, and is classified as a mid-market company due to its employee size. The content is focused on decision-making regarding the implementation of a recognition program, thus fitting the decision buying stage.",
+    "usage": {
+      "promptTokens": 2510,
+      "completionTokens": 232
+    }
+  },
+  {
+    "id": "1hF5FsEnZoevvAnsnLLUCj",
+    "title": "First Tech: Connecting Employees with Human Applications",
+    "slug": "first-tech-connecting-employees-with-human-applications",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "performance",
+        "hrStrategy",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "midMarket"
+      ]
+    },
+    "reasoning": "This case study focuses on First Tech, a not-for-profit credit union, which operates in the financial services industry and employs over 1,500 people, classifying it as mid-market. The content highlights employee engagement and recognition strategies, making it relevant for HR leaders and executives. The buying stage is categorized as decision due to the focus on a customer story showcasing the implementation of Workhuman's solutions.",
+    "usage": {
+      "promptTokens": 2481,
+      "completionTokens": 237
+    }
+  },
+  {
+    "id": "mGH8CAcun37SmMbyopw0G",
+    "title": "Eaton: Driving Retention with Recognition",
+    "slug": "eaton-driving-retention-with-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "hrStrategy",
+        "retentionTurnover",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "powerManagement"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "Eaton is a large global power management company, which aligns with the B2B SaaS market model. The case study highlights employee engagement and retention through recognition, making it relevant to HR strategy and employee experience topics. The audience includes executives and people leaders who would be interested in the outcomes of the recognition program. The company operates globally and has a significant workforce, classifying it as an enterprise.",
+    "usage": {
+      "promptTokens": 2395,
+      "completionTokens": 238
+    }
+  },
+  {
+    "id": "56Lmhkq0z73gXCO0jxApHx",
+    "title": "Baystate Health: Humanizing the Patient and Employee Experience",
+    "slug": "baystate-health-humanizing-the-patient-and-employee-experience",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "hospitals"
+      ],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Baystate Health, a large healthcare organization, highlighting their implementation of a recognition program to enhance employee engagement and retention. It emphasizes employee experience and recognition, making it relevant to HR leaders and executives. The content is specific to the healthcare industry and operates in North America, with Baystate Health being an enterprise-sized organization.",
+    "usage": {
+      "promptTokens": 2613,
+      "completionTokens": 220
+    }
+  },
+  {
+    "id": "3A3rapmsb9t2KO5F9Iyvlq",
+    "title": "Conga: Building Culture Through Connection",
+    "slug": "conga-building-culture-through-connection",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "engagement",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "software"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study highlights Conga's use of Workhuman's recognition platform to enhance employee engagement and culture, which aligns with topics of employee experience and recognition. Conga operates as a B2B SaaS provider in the technology industry, targeting executives and people leaders as the audience. The buying stage is classified as decision due to the focus on a customer story. The company size is enterprise, given Conga's employee count and global presence.",
+    "usage": {
+      "promptTokens": 2524,
+      "completionTokens": 252
+    }
+  },
+  {
+    "id": "489Cp2mnL1uMDcLDDfDL2J",
+    "title": "Citizens: Creating a Culture of Connection With Recognition",
+    "slug": "citizens-creating-a-culture-of-connection-with-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "financialInstitution"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices"
+      ],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Citizens Financial Group, a large financial institution, highlighting their implementation of Workhuman's recognition platform to enhance employee engagement and retention. It targets executives and people leaders, showcasing decision-making insights and customer success. The content is relevant to the financial services industry and emphasizes the importance of recognition in employee performance and organizational health.",
+    "usage": {
+      "promptTokens": 2526,
+      "completionTokens": 222
+    }
+  },
+  {
+    "id": "1eo3lrLxQgOvn7A1MSSEVg",
+    "title": "Customer Snapshot: How SSOE Delivers Equitable Recognition Across the Globe",
+    "slug": "customer-snapshot-how-ssoe-delivers-equitable-recognition-across-the-globe",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices",
+        "architecture"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on SSOE Group, a B2B architecture and engineering firm, highlighting their use of Workhuman's recognition platform to enhance employee engagement and retention. The audience includes executives and HR leaders interested in employee recognition strategies. The content emphasizes recognition, engagement, and performance management, fitting into the decision-making stage of the buying process. SSOE operates globally and is classified as an enterprise-sized organization.",
+    "usage": {
+      "promptTokens": 2615,
+      "completionTokens": 238
+    }
+  },
+  {
+    "id": "6Jc8bZ315P3xd0rha766wP",
+    "title": "SSOE: Building a Culture of Recognition",
+    "slug": "ssoe-building-a-culture-of-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "professionalServices",
+        "architecture"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on SSOE, a global architecture and engineering firm, highlighting their use of Workhuman's recognition platform to enhance employee experience and retention. It targets executives and people leaders, showcasing decision-making insights and customer success. The content emphasizes recognition and company culture, fitting within the professional services industry and indicating a B2B SaaS model. The company size is classified as enterprise due to its global operations.",
+    "usage": {
+      "promptTokens": 2561,
+      "completionTokens": 233
+    }
+  },
+  {
+    "id": "n4zWZLF8lptX8KiJaVMw8",
+    "title": "EmblemHealth: Healthy Culture Built Through Recognition",
+    "slug": "emblemhealth-healthy-culture-built-through-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "healthInsurance"
+      ],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on EmblemHealth, a large not-for-profit health insurer, highlighting their use of Workhuman's recognition platform to enhance employee engagement and culture. It is classified under healthcare and health insurance industries, with a B2B SaaS market model. The audience includes executives and people leaders, and the buying stage is at the decision phase, showcasing a customer story. The topics reflect the emphasis on employee experience, recognition, engagement, and company culture, along with HR strategy and DEI initiatives.",
+    "usage": {
+      "promptTokens": 2461,
+      "completionTokens": 257
+    }
+  },
+  {
+    "id": "5TOnUdVt1Voy1SfyC5824w",
+    "title": "CAA Club Group of Companies Discovers Powerful Link Between Wellness and Recognition",
+    "slug": "caa-club-group-discovers-powerful-link-between-wellness-and-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "wellbeing",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices"
+      ],
+      "region": [
+        "northAmerica",
+        "canada"
+      ],
+      "companySize": [
+        "midMarket"
+      ]
+    },
+    "reasoning": "The case study highlights CAA Club Group's use of Workhuman's recognition and wellness programs, focusing on employee experience and retention strategies. The organization operates in the financial services industry, specifically insurance, and is based in Canada with around 2,500 employees, classifying it as mid-market. The audience includes executives and people leaders who would be interested in the outcomes of the recognition program. The buying stage is categorized as decision due to the nature of the case study showcasing customer success.",
+    "usage": {
+      "promptTokens": 2482,
+      "completionTokens": 254
+    }
+  },
+  {
+    "id": "73gVyqWabdkOcVxiNX7fTN",
+    "title": "bp: Globally Consistent Recognition and Rewards",
+    "slug": "bp-globally-consistent-recognition-and-rewards",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "energyUtilities",
+        "oilGas"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on bp, a large global energy company, implementing Workhuman's recognition and rewards solution, highlighting employee engagement and performance. It targets executives and people leaders, showcasing a decision-making scenario. The industry is energy, specifically oil and gas, and the company size is enterprise due to bp's large workforce.",
+    "usage": {
+      "promptTokens": 2561,
+      "completionTokens": 220
+    }
+  },
+  {
+    "id": "7wUMBbyNV7MrLeK3LBoMXb",
+    "title": "British Airways: Taking Employee Recognition to New Heights",
+    "slug": "british-airways-taking-employee-recognition-to-new-heights",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2c",
+        "consumerServices"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "transportationTravel",
+        "aviation"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on British Airways, a global airline, which operates in the B2C market model as a consumer service. It highlights employee recognition and engagement strategies, making it relevant for executives and people leaders. The content emphasizes the aviation industry and the company's large workforce, classifying it as an enterprise. The buying stage is categorized as decision with a customer story focus, and the region is global due to the international nature of the airline's operations.",
+    "usage": {
+      "promptTokens": 2536,
+      "completionTokens": 238
+    }
+  },
+  {
+    "id": "6Yj9HboOaEK639hNgEo63Q",
+    "title": "CAA: Building a Culture of Appreciation and Belonging",
+    "slug": "caa-building-a-culture-of-appreciation-and-belonging",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail",
+        "transportationTravel"
+      ],
+      "region": [
+        "northAmerica",
+        "canada"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on CCG, a large not-for-profit automobile association in Canada, highlighting their partnership with Workhuman to enhance employee recognition and engagement. It emphasizes topics like recognition, company culture, and performance management, relevant to executives and people leaders in the decision-making stage. The market model is B2B as CCG operates in a service-oriented industry, and the company size is classified as enterprise due to its large employee base.",
+    "usage": {
+      "promptTokens": 2524,
+      "completionTokens": 257
+    }
+  },
+  {
+    "id": "tDSm3ZosYBHpGU3lHx4IQ",
+    "title": "Cisco: Connect People and Transform Culture",
+    "slug": "cisco-connect-people-and-transform-culture",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "software"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study highlights Cisco's implementation of a peer-to-peer recognition program, emphasizing employee engagement and company culture, which aligns with multiple topics in employee experience and HR strategy. Cisco operates as a B2B SaaS provider in the technology industry, targeting executives and people leaders as the audience. The content is positioned in the decision stage of the buying process, showcasing a successful customer story. Cisco is a large enterprise with a global presence.",
+    "usage": {
+      "promptTokens": 2526,
+      "completionTokens": 233
+    }
+  },
+  {
+    "id": "xoWllRbKh36iTKnfzkSfO",
+    "title": "Corpay: Bringing New Meaning to Brand Recognition`",
+    "slug": "corpay-bringing-new-meaning-to-brand-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "financialServices",
+        "fintech"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Corpay, a B2B SaaS provider in the fintech industry, highlighting their global employee recognition program. It targets executives and people leaders who are decision-makers in HR and organizational culture. The content emphasizes recognition and performance management, making it relevant for the employee experience and HR strategy topics. Corpay is a large enterprise with over 9,000 employees, and the initiative is global in scope.",
+    "usage": {
+      "promptTokens": 2535,
+      "completionTokens": 246
+    }
+  },
+  {
+    "id": "6SMqI6YDt8HcBlWynOrKmZ",
+    "title": "Customer Snapshot: How Tennant Unites Its Workforce With Global Recognition",
+    "slug": "customer-snapshot-how-tennant-unites-its-workforce-with-global-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "retentionTurnover"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "consumerGoodsRetail"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study highlights Tennant Company's use of Workhuman's recognition platform to foster employee engagement and retention, making it relevant to topics like employee experience and culture. Tennant operates as a B2B SaaS provider in the cleaning industry, with a global presence and a large workforce, thus classified as an enterprise. The audience primarily consists of executives and people leaders interested in employee recognition strategies.",
+    "usage": {
+      "promptTokens": 2198,
+      "completionTokens": 225
+    }
+  },
+  {
+    "id": "13C4uZvfKqOfvruZgbMgyW",
+    "title": "Customer Snapshot: How Zimmer Biomet Made Recognition a Critical Strategic Pillar",
+    "slug": "customer-snapshot-how-zimmer-biomet-made-recognition-a-critical-strategic-pillar",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "healthcareTechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Zimmer Biomet, a global medical technology company, highlighting their use of Workhuman's recognition platform to enhance employee engagement and retention, which aligns with topics of employee experience and HR strategy. The audience is primarily executives and people leaders interested in decision-making insights. The company operates in the healthcare technology industry and is classified as an enterprise due to its size.",
+    "usage": {
+      "promptTokens": 2597,
+      "completionTokens": 244
+    }
+  },
+  {
+    "id": "7w8ELzqVVjuyPjK1zWVBfo",
+    "title": "Data Snapshot: Recognition and Employee Performance – Which Comes First?",
+    "slug": "data-snapshot-recognition-and-employee-performance-which-comes-first",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "technologyAi"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "consideration",
+        "peerValidation"
+      ],
+      "industry": [
+        "technology",
+        "software"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "midMarket"
+      ]
+    },
+    "reasoning": "The content focuses on the relationship between recognition and employee performance, highlighting the use of people analytics in a technology organization. It targets HR leaders and executives interested in improving employee performance through recognition, fitting the B2B SaaS model. The study is relevant to the technology industry and is applicable to mid-sized organizations, with a global reach.",
+    "usage": {
+      "promptTokens": 2442,
+      "completionTokens": 210
+    }
+  },
+  {
+    "id": "74EuuHrYgULgGQBTo6qknM",
+    "title": "How Recognition Became a Cornerstone of Culture-Building at GoTo",
+    "slug": "how-recognition-became-a-cornerstone-of-culture-building-at-goto",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "deiWellbeing",
+        "futureOfDei",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "saaS"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on GoTo, a SaaS provider, highlighting their employee recognition program and its impact on company culture and DEI initiatives. It targets executives and people leaders, showcasing decision-making insights. The content emphasizes recognition, employee experience, and company culture, making it relevant for the technology industry. GoTo's size and global operations further support the classification.",
+    "usage": {
+      "promptTokens": 2488,
+      "completionTokens": 229
+    }
+  },
+  {
+    "id": "xnANNKp5F3QZu2fLJdCye",
+    "title": "Merck: Culturally Energizing, Global Social Recognition",
+    "slug": "merck-culturally-energizing-global-social-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "engagement",
+        "deiWellbeing",
+        "futureOfDei",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "biotechnology"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Merck, a large biopharmaceutical company, highlighting their implementation of Workhuman's recognition platform to enhance employee engagement and DE&I efforts. It targets executives and people leaders, showcasing decision-making insights. The content emphasizes recognition and engagement, aligning with HR strategy and company culture, and is relevant to the global healthcare industry.",
+    "usage": {
+      "promptTokens": 2549,
+      "completionTokens": 230
+    }
+  },
+  {
+    "id": "2z65LExBS4rUST2QTuh0LY",
+    "title": "Morgan: Engaging and Retaining Offline Workers With Recognition",
+    "slug": "morgan-engaging-and-retaining-offline-workers-with-recognition",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "manufacturer"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "manufacturingIndustrial",
+        "industrialEquipment"
+      ],
+      "region": [
+        "northAmerica"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Morgan Truck Body, a manufacturer in the industrial equipment sector, implementing a peer-to-peer recognition program to enhance employee engagement and retention. It targets executives and people leaders, highlighting the decision-making process and outcomes of using Workhuman's platform. The company size is classified as enterprise due to its 2,400 team members.",
+    "usage": {
+      "promptTokens": 2578,
+      "completionTokens": 218
+    }
+  },
+  {
+    "id": "2nxPzB5jsowVhZjdoS2nxH",
+    "title": "Qlik: Transition to Continuous Performance Development",
+    "slug": "qlik-transition-to-continuous-performance-development",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "performance",
+        "recognition",
+        "engagement",
+        "hrStrategy",
+        "3CeA7jpM1kIRBc0YW5urke"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "saaS"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "This case study focuses on Qlik, a SaaS provider in the technology industry, showcasing their transformation in performance management and employee engagement through Workhuman's solutions. The audience includes executives and people leaders, and the content is positioned at the decision stage as it highlights a successful customer story. The company size is classified as enterprise due to Qlik's workforce of over 2,000 employees.",
+    "usage": {
+      "promptTokens": 2513,
+      "completionTokens": 234
+    }
+  },
+  {
+    "id": "5tp55VciPPSkFhEAzUGPN7",
+    "title": "LinkedIn: Linking social recognition to retention",
+    "slug": "linkedin-linking-social-recognition-to-retention",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "hrStrategy",
+        "performance",
+        "retentionTurnover",
+        "cultureLeadership",
+        "companyCulture"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "technology",
+        "saaS"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on LinkedIn, a large enterprise in the technology sector, specifically in the SaaS industry. It highlights the implementation of a recognition program that impacts employee retention and performance, making it relevant for HR leaders and executives. The content is positioned at the decision stage, showcasing a customer story about the effectiveness of Workhuman's platform.",
+    "usage": {
+      "promptTokens": 2536,
+      "completionTokens": 219
+    }
+  },
+  {
+    "id": "4bkeal0FNpcsgm0eziEVv6",
+    "title": "Pfizer: Launching Recognition at Lightspeed",
+    "slug": "pfizer-launching-recognition-at-lightspeed",
+    "recommended": {
+      "topics": [
+        "employeeExperience",
+        "recognition",
+        "cultureLeadership",
+        "companyCulture",
+        "hrStrategy",
+        "performance",
+        "deiWellbeing",
+        "wellbeing"
+      ],
+      "marketModel": [
+        "b2b",
+        "saaSProvider"
+      ],
+      "audience": [
+        "executivesLeadership",
+        "peopleLeaders"
+      ],
+      "buyingStage": [
+        "decision",
+        "customerStory"
+      ],
+      "industry": [
+        "healthcare",
+        "pharmaceuticals"
+      ],
+      "region": [
+        "global"
+      ],
+      "companySize": [
+        "enterprise"
+      ]
+    },
+    "reasoning": "The case study focuses on Pfizer, a large biopharmaceutical company, implementing a global employee recognition program, highlighting topics such as employee experience, recognition, and company culture. It targets executives and people leaders, indicating a B2B SaaS model. The industry is healthcare, specifically pharmaceuticals, and the company size is enterprise due to Pfizer's large workforce.",
+    "usage": {
+      "promptTokens": 2579,
+      "completionTokens": 226
+    }
+  }
+]
