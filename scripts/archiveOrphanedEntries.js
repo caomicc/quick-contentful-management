@@ -11,18 +11,19 @@ const client = contentfulManagement.createClient({
 });
 
 // Parse CSV and extract entries based on filters
-async function getEntriesToArchive(csvFilePath, contentType, referenceTypes, skipRecent = true) {
+async function getEntriesToArchive(csvFilePath, contentType, referenceTypes, minAgeDays = 7, ageField = 'Created At') {
   return new Promise((resolve, reject) => {
     const entries = [];
-    const oneWeekAgo = new Date();
-    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+    const cutoffDate = new Date();
+    cutoffDate.setDate(cutoffDate.getDate() - minAgeDays);
 
     fs.createReadStream(csvFilePath)
       .pipe(csv())
       .on('data', (row) => {
         const rowContentType = row['Content Type'];
         const rowReferenceType = row['Reference Type'];
-        const createdAt = new Date(row['Created At']);
+        const ageValue = row[ageField];
+        const rowDate = ageValue ? new Date(ageValue) : null;
 
         // Check if content type matches
         const contentTypeMatches = contentType === 'all' || rowContentType === contentType;
@@ -30,8 +31,8 @@ async function getEntriesToArchive(csvFilePath, contentType, referenceTypes, ski
         // Check if reference type matches
         const referenceTypeMatches = referenceTypes.includes(rowReferenceType);
 
-        // Check if entry is older than one week
-        const isOldEnough = !skipRecent || createdAt < oneWeekAgo;
+        // Check if entry is older than the configured age threshold.
+        const isOldEnough = !rowDate || Number.isNaN(rowDate.getTime()) || rowDate < cutoffDate;
 
         if (contentTypeMatches && referenceTypeMatches && isOldEnough) {
           entries.push({
@@ -77,7 +78,7 @@ async function archiveEntry(environment, entryId) {
 }
 
 // Main function
-async function archiveEntries(contentType, referenceTypes, dryRun = false, skipRecent = true) {
+async function archiveEntries(contentType, referenceTypes, dryRun = false, minAgeDays = 7, ageField = 'Created At') {
   try {
     const csvFilePath = './orphaned_entries_draft.csv';
 
@@ -89,9 +90,10 @@ async function archiveEntries(contentType, referenceTypes, dryRun = false, skipR
     console.log(`🔍 Filtering for:`);
     console.log(`   - Content Type: ${contentType}`);
     console.log(`   - Reference Types: ${referenceTypes.join(', ')}`);
-    console.log(`   - Skip Recent (< 7 days): ${skipRecent ? 'Yes' : 'No'}\n`);
+    console.log(`   - Minimum Age: ${minAgeDays} days`);
+    console.log(`   - Age Field: ${ageField}\n`);
 
-    const entries = await getEntriesToArchive(csvFilePath, contentType, referenceTypes, skipRecent);
+    const entries = await getEntriesToArchive(csvFilePath, contentType, referenceTypes, minAgeDays, ageField);
 
     console.log(`\n📊 Found ${entries.length} draft entries to archive`);
 
@@ -225,7 +227,8 @@ function parseArgs() {
   let contentType = 'all'; // default to all for archiving
   let referenceTypes = ['No References', 'Archived References']; // default to both
   let dryRun = false;
-  let skipRecent = true; // default to skip entries created in last 7 days
+  let minAgeDays = 7;
+  let ageField = 'Created At';
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
@@ -233,7 +236,20 @@ function parseArgs() {
     if (arg === '--dry-run') {
       dryRun = true;
     } else if (arg === '--include-recent') {
-      skipRecent = false;
+      minAgeDays = 0;
+    } else if (arg === '--older-than-days') {
+      const parsedDays = Number.parseInt(args[i + 1], 10);
+      if (!Number.isNaN(parsedDays) && parsedDays >= 0) {
+        minAgeDays = parsedDays;
+      }
+      i++;
+    } else if (arg === '--age-field') {
+      const field = args[i + 1];
+      if (field === 'updated') {
+        ageField = 'Updated At';
+      } else if (field === 'created') {
+        ageField = 'Created At';
+      }
     } else if (arg === '--content-type' || arg === '-t') {
       contentType = args[i + 1];
       i++;
@@ -260,8 +276,11 @@ Options:
                                     - archived-references: Only "Archived References"
                                     - both: Both types (default)
   --dry-run                       Preview changes without archiving
-  --include-recent                Include entries created within the last 7 days
-                                   (by default, recent entries are skipped for safety)
+  --include-recent                Include entries regardless of age threshold
+  --older-than-days <days>        Only archive entries older than this many days
+                                   (default: 7)
+  --age-field <created|updated>   Which timestamp to use for the age filter
+                                   (default: created)
   --help, -h                      Show this help message
 
 Examples:
@@ -282,14 +301,17 @@ Examples:
 
   # Include entries created within the last week
   node archiveOrphanedEntries.js --include-recent -t block
+
+  # Dry run for entries untouched in the last 30 days
+  node archiveOrphanedEntries.js --dry-run -t imageWithAiTags -r no-references --older-than-days 30 --age-field updated
       `);
       process.exit(0);
     }
   }
 
-  return { contentType, referenceTypes, dryRun, skipRecent };
+  return { contentType, referenceTypes, dryRun, minAgeDays, ageField };
 }
 
 // Run the script
-const { contentType, referenceTypes, dryRun, skipRecent } = parseArgs();
-archiveEntries(contentType, referenceTypes, dryRun, skipRecent);
+const { contentType, referenceTypes, dryRun, minAgeDays, ageField } = parseArgs();
+archiveEntries(contentType, referenceTypes, dryRun, minAgeDays, ageField);

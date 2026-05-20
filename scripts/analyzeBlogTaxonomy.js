@@ -1,7 +1,10 @@
 #!/usr/bin/env node
 /**
- * Fetches all published blog posts and analyzes which taxonomy concepts
- * can be mapped based on primaryBreadcrumb, tags, title, and teaser.
+ * Analyzes published blog posts and recommends taxonomy concepts based on
+ * primaryBreadcrumb, tags, title, teaser, and body text content.
+ *
+ * Uses cached content from data/blog_posts_content.json (run fetchBlogContent.js first).
+ * Falls back to API-only (title+teaser) if cache not found.
  */
 require('dotenv').config();
 const fs = require('fs');
@@ -10,6 +13,16 @@ const path = require('path');
 const spaceId = process.env.CONTENTFUL_SPACE_ID;
 const token = process.env.CONTENTFUL_MANAGEMENT_TOKEN;
 const BASE = `https://api.contentful.com/spaces/${spaceId}/environments/master`;
+
+const CONTENT_CACHE_PATH = path.join(__dirname, '..', 'data', 'blog_posts_content.json');
+
+function loadCachedContent() {
+  if (fs.existsSync(CONTENT_CACHE_PATH)) {
+    console.log('Loading cached blog post content from data/blog_posts_content.json...');
+    return JSON.parse(fs.readFileSync(CONTENT_CACHE_PATH, 'utf-8'));
+  }
+  return null;
+}
 
 async function fetchAllBlogPosts() {
   const all = [];
@@ -32,6 +45,7 @@ async function fetchAllBlogPosts() {
         teaser: item.fields?.teaser?.['en-US'] || '',
         primaryBreadcrumb: item.fields?.primaryBreadcrumb?.['en-US'] || '',
         date: item.fields?.date?.['en-US'] || '',
+        bodyText: '',
         tags: (item.metadata?.tags || []).map(t => t.sys.id),
         concepts: (item.metadata?.concepts || []).map(c => c.sys.id),
       });
@@ -127,14 +141,34 @@ function textContains(text, keywords) {
   return keywords.some(kw => lower.includes(kw.toLowerCase()));
 }
 
+// Count how many distinct keywords from a list match in text
+function countKeywordHits(text, keywords) {
+  const lower = text.toLowerCase();
+  return keywords.filter(kw => lower.includes(kw.toLowerCase())).length;
+}
+
+// Body text requires BODY_THRESHOLD distinct keyword hits to qualify a topic.
+// Title/teaser still only need 1 hit.
+const BODY_THRESHOLD = 3;
+
 async function main() {
-  console.log('Fetching all published blog posts...\n');
-  const blogPosts = await fetchAllBlogPosts();
+  // Try cached content first (includes body text), fall back to API
+  let blogPosts = loadCachedContent();
+  let usingBodyText = false;
+
+  if (blogPosts) {
+    usingBodyText = true;
+    console.log(`Loaded ${blogPosts.length} posts with body text from cache.\n`);
+  } else {
+    console.log('No cached content found. Run fetchBlogContent.js first for body text analysis.');
+    console.log('Falling back to API-only (title+teaser)...\n');
+    blogPosts = await fetchAllBlogPosts();
+  }
 
   // Save raw data
   const rawPath = path.join(__dirname, '..', 'data', 'blog_posts_published.json');
-  fs.writeFileSync(rawPath, JSON.stringify(blogPosts, null, 2));
-  console.log(`\nSaved ${blogPosts.length} blog posts to data/blog_posts_published.json\n`);
+  fs.writeFileSync(rawPath, JSON.stringify(blogPosts.map(({ bodyText, ...rest }) => rest), null, 2));
+  console.log(`Saved ${blogPosts.length} blog posts to data/blog_posts_published.json\n`);
 
   // ─── ANALYZE ───
   const results = [];
@@ -169,26 +203,35 @@ async function main() {
       confidence: {},
     };
 
-    const searchText = `${post.title} ${post.teaser}`;
+    const titleTeaser = `${post.title} ${post.teaser}`;
+    const bodyText = post.bodyText || '';
     const bc = post.primaryBreadcrumb;
     breadcrumbCounts[bc || '(none)'] = (breadcrumbCounts[bc || '(none)'] || 0) + 1;
 
-    // Topics from breadcrumb
+    // Topics from breadcrumb + keywords (for analysis display)
     const topicSet = new Set();
     if (bc && breadcrumbToTopics[bc]) {
       for (const t of breadcrumbToTopics[bc]) topicSet.add(t);
     }
-    // Topics from keywords
+    // Topics from keywords — title/teaser needs 1 hit, body needs BODY_THRESHOLD hits
     for (const [conceptId, keywords] of Object.entries(topicKeywords)) {
-      if (textContains(searchText, keywords)) topicSet.add(conceptId);
+      if (textContains(titleTeaser, keywords)) {
+        topicSet.add(conceptId);
+      } else if (bodyText && countKeywordHits(bodyText, keywords) >= BODY_THRESHOLD) {
+        topicSet.add(conceptId);
+      }
     }
     mapping.recommended.topics = [...topicSet];
     mapping.confidence.topics = topicSet.size > 0 ? (bc && breadcrumbToTopics[bc] ? 'high' : 'medium') : 'none';
 
-    // Buying stage — most blog content is awareness
+    // Buying stage — title/teaser needs 1 hit, body needs 2 hits
     const stageSet = new Set();
     for (const [stage, keywords] of Object.entries(buyingStageKeywords)) {
-      if (textContains(searchText, keywords)) stageSet.add(stage);
+      if (textContains(titleTeaser, keywords)) {
+        stageSet.add(stage);
+      } else if (bodyText && countKeywordHits(bodyText, keywords) >= 2) {
+        stageSet.add(stage);
+      }
     }
     // Default: blog posts without specific signals are awareness/thought leadership
     if (stageSet.size === 0 && topicSet.size > 0) {
@@ -197,10 +240,14 @@ async function main() {
     mapping.recommended.buyingStage = [...stageSet];
     mapping.confidence.buyingStage = stageSet.size > 0 ? 'medium' : 'none';
 
-    // Audience from keywords
+    // Audience from keywords — title/teaser needs 1 hit, body needs 2 hits
     const audSet = new Set();
     for (const [conceptId, keywords] of Object.entries(audienceKeywords)) {
-      if (textContains(searchText, keywords)) audSet.add(conceptId);
+      if (textContains(titleTeaser, keywords)) {
+        audSet.add(conceptId);
+      } else if (bodyText && countKeywordHits(bodyText, keywords) >= 2) {
+        audSet.add(conceptId);
+      }
     }
     mapping.recommended.audience = [...audSet];
     mapping.confidence.audience = audSet.size > 0 ? 'low' : 'none';
@@ -228,6 +275,7 @@ async function main() {
   console.log('╔══════════════════════════════════════════════════════════╗');
   console.log(`║   BLOG POST TAXONOMY ANALYSIS – ${stats.total} Published Posts   ║`);
   console.log('╚══════════════════════════════════════════════════════════╝\n');
+  console.log(`  Keyword source: ${usingBodyText ? 'title + teaser + body text (full content)' : 'title + teaser only'}\n`);
 
   console.log('COVERAGE BY SCHEME:');
   console.log('─'.repeat(55));
@@ -322,10 +370,40 @@ async function main() {
     }
   }
 
-  // Save full analysis
+  // Save full analysis — include all topics, mark which came from breadcrumb
+  const exportResults = results.map(r => {
+    const bc = r.primaryBreadcrumb;
+    const breadcrumbTopics = (bc && breadcrumbToTopics[bc]) ? breadcrumbToTopics[bc] : [];
+    const keywordTopics = r.recommended.topics.filter(t => !breadcrumbTopics.includes(t));
+    return {
+      ...r,
+      recommended: {
+        ...r.recommended,
+        // All topics included; breadcrumbTopics listed separately for apply-step filtering
+        topics: r.recommended.topics,
+      },
+      breadcrumbTopics, // topics derived from breadcrumb (skip these when applying)
+      keywordTopics,    // topics derived from keyword matching only
+    };
+  });
   const outPath = path.join(__dirname, '..', 'data', 'blog_taxonomy_analysis.json');
-  fs.writeFileSync(outPath, JSON.stringify(results, null, 2));
+  fs.writeFileSync(outPath, JSON.stringify(exportResults, null, 2));
   console.log(`\n\nFull analysis saved to: data/blog_taxonomy_analysis.json`);
+  console.log(`  Each entry has breadcrumbTopics[] and keywordTopics[] for apply-step filtering.`);
+
+  // Save separate breadcrumb recommendations
+  const breadcrumbRecs = blogPosts
+    .filter(p => p.primaryBreadcrumb && breadcrumbToTopics[p.primaryBreadcrumb])
+    .map(p => ({
+      id: p.id,
+      title: p.title,
+      slug: p.slug,
+      primaryBreadcrumb: p.primaryBreadcrumb,
+      recommendedTopics: breadcrumbToTopics[p.primaryBreadcrumb],
+    }));
+  const bcPath = path.join(__dirname, '..', 'data', 'blog_breadcrumb_recommendations.json');
+  fs.writeFileSync(bcPath, JSON.stringify(breadcrumbRecs, null, 2));
+  console.log(`Breadcrumb recommendations saved to: data/blog_breadcrumb_recommendations.json (${breadcrumbRecs.length} posts)`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

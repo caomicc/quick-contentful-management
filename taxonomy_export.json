@@ -5,7 +5,7 @@
         "id": "topics",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2025-10-14T18:53:44.943Z",
-        "updatedAt": "2025-10-14T18:59:32.039Z",
+        "updatedAt": "2026-05-14T14:29:46.520Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -27,7 +27,7 @@
             "linkType": "User"
           }
         },
-        "version": 29
+        "version": 34
       },
       "uri": null,
       "topConcepts": [
@@ -270,14 +270,56 @@
             "type": "Link",
             "linkType": "TaxonomyConcept"
           }
+        },
+        {
+          "sys": {
+            "id": "1akiyritkmMPT2HuLoGNGU",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "3CeA7jpM1kIRBc0YW5urke",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "ghofma863u6Ud512esGm1",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "2ltc2PmTjKdjKMAi1ewdqM",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "7taQE7P53ht0P37YH8KwAV",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "1KLdYmyf8PkadV985QKbIY",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
         }
       ],
-      "totalConcepts": 27,
+      "totalConcepts": 33,
       "prefLabel": {
         "en-US": "Topics"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The primary subjects, themes, or areas of interest covered by the content."
       }
     },
     {
@@ -285,7 +327,7 @@
         "id": "audience",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2025-10-14T19:22:00.710Z",
-        "updatedAt": "2026-05-11T19:25:15.535Z",
+        "updatedAt": "2026-05-14T14:29:36.886Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -307,7 +349,7 @@
             "linkType": "User"
           }
         },
-        "version": 96
+        "version": 97
       },
       "uri": null,
       "topConcepts": [
@@ -872,7 +914,7 @@
         "en-US": "Audience"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The specific groups of people the content is intended to reach or serve."
       }
     },
     {
@@ -880,7 +922,7 @@
         "id": "industry",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2025-10-14T19:31:50.046Z",
-        "updatedAt": "2026-05-11T19:07:25.875Z",
+        "updatedAt": "2026-05-14T14:29:26.065Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -902,7 +944,7 @@
             "linkType": "User"
           }
         },
-        "version": 78
+        "version": 79
       },
       "uri": null,
       "topConcepts": [
@@ -1285,7 +1327,7 @@
         "en-US": "Industry"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The business sector or market category associated with the organization or content."
       }
     },
     {
@@ -1293,7 +1335,7 @@
         "id": "region",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2025-10-14T19:31:55.685Z",
-        "updatedAt": "2026-05-11T19:45:57.547Z",
+        "updatedAt": "2026-05-14T14:29:18.720Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -1315,7 +1357,7 @@
             "linkType": "User"
           }
         },
-        "version": 11
+        "version": 12
       },
       "uri": null,
       "topConcepts": [
@@ -1397,7 +1439,7 @@
         "en-US": "Region"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The geographic area, market, or location relevant to the content or organization."
       }
     },
     {
@@ -1405,7 +1447,7 @@
         "id": "companySize",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2026-05-11T19:30:52.295Z",
-        "updatedAt": "2026-05-11T19:45:06.477Z",
+        "updatedAt": "2026-05-14T14:29:10.302Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -1427,7 +1469,7 @@
             "linkType": "User"
           }
         },
-        "version": 9
+        "version": 10
       },
       "uri": null,
       "topConcepts": [
@@ -1481,7 +1523,7 @@
         "en-US": "Company Size"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The scale of an organization based on factors like employee count or revenue."
       }
     },
     {
@@ -1489,7 +1531,7 @@
         "id": "marketModel",
         "type": "TaxonomyConceptScheme",
         "createdAt": "2026-05-11T19:58:24.974Z",
-        "updatedAt": "2026-05-11T19:59:26.356Z",
+        "updatedAt": "2026-05-14T14:29:00.108Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -1511,7 +1553,7 @@
             "linkType": "User"
           }
         },
-        "version": 4
+        "version": 5
       },
       "uri": null,
       "topConcepts": [
@@ -1635,7 +1677,287 @@
         "en-US": "Market Model"
       },
       "definition": {
-        "en-US": ""
+        "en-US": "The type of business relationship or sales approach a company uses to serve its customers (such as B2B or B2C)"
+      }
+    },
+    {
+      "sys": {
+        "id": "buyingStage",
+        "type": "TaxonomyConceptScheme",
+        "createdAt": "2026-05-12T18:09:35.334Z",
+        "updatedAt": "2026-05-12T18:45:19.397Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 33
+      },
+      "uri": null,
+      "topConcepts": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "target",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "purchase",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "concepts": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "thoughtLeadership",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "trendsResearch",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "businessCaseRoi",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "analystResearch",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "solutionOverview",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "customerStory",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "productDemo",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "competitiveDifferentiation",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "customerEnablement",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "target",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "purchase",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "bestPractices",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "idealCustomerProfile",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "marketSegmentation",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "brandAwareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "industryEvents",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "peerValidation",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "integrationEcosystem",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "pricingPackaging",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "implementationOnboarding",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "proposalProcurement",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "securityCompliance",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "productUpdates",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        },
+        {
+          "sys": {
+            "id": "communityAdvocacy",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "totalConcepts": 28,
+      "prefLabel": {
+        "en-US": "Buying Stage"
+      },
+      "definition": {
+        "en-US": "Represents a specific, sequential phase in a prospect’s decision-making process, highlighting their level of awareness, intent, and readiness to purchase"
       }
     }
   ],
@@ -3775,69 +4097,6 @@
       "related": [],
       "prefLabel": {
         "en-US": "Global"
-      },
-      "altLabels": {
-        "en-US": []
-      },
-      "hiddenLabels": {
-        "en-US": []
-      },
-      "note": {
-        "en-US": ""
-      },
-      "changeNote": null,
-      "definition": {
-        "en-US": ""
-      },
-      "editorialNote": {
-        "en-US": ""
-      },
-      "example": {
-        "en-US": ""
-      },
-      "historyNote": {
-        "en-US": ""
-      },
-      "scopeNote": {
-        "en-US": ""
-      }
-    },
-    {
-      "sys": {
-        "id": "industries",
-        "type": "TaxonomyConcept",
-        "createdAt": "2025-10-14T19:38:52.903Z",
-        "updatedAt": "2025-10-14T19:38:52.903Z",
-        "organization": {
-          "sys": {
-            "id": "2Q3mXrmrHWpsRHNhJhII4R",
-            "type": "Link",
-            "linkType": "Organization"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "id": "0V5hddTfUlySODl6AenVMJ",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "id": "0V5hddTfUlySODl6AenVMJ",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "version": 1
-      },
-      "uri": null,
-      "notations": [],
-      "conceptSchemes": [],
-      "broader": [],
-      "related": [],
-      "prefLabel": {
-        "en-US": "Industries"
       },
       "altLabels": {
         "en-US": []
@@ -8877,7 +9136,7 @@
         "id": "retailCustomers",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:08.022Z",
-        "updatedAt": "2026-05-11T19:16:08.022Z",
+        "updatedAt": "2026-05-14T15:31:39.471Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -8899,7 +9158,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -8926,17 +9185,26 @@
         "en-US": "Retail Customers"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Shoppers",
+          "Retail Consumers",
+          "Store Customers"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "In-Store Shoppers",
+          "Retail Buyers",
+          "Consumers",
+          "End Customers"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "Consumers who purchase goods or services directly from retail businesses."
       },
       "editorialNote": {
         "en-US": ""
@@ -8956,7 +9224,7 @@
         "id": "digitalConsumers",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:13.904Z",
-        "updatedAt": "2026-05-11T19:16:13.904Z",
+        "updatedAt": "2026-05-14T15:29:49.106Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -8978,7 +9246,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -9005,17 +9273,26 @@
         "en-US": "Digital Consumers"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Online Consumers",
+          "Digital Users",
+          "Connected Consumers"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "Web Shoppers",
+          "Mobile Users",
+          "E-commerce Customers",
+          "Internet Consumers"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "People who primarily engage with brands, products, or services through digital channels."
       },
       "editorialNote": {
         "en-US": ""
@@ -9035,7 +9312,7 @@
         "id": "membersSubscribers",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:20.234Z",
-        "updatedAt": "2026-05-11T19:16:20.234Z",
+        "updatedAt": "2026-05-14T15:30:27.178Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -9057,7 +9334,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -9084,17 +9361,26 @@
         "en-US": "Members & Subscribers"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Subscribers",
+          "Members",
+          "Enrolled Users"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "Paid Members",
+          "Loyalty Members",
+          "Newsletter Subscribers",
+          "Account Subscribers"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "Individuals who maintain ongoing access or participation through memberships or subscriptions."
       },
       "editorialNote": {
         "en-US": ""
@@ -9114,7 +9400,7 @@
         "id": "travelers",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:25.883Z",
-        "updatedAt": "2026-05-11T19:16:25.883Z",
+        "updatedAt": "2026-05-14T15:32:17.482Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -9136,7 +9422,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -9163,17 +9449,26 @@
         "en-US": "Travelers"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Tourists",
+          "Passengers",
+          "Guests"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "Vacationers",
+          "Business Travelers",
+          "Frequent Flyers",
+          "Travel Customers"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "Individuals who travel for leisure, business, or other personal purposes."
       },
       "editorialNote": {
         "en-US": ""
@@ -9193,7 +9488,7 @@
         "id": "patients",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:31.527Z",
-        "updatedAt": "2026-05-11T19:16:31.527Z",
+        "updatedAt": "2026-05-14T15:31:06.185Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -9215,7 +9510,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -9242,17 +9537,26 @@
         "en-US": "Patients"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Healthcare Consumers",
+          "Care Recipients",
+          "Medical Patients"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "Hospital Patients",
+          "Clinic Patients",
+          "Healthcare Patients",
+          "Patient Communities"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "Individuals receiving medical care, treatment, or healthcare services."
       },
       "editorialNote": {
         "en-US": ""
@@ -9272,7 +9576,7 @@
         "id": "bankingCustomers",
         "type": "TaxonomyConcept",
         "createdAt": "2026-05-11T19:16:37.919Z",
-        "updatedAt": "2026-05-11T19:16:37.919Z",
+        "updatedAt": "2026-05-14T15:29:10.795Z",
         "organization": {
           "sys": {
             "id": "2Q3mXrmrHWpsRHNhJhII4R",
@@ -9294,7 +9598,7 @@
             "linkType": "User"
           }
         },
-        "version": 1
+        "version": 2
       },
       "uri": null,
       "notations": [],
@@ -9321,17 +9625,26 @@
         "en-US": "Banking Customers"
       },
       "altLabels": {
-        "en-US": []
+        "en-US": [
+          "Bank Clients",
+          "Financial Customers",
+          "Account Holders"
+        ]
       },
       "hiddenLabels": {
-        "en-US": []
+        "en-US": [
+          "Retail Banking Users",
+          "Depositors",
+          "Credit Union Members",
+          "Personal Banking Customers"
+        ]
       },
       "note": {
         "en-US": ""
       },
       "changeNote": null,
       "definition": {
-        "en-US": ""
+        "en-US": "Individuals or organizations who use financial products and banking services."
       },
       "editorialNote": {
         "en-US": ""
@@ -14432,6 +14745,2584 @@
       "changeNote": null,
       "definition": {
         "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "1akiyritkmMPT2HuLoGNGU",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:08.041Z",
+        "updatedAt": "2026-05-12T18:04:08.041Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "technologyAi",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "People Analytics"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "1KLdYmyf8PkadV985QKbIY",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:08.718Z",
+        "updatedAt": "2026-05-12T18:04:08.718Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "cultureLeadership",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Hybrid & Flexible Work"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "7taQE7P53ht0P37YH8KwAV",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:09.405Z",
+        "updatedAt": "2026-05-12T18:04:09.405Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "cultureLeadership",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Change Management"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "3CeA7jpM1kIRBc0YW5urke",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:10.119Z",
+        "updatedAt": "2026-05-12T18:04:10.119Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "hrStrategy",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "ROI & Business Impact"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "ghofma863u6Ud512esGm1",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:10.816Z",
+        "updatedAt": "2026-05-12T18:04:10.816Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "hrStrategy",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Skills & Upskilling"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "2ltc2PmTjKdjKMAi1ewdqM",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:04:11.569Z",
+        "updatedAt": "2026-05-12T18:04:11.569Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "topics",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "deiWellbeing",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Burnout"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": null,
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": null,
+      "example": null,
+      "historyNote": null,
+      "scopeNote": null
+    },
+    {
+      "sys": {
+        "id": "consideration",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:14:34.726Z",
+        "updatedAt": "2026-05-12T18:14:34.726Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Consideration"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "awareness",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:14:41.785Z",
+        "updatedAt": "2026-05-12T18:14:41.785Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Awareness"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "decision",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:15:16.448Z",
+        "updatedAt": "2026-05-12T18:15:16.448Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Decision"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "thoughtLeadership",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:15:46.481Z",
+        "updatedAt": "2026-05-12T18:15:46.481Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Thought Leadership"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "trendsResearch",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:15:54.368Z",
+        "updatedAt": "2026-05-12T18:15:54.368Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Trends & Research"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "businessCaseRoi",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:03.135Z",
+        "updatedAt": "2026-05-12T18:16:03.135Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Business Case / ROI"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "analystResearch",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:09.369Z",
+        "updatedAt": "2026-05-12T18:16:09.369Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Analyst Research"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "solutionOverview",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:15.257Z",
+        "updatedAt": "2026-05-12T18:16:15.257Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Solution Overview"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "customerStory",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:22.056Z",
+        "updatedAt": "2026-05-12T18:16:22.056Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Customer Story"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "productDemo",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:30.074Z",
+        "updatedAt": "2026-05-12T18:16:30.074Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Product Demo"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "competitiveDifferentiation",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:37.655Z",
+        "updatedAt": "2026-05-12T18:16:37.655Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Competitive Differentiation"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "bestPractices",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:45.168Z",
+        "updatedAt": "2026-05-12T18:37:26.084Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 3
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Best Practices"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "customerEnablement",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:16:52.199Z",
+        "updatedAt": "2026-05-12T18:36:45.605Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 2
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Customer Enablement"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "target",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:35:24.845Z",
+        "updatedAt": "2026-05-12T18:35:24.845Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Target"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "customer",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:35:49.210Z",
+        "updatedAt": "2026-05-12T18:35:49.210Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Customer"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "purchase",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:36:00.879Z",
+        "updatedAt": "2026-05-12T18:36:00.879Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Purchase"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": ""
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "idealCustomerProfile",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:42:22.762Z",
+        "updatedAt": "2026-05-12T18:42:22.762Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "target",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Ideal Customer Profile"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Content defining who to go after"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "marketSegmentation",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:42:39.654Z",
+        "updatedAt": "2026-05-12T18:42:39.654Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "target",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Market Segmentation"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Content organized by segment/vertical"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "brandAwareness",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:42:54.795Z",
+        "updatedAt": "2026-05-12T18:42:54.795Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Brand Awareness"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "General brand/mission content"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "industryEvents",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:43:11.683Z",
+        "updatedAt": "2026-05-12T18:43:11.683Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "awareness",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Industry Events"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Conference/event-driven content (Workhuman Live, etc.)"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "peerValidation",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:43:25.685Z",
+        "updatedAt": "2026-05-12T18:43:25.685Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Peer Validation"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "G2 reviews, Gartner/Fosway recognition"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "integrationEcosystem",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:43:37.091Z",
+        "updatedAt": "2026-05-12T18:43:37.091Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "consideration",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Integration & Ecosystem"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "SAP, Workday, etc. integration briefs"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "pricingPackaging",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:43:56.294Z",
+        "updatedAt": "2026-05-12T18:43:56.294Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Pricing & Packaging"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Pricing/value-tier content"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "implementationOnboarding",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:44:08.291Z",
+        "updatedAt": "2026-05-12T18:44:08.291Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "decision",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Implementation & Onboarding"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "What the rollout looks like"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "proposalProcurement",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:44:24.738Z",
+        "updatedAt": "2026-05-12T18:44:24.738Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "purchase",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Proposal & Procurement"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "RFP/procurement support content"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "securityCompliance",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:44:39.157Z",
+        "updatedAt": "2026-05-12T18:44:39.157Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "purchase",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Security & Compliance"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Trust/security documentation"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "productUpdates",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:44:55.304Z",
+        "updatedAt": "2026-05-12T18:44:55.304Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Product Updates"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Feature releases, what's new"
+      },
+      "editorialNote": {
+        "en-US": ""
+      },
+      "example": {
+        "en-US": ""
+      },
+      "historyNote": {
+        "en-US": ""
+      },
+      "scopeNote": {
+        "en-US": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "communityAdvocacy",
+        "type": "TaxonomyConcept",
+        "createdAt": "2026-05-12T18:45:18.393Z",
+        "updatedAt": "2026-05-12T18:45:18.393Z",
+        "organization": {
+          "sys": {
+            "id": "2Q3mXrmrHWpsRHNhJhII4R",
+            "type": "Link",
+            "linkType": "Organization"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "id": "0V5hddTfUlySODl6AenVMJ",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "version": 1
+      },
+      "uri": null,
+      "notations": [],
+      "conceptSchemes": [
+        {
+          "sys": {
+            "id": "buyingStage",
+            "type": "Link",
+            "linkType": "TaxonomyConceptScheme"
+          }
+        }
+      ],
+      "broader": [
+        {
+          "sys": {
+            "id": "customer",
+            "type": "Link",
+            "linkType": "TaxonomyConcept"
+          }
+        }
+      ],
+      "related": [],
+      "prefLabel": {
+        "en-US": "Community & Advocacy"
+      },
+      "altLabels": {
+        "en-US": []
+      },
+      "hiddenLabels": {
+        "en-US": []
+      },
+      "note": {
+        "en-US": ""
+      },
+      "changeNote": null,
+      "definition": {
+        "en-US": "Customer community, referral content"
       },
       "editorialNote": {
         "en-US": ""

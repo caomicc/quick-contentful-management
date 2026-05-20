@@ -1,0 +1,3519 @@
+{
+  "description": "Proposed SKOS taxonomy concept mappings for published documents. Generated from data/document_taxonomy_analysis.json and intended for manual review before apply.",
+  "mappings": [
+    {
+      "title": "10 Reasons Why Annual Reviews Are No Longer Enough",
+      "proposed": [
+        "performance",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "10 Ways a Workhuman Solution Provides You Peace of Mind",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "10 Ways Social Recognition Can Strengthen Your Employer Brand",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "11 Ways Employee Recognition Builds Better Managers",
+      "proposed": [
+        "recognition",
+        "performance",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "12 Real Reward Stories: Making Appreciation Last",
+      "proposed": [
+        "appreciation",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "12 Tips for Having Amazing Check-Ins",
+      "proposed": [
+        "performance",
+        "feedback",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "12-Step Guide to Transition to Continuous Performance Management",
+      "proposed": [
+        "performance",
+        "feedback",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "13 Lessons Learned: Best Practices on Recognition Program Strategy, Design, Change Management, and Success Metrics",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "experience",
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2018 SHRM/Workhuman Employee Recognition Survey",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2024 Workhuman iQ Report Executive Summary",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "ai",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workhuman Global Research Study: Recognition as an Engine for Strategy",
+      "proposed": [
+        "ai",
+        "engagement",
+        "experience",
+        "humanResources",
+        "performance",
+        "recognition",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workhuman Global Research Study: Recognition as an Engine for Strategy",
+      "proposed": [
+        "ai",
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workhuman Global Research Study: The Tangible Value of Appreciation",
+      "proposed": [
+        "appreciation",
+        "engagement",
+        "experience",
+        "humanResources",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "teamBuilding",
+        "wellbeing",
+        "futureOfDei",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workhuman Global Research Study: The Tangible Value of Appreciation",
+      "proposed": [
+        "recognition",
+        "teamBuilding",
+        "appreciation",
+        "retentionTurnover",
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workhuman Global Research Study: The Tangible Value of Appreciation EMEA",
+      "proposed": [
+        "appreciation",
+        "retentionTurnover",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2025 Workplace Trends",
+      "proposed": [
+        "ai",
+        "companyCulture",
+        "engagement",
+        "experience",
+        "futureOfWork",
+        "recognition",
+        "humanResources",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "2026 Humans at Work Barometer",
+      "proposed": [
+        "appreciation",
+        "engagement",
+        "experience",
+        "humanResources",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "teamBuilding",
+        "wellbeing",
+        "ai",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Creative Ways to Build Culture and Engagement",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Creative Ways to Build Culture and Engagement (EMEA)",
+      "proposed": [
+        "engagement",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Creative Ways to Fund Social Recognition",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "awareness",
+        "financeProcurement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Key Data Points: The Immediate and Long-Term ROI of Social Recognition",
+      "proposed": [
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Misconceptions About Burnout – and How to Fix Them",
+      "proposed": [
+        "appreciation",
+        "engagement",
+        "recognition",
+        "retentionTurnover",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Misconceptions About Burnout – and How to Fix Them (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Strategies for Creating a Resilient Work Culture",
+      "proposed": [
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Tips to Improve Mental Health in the Workplace",
+      "proposed": [
+        "experience",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways Recognition Combats Economic Uncertainty",
+      "proposed": [
+        "futureOfWork",
+        "recognition",
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways Recognition Combats Economic Uncertainty (EMEA)",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways to Bridge the Generational Divide (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways to Bridge the Generational Divide in the Evolution of Work",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways to Build an Inclusive Culture",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "experience",
+        "futureOfDei",
+        "recognition",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways to Combat Burnout (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "3 Ways to Support Your Employees During Economic Uncertainty",
+      "proposed": [
+        "retentionTurnover",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 AI-Powered Workhuman Innovations to Elevate Your Organization",
+      "proposed": [
+        "companyCulture",
+        "futureOfWork",
+        "humanResources",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 AI-Powered Workhuman Innovations to Elevate Your Organization",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Essentials of Effective Performance Development",
+      "proposed": [
+        "performance",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Keys to Building a Human Workplace",
+      "proposed": [
+        "futureOfWork",
+        "humanResources",
+        "companyCulture",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Keys to Building Today’s Human Workplace (EMEA)",
+      "proposed": [
+        "engagement",
+        "companyCulture",
+        "executivesLeadership",
+        "humanResources",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Pitfalls Preventing Effective AI Adoption",
+      "proposed": [
+        "ai",
+        "awareness",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Pitfalls Preventing Effective AI Adoption",
+      "proposed": [
+        "ai"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Powerful Ways To Fuel Employee Engagement",
+      "proposed": [
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Reasons Why Employee Recognition is Vital",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Reasons Why Employee Recognition is Vital (EMEA)",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Steps to Transform Your Culture",
+      "proposed": [
+        "companyCulture",
+        "retentionTurnover",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Steps to Transform Your Culture (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "retentionTurnover",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Strategies to Transform Employee Wellbeing Through Recognition",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Strategies to Transform Employee Wellbeing Through Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Tips for Happier Employees",
+      "proposed": [
+        "companyCulture",
+        "experience",
+        "performance",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Tips for Happier Employees (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Ways to Build a Connected Culture",
+      "proposed": [
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Ways to Build a Connected Work Culture (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "4 Ways to Motivate Your Workforce",
+      "proposed": [
+        "engagement",
+        "humanResources",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Actionable Tips to Drive Meaningful and Sustainable DEI Progress",
+      "proposed": [
+        "futureOfDei",
+        "retentionTurnover",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Benefits of the #1 Recognition Rewards Store",
+      "proposed": [
+        "recognition",
+        "compensationBenefits",
+        "awareness",
+        "decision",
+        "consumerGoodsRetail"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Benefits of the #1 Recognition Rewards Store",
+      "proposed": [
+        "recognition",
+        "compensationBenefits",
+        "consumerGoodsRetail"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Common Mistakes to Avoid When Sending Employee Surveys",
+      "proposed": [
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Creative Ways to Move DEI Forward",
+      "proposed": [
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 New Ideas to Extend DEI Beyond a One-Time Training",
+      "proposed": [
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 New Ideas to Extend DEI Beyond a One-Time Training (EMEA)",
+      "proposed": [
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Steps to Building a Business Case for Recognition",
+      "proposed": [
+        "compensationBenefits",
+        "experience",
+        "futureOfWork",
+        "companyCulture",
+        "recognition",
+        "executivesLeadership",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Steps Toward Greater Pay Equity",
+      "proposed": [
+        "compensationBenefits",
+        "retentionTurnover",
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways Feedback is a Gift",
+      "proposed": [
+        "feedback",
+        "performance",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways Leaders Can Amplify Employee Wellbeing",
+      "proposed": [
+        "wellbeing",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways Leaders Can Amplify Employee Wellbeing With Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways Social Recognition Helps Retain Top Salespeople",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "performance",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Celebrate Employee Appreciation Day",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "recognition",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Improve Patient Satisfaction",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "awareness",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Manage Employee Burnout",
+      "proposed": [
+        "retentionTurnover",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Manage Employee Burnout (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Measure Wellbeing and Inclusion",
+      "proposed": [
+        "futureOfDei",
+        "wellbeing"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Ways to Thank Employees on World Gratitude Day",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Workplace Wellbeing Trends to Watch",
+      "proposed": [
+        "wellbeing",
+        "companyCulture"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "5 Workplace Wellbeing Trends to Watch (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "companyCulture",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Quick Reasons to Choose Workhuman",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "decision",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Reasons to Choose Workhuman",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Reasons to Choose Workhuman (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Steps to Cultivate a People-First Culture",
+      "proposed": [
+        "companyCulture",
+        "experience",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Steps to Cultivate People First Culture (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Things You Didn’t Know About Gratitude – and Its Impact on The Workplace",
+      "proposed": [
+        "recognition",
+        "appreciation"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Tips to Increase Employee Engagement in Times of Change",
+      "proposed": [
+        "engagement",
+        "futureOfWork",
+        "humanResources",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Ways Recognition Drives Impact",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Ways Recognition Drives Impact (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "6 Ways to Increase Employee Engagement in Times of Change (EMEA)",
+      "proposed": [
+        "engagement",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "7 Reasons Pulse Surveys Matter Right Now",
+      "proposed": [
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "7 Ways Social Recognition Improves Your Business",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "8 Smart Questions to Ask About Homegrown Recognition Programs",
+      "proposed": [
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "8 Statistics You Should Know to Guide Workplace Wellness Efforts",
+      "proposed": [
+        "wellbeing",
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "8 Statistics You Should Know to Guide Workplace Wellness Efforts (EMEA)",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "9 Tips For Giving Feedback (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "feedback",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "9 Tips for Giving Feedback (Without the Stress)",
+      "proposed": [
+        "feedback",
+        "performance",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "A Closer Look at Grossing Up",
+      "proposed": [
+        "compensationBenefits",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "A Guide for Compensation and Benefits Professionals",
+      "proposed": [
+        "compensationBenefits",
+        "awareness",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "A Guide to Employee Engagement Surveys",
+      "proposed": [
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "A Scientific Guide to Biases That Will Kill Culture",
+      "proposed": [
+        "companyCulture",
+        "futureOfDei",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "A Shot in the Arm for Pharma and Biotech",
+      "proposed": [
+        "awareness",
+        "executivesLeadership",
+        "humanResources",
+        "healthcareProfessionals"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Aberdeen Report: The Art of Appreciation: Top-Tier Employee Recognition",
+      "proposed": [
+        "recognition",
+        "appreciation",
+        "awareness",
+        "humanResources",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Addressing Pay Inequity Across Genders",
+      "proposed": [
+        "compensationBenefits",
+        "futureOfDei",
+        "retentionTurnover",
+        "awareness",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Addressing Pay Inequity Across Genders (EMEA)",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Amplifying Wellbeing at Work and Beyond Through Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Amplifying Wellbeing at Work and Beyond Through the Power of Recognition",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Billing for Rewards: Making the Right Decision",
+      "proposed": [
+        "compensationBenefits",
+        "awareness",
+        "financialServices"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Bringing More Humanity to Recognition, Performance, and Life at Work",
+      "proposed": [
+        "performance",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Build and Maintain Top Manufacturing Talent",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "awareness",
+        "humanResources",
+        "manufacturingIndustrial"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Build Cultural Resilience and Connection",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Building a Culture of Recognition in Healthcare: 3 Strategies for Taking Care of Your Professionals – and the Patients They Serve",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "awareness",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Building a Culture of Recognition: 3 Strategies for Effectively Recognizing and Rewarding Your Humans",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Building an Elevated Employee Experience in Manufacturing",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "compensationBenefits",
+        "experience",
+        "retentionTurnover",
+        "recognition",
+        "awareness",
+        "executivesLeadership",
+        "manufacturingIndustrial"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Building the Future of Work With a Human-Centric Approach",
+      "proposed": [
+        "futureOfWork",
+        "companyCulture",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Building the Future of Work: A Human-Centric Approach (EMEA)",
+      "proposed": [
+        "futureOfWork",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Cash is Not King (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Cash Is Not King: 4 Ways to Get More ROI From Your Total Rewards",
+      "proposed": [
+        "compensationBenefits",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Celebrating Life-Affirming Moments: A Guide to Creating Community, Connection, and Belonging",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "companyCulture",
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Centering Employee Wellbeing to Boost Engagement",
+      "proposed": [
+        "engagement",
+        "wellbeing",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Centring Employee Wellbeing to Boost Engagement EMEA",
+      "proposed": [
+        "engagement",
+        "wellbeing",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Checklist: 6 Ways to Retain Your People",
+      "proposed": [
+        "retentionTurnover",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Choosing Workhuman As Your Trusted Partner",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "engagement",
+        "experience",
+        "recognition",
+        "retentionTurnover",
+        "wellbeing"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Congrats on Your New Role (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Continuous Performance Management Blueprint",
+      "proposed": [
+        "performance",
+        "feedback",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Creating a More Human Workplace Where Employees and Business Thrive",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Creating the Future of Compensation & Benefits: 4 Ways to Modernize Your Total Rewards Strategy",
+      "proposed": [
+        "compensationBenefits",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Creating the Future of Diversity & Inclusion: 3 Ways to Shape the Modern Workplace",
+      "proposed": [
+        "futureOfDei",
+        "futureOfWork",
+        "retentionTurnover",
+        "awareness",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Data Snapshot: Recognition and Employee Performance – Which Comes First? (EMEA)",
+      "proposed": [
+        "recognition",
+        "performance",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Delivering a New Employee Experience in Biotech and Pharma",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "experience",
+        "retentionTurnover",
+        "wellbeing",
+        "performance",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Easing Burnout for Healthcare Workers",
+      "proposed": [
+        "retentionTurnover",
+        "wellbeing",
+        "awareness",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Easing Burnout for Tech Workers",
+      "proposed": [
+        "companyCulture",
+        "futureOfWork",
+        "remoteWork",
+        "retentionTurnover",
+        "wellbeing",
+        "awareness",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Easing Employee Burnout",
+      "proposed": [
+        "humanResources",
+        "retentionTurnover",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Elevating Cultures of Feedback Through Recognition",
+      "proposed": [
+        "companyCulture",
+        "feedback",
+        "performance",
+        "recognition",
+        "engagement",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Elevating Cultures of Feedback Through Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "companyCulture",
+        "feedback",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Embracing the AI Revolution in HR",
+      "proposed": [
+        "companyCulture",
+        "compensationBenefits",
+        "engagement",
+        "experience",
+        "futureOfDei",
+        "futureOfWork",
+        "ai",
+        "humanResources",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Employee Appreciation Day Guide (EMEA)",
+      "proposed": [
+        "appreciation",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Employee Experience Around the Globe",
+      "proposed": [
+        "experience",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Employee Recognition in 5 Easy Steps",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "retentionTurnover",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Empowering Workplace Culture Through Recognition",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Empowering Workplace Culture Through Recognition",
+      "proposed": [
+        "recognition",
+        "companyCulture"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Empowering Workplace Culture Through Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Engaging Offline Workers with Workhuman",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "decision",
+        "frontlineWorkers"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Engaging Offline Workers with Workhuman Cloud (EMEA)",
+      "proposed": [
+        "engagement",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Enhance Employee Wellbeing With Recognition Strategies",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "wellbeing",
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Enriching Organizational Culture Through Values",
+      "proposed": [
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Ensuring Security in Employee Recognition",
+      "proposed": [
+        "futureOfWork",
+        "humanResources",
+        "companyCulture",
+        "recognition",
+        "financeProcurement",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Brief - The Evolution Of Work Report- U.K. & Ireland (EMEA)",
+      "proposed": [
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Brief - The Evolution Of Work Report: North America",
+      "proposed": [
+        "futureOfWork",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Brief: From \"Thank You\" to Thriving",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "wellbeing",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Brief: From Appreciation to Equity",
+      "proposed": [
+        "appreciation",
+        "futureOfDei",
+        "recognition",
+        "retentionTurnover",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Brief: Recognition as a Business Imperative",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Executive Summary: Unlock Skills Insights with Recognition Data",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Exploring 3 Ways Recognition Improves Business Performance",
+      "proposed": [
+        "performance",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Exploring the Cost Savings of Recognition",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "trendsResearch",
+        "awareness",
+        "financeProcurement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Exploring the Cost Savings of Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Exploring the Synergy Between Employee Wellbeing and Recognition",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "FAQs About Workhuman Research",
+      "proposed": [
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Admin Hub",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: E-commerce Experience at Workhuman (EMEA)",
+      "proposed": [
+        "recognition",
+        "consumerGoodsRetail",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Inclusion Advisor",
+      "proposed": [
+        "futureOfDei",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Microsoft Teams Integration",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Our Offerings",
+      "proposed": [
+        "recognition",
+        "solutionOverview",
+        "consumerGoodsRetail"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: SAP SuccessFactors Integration",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Social Sharing",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: The Value of Team Awards",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Topics",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Workday Integration",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Workhuman for Microsoft Outlook",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Workhuman iQ",
+      "proposed": [
+        "ai",
+        "feedback",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Workhuman iQ and the AI Assistant",
+      "proposed": [
+        "ai",
+        "companyCulture",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Brief: Workhuman Reporting",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Feature Spotlight: Merck's Inclusion Advisor",
+      "proposed": [
+        "futureOfDei",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Finance Industry Brief",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From “Thank You” to Thriving: A Deeper Look at How Recognition Amplifies Wellbeing",
+      "proposed": [
+        "appreciation",
+        "wellbeing",
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From “Thank You” to Thriving: A Deeper Look at How Recognition Amplifies Wellbeing (EMEA)",
+      "proposed": [
+        "recognition",
+        "appreciation",
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Appreciation To Equity",
+      "proposed": [
+        "appreciation",
+        "retentionTurnover",
+        "futureOfDei"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Appreciation to Equity: How Recognition Reinforces DEI in the Workplace",
+      "proposed": [
+        "appreciation",
+        "futureOfDei",
+        "recognition",
+        "wellbeing",
+        "retentionTurnover",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Appreciation to Equity: How Recognition Reinforces DEI in the Workplace (EMEA)",
+      "proposed": [
+        "recognition",
+        "appreciation",
+        "wellbeing",
+        "retentionTurnover",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Praise to Profits: Executive Summary",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Praise to Profits: The Business Case for Recognition at Work",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "From Praise to Profits: The Business Case for Recognition at Work (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Gartner Peer Review Insights About Workhuman",
+      "proposed": [
+        "recognition",
+        "analystResearch",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Get and Maintain B Corp Status",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Get and Maintain B Corp Status (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Get the Most From Investing in Your People",
+      "proposed": [
+        "compensationBenefits",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Get Your Values Off the Wall – and Live Them",
+      "proposed": [
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Great Minds Don’t Think Alike: A Guide to Neurodiversity in the Workplace",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "experience",
+        "futureOfDei",
+        "humanResources",
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Great Minds Don’t Think Alike: A Guide to Neurodiversity in the Workplace - EMEA",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "experience",
+        "futureOfDei",
+        "humanResources",
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Guaranteed Impact: Why Workhuman Is the Strategic Recognition Partner You Need",
+      "proposed": [
+        "humanResources",
+        "recognition",
+        "decision",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Guaranteed Impact: Why Workhuman Is the Strategic Recognition Partner You Need",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Healthcare Industry Brief",
+      "proposed": [
+        "retentionTurnover",
+        "humanResources",
+        "awareness",
+        "executivesLeadership",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Hidden Gems and Unsung Heroes",
+      "proposed": [
+        "performance",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Company Culture Influences AI",
+      "proposed": [
+        "ai",
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "retentionTurnover"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Boost Productivity?",
+      "proposed": [
+        "performance",
+        "recognition",
+        "engagement",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Improve Safety - EMEA",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Improve Safety?",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Improve Safety?",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Reinforce DEI in the Workplace?",
+      "proposed": [
+        "futureOfDei",
+        "recognition",
+        "companyCulture",
+        "retentionTurnover",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Does Recognition Reinforce DEI in the Workplace? (EMEA)",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "retentionTurnover",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Recognition Drives the Goals of the C-suite",
+      "proposed": [
+        "companyCulture",
+        "compensationBenefits",
+        "engagement",
+        "futureOfDei",
+        "futureOfWork",
+        "recognition",
+        "appreciation",
+        "awareness",
+        "executivesLeadership",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Recognition Drives the Goals of the C-suite - EMEA",
+      "proposed": [
+        "companyCulture",
+        "compensationBenefits",
+        "engagement",
+        "futureOfDei",
+        "futureOfWork",
+        "recognition",
+        "appreciation",
+        "awareness",
+        "executivesLeadership",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "informationTechnology",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Recognition Reduces Absenteeism (And Improves Your Bottom Line)",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Recognition Reduces Absenteeism (And Improves Your Bottom Line) - EMEA",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Social Recognition Data Can Inform Your DEI Strategy",
+      "proposed": [
+        "futureOfDei",
+        "recognition",
+        "retentionTurnover",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How the Great Resignation Will Shape HR and the Future of Work",
+      "proposed": [
+        "futureOfWork",
+        "appreciation",
+        "retentionTurnover",
+        "futureOfDei",
+        "awareness",
+        "trendsResearch",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Attract and Retain Gen Z - and Watch Them Thrive",
+      "proposed": [
+        "companyCulture",
+        "experience",
+        "futureOfDei",
+        "futureOfWork",
+        "teamBuilding",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Attract and Retain Gen Z - and Watch Them Thrive (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Attract and Retain Great Employees",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "humanResources",
+        "recognition",
+        "retentionTurnover",
+        "teamBuilding",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Be More Inclusive of Women in the Workplace",
+      "proposed": [
+        "companyCulture",
+        "compensationBenefits",
+        "futureOfDei",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Build Psychological Safety",
+      "proposed": [
+        "experience",
+        "futureOfDei",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How To Build Psychological Safety (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Champion a Culture of Workplace Safety",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "experience",
+        "recognition",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Create a Culture of Connection in a Hybrid Work Environment",
+      "proposed": [
+        "companyCulture",
+        "futureOfWork"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How To Inspire Connection in a Virtual World: Thank, Talk, Celebrate",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "remoteWork",
+        "appreciation",
+        "engagement",
+        "performance",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How to Quantify the Value of Strategic Recognition",
+      "proposed": [
+        "recognition",
+        "appreciation",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Work Gets Done (Now): Rearchitecting People Data as Signals for the Modern Workplace",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "How Work Gets Done (Now): Rearchitecting People Data as Signals for the Modern Workplace",
+      "proposed": [
+        "ai",
+        "futureOfWork",
+        "humanResources",
+        "performance",
+        "recognition",
+        "remoteWork",
+        "awareness",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "HR's Role as Cultural Champion",
+      "proposed": [
+        "companyCulture",
+        "humanResources",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Human Intelligence: Supercharge Your Business with the Next Generation of AI",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "engagement",
+        "humanResources",
+        "recognition",
+        "retentionTurnover",
+        "ai",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Human Intelligence: Supercharge Your Business with the Next Generation of AI EMEA",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "engagement",
+        "humanResources",
+        "recognition",
+        "retentionTurnover",
+        "ai",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Influence Workplace Wellbeing with Recognition",
+      "proposed": [
+        "experience",
+        "recognition",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Integrating Culture and Wellbeing in the Workplace",
+      "proposed": [
+        "companyCulture",
+        "wellbeing"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Integrating Culture and Wellbeing in the Workplace (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Lifting and Quantifying the Employee Experience in Financial Services",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "wellbeing",
+        "humanResources",
+        "executivesLeadership",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "financialServices"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Lifting the Employee and Patient Experience in Healthcare",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "engagement",
+        "experience",
+        "futureOfWork",
+        "wellbeing",
+        "recognition",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "executivesLeadership",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Maximizing the ROI of Social Recognition: Unmatched Results for Biopharma Customers",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "recognition",
+        "wellbeing",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "One Year Into COVID: The Pandemic's Impact on How We Work",
+      "proposed": [
+        "futureOfWork",
+        "companyCulture",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Peer Feedback for Growth and Development",
+      "proposed": [
+        "feedback",
+        "recognition",
+        "companyCulture",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Performance in the Future of Work",
+      "proposed": [
+        "futureOfWork",
+        "performance",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Personalize the Employee Experience With Recognition",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "performance",
+        "recognition",
+        "teamBuilding",
+        "wellbeing"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Pfizer Case Study (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Prepare for Future Challenges With Social Recognition: Tips for Pharma, Biotech, and Chemical Companies",
+      "proposed": [
+        "futureOfWork",
+        "recognition",
+        "awareness",
+        "healthcareProfessionals"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Prioritizing DEI During Times of Economic Uncertainty",
+      "proposed": [
+        "futureOfDei",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Celebration Suite",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Community Celebrations",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Conversations",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Human Intelligence",
+      "proposed": [
+        "ai",
+        "recognition",
+        "performance",
+        "futureOfDei"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Human Intelligence",
+      "proposed": [
+        "ai",
+        "recognition",
+        "performance",
+        "futureOfDei",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Integrations",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: iQ (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Life Events",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Service Milestones",
+      "proposed": [
+        "solutionOverview",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Social Recognition",
+      "proposed": [
+        "recognition",
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Workhuman Cloud",
+      "proposed": [
+        "recognition",
+        "humanResources",
+        "solutionOverview",
+        "executivesLeadership",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Workhuman Cloud (EMEA)",
+      "proposed": [
+        "recognition",
+        "performance",
+        "humanResources",
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Workhuman Cloud Languages",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Product Brief: Workhuman for Mobile",
+      "proposed": [
+        "solutionOverview"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Promote Workplace Flexibility With Recognition",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Promoting Upskilling to Harness the Power of Advancing Technology",
+      "proposed": [
+        "companyCulture",
+        "futureOfWork",
+        "ai",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Promoting Upskilling to Harness the Power of Advancing Technology (EMEA)",
+      "proposed": [
+        "ai",
+        "recognition",
+        "technology",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Psychological Safety’s Role in Workplace Wellbeing and Success",
+      "proposed": [
+        "engagement",
+        "experience",
+        "recognition",
+        "wellbeing",
+        "unitedStates"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition & Productivity: The Impact on the Bottom Line",
+      "proposed": [
+        "engagement",
+        "recognition",
+        "companyCulture",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition & Productivity: The Impact on the Bottom Line - EMEA",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition and Retention: New Evidence of Recognition’s Long-Term Impact",
+      "proposed": [
+        "companyCulture",
+        "retentionTurnover",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition and Retention: New Evidence of Recognition’s Long-Term Impact (EMEA)",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition as a Strategic Lever: Driving Data-Driven Decisions and True Business Impact",
+      "proposed": [
+        "ai",
+        "appreciation",
+        "awardsAccolades",
+        "humanResources",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "engagement",
+        "awareness",
+        "financeProcurement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition as a Strategic Lever: Driving Data-Driven Decisions and True Business Impact",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "retentionTurnover"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition In 5 Easy Steps (EMEA)",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "retentionTurnover",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition Is the Currency of Human Connection",
+      "proposed": [
+        "experience",
+        "recognition",
+        "companyCulture",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition Is the Currency of Human Connection (EMEA)",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition Playback",
+      "proposed": [
+        "humanResources",
+        "companyCulture",
+        "performance",
+        "recognition",
+        "financeProcurement",
+        "healthcareProfessionals",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition's Role in Transforming Workplace Culture",
+      "proposed": [
+        "companyCulture",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Recognition's Role in Transforming Workplace Culture (EMEA)",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "humanResources",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Reduce Burnout and Turnover by Addressing Diverse Employees’ Unique Needs",
+      "proposed": [
+        "retentionTurnover",
+        "wellbeing",
+        "companyCulture",
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Reduce Burnout and Turnover by Addressing Diverse Employees’ Unique Needs (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "companyCulture",
+        "retentionTurnover",
+        "futureOfDei",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Reducing Voluntary Turnover With Social Recognition",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "wellbeing",
+        "awareness",
+        "decision",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Reprioritizing Diversity, Equity, and Inclusion with Renewed Focus",
+      "proposed": [
+        "futureOfDei",
+        "recognition",
+        "retentionTurnover",
+        "feedback",
+        "analystResearch",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Retain Your Retail Talent",
+      "proposed": [
+        "retentionTurnover",
+        "recognition",
+        "awareness",
+        "humanResources",
+        "consumerGoodsRetail"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Rewards and Recognition (R&R) Solutions PEAK Matrix® Assessment 2025",
+      "proposed": [
+        "engagement",
+        "experience",
+        "humanResources",
+        "recognition",
+        "awareness",
+        "decision",
+        "executivesLeadership",
+        "financeProcurement",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Senior Leaders vs. Employees: Two Worlds, One Workplace",
+      "proposed": [
+        "experience",
+        "companyCulture",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Social Impact in the Human Workplace",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "performance",
+        "retentionTurnover",
+        "compensationBenefits",
+        "futureOfDei",
+        "awareness",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Solve 7 Common Business Challenges With Recognition",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Solve 7 Common Business Challenges With Recognition EMEA",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Stay on Budget With Workhuman Investment Management",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "decision",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Strategic Recognition 101: Your Guide to Proving ROI",
+      "proposed": [
+        "appreciation",
+        "humanResources",
+        "recognition",
+        "engagement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Strategic Recognition 101: Your Guide to Proving ROI",
+      "proposed": [
+        "recognition",
+        "engagement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Take Employee Wellbeing From Surviving to Thriving",
+      "proposed": [
+        "retentionTurnover",
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Thanks, but No E-thanks",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The 4 Es of Employee Engagement",
+      "proposed": [
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Business Case for Employee Recognition",
+      "proposed": [
+        "recognition",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Case for Belonging: How Social Support Drives Employee Inclusion",
+      "proposed": [
+        "experience",
+        "futureOfDei",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Employee Experience Index",
+      "proposed": [
+        "experience",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Employee Experience of Healthcare Workers",
+      "proposed": [
+        "experience",
+        "recognition",
+        "awareness",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Evolution of Employee Resource Groups",
+      "proposed": [
+        "experience",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Evolution of Employee Resource Groups (EMEA)",
+      "proposed": [
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Evolution of Work Report: The Value of an Employee-First Culture",
+      "proposed": [
+        "futureOfWork",
+        "companyCulture",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Evolution of Work Report: The Value of an Employee-First Culture (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Evolution of Work: At a Glance",
+      "proposed": [
+        "experience",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Facts Behind Feelings: Lifting Moods – and Engagement Scores",
+      "proposed": [
+        "engagement",
+        "experience",
+        "awareness",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Financial Impact of a Positive Employee Experience",
+      "proposed": [
+        "awareness",
+        "trendsResearch",
+        "financialServices"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Future of Work is Human",
+      "proposed": [
+        "futureOfWork",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Human-Centered Workplace: Building Organizational Cultures That Thrive",
+      "proposed": [
+        "companyCulture",
+        "futureOfWork",
+        "performance",
+        "recognition",
+        "wellbeing",
+        "engagement",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Human-Centred Workplace: Building Organisational Cultures That Thrive (EMEA)",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Impact of AI and HR: Josh Bersin and Holly Ransom",
+      "proposed": [
+        "ai"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Impact of Layoffs: Employee Sentiment and Cost Implications",
+      "proposed": [
+        "companyCulture",
+        "compensationBenefits",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Lost Art of the 1:1 Check-in",
+      "proposed": [
+        "experience",
+        "companyCulture",
+        "performance",
+        "feedback",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Manager's Field Guide to Gratitude",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The New Cultural Wave: Embracing AI and Reskilling",
+      "proposed": [
+        "companyCulture",
+        "engagement",
+        "futureOfWork",
+        "performance",
+        "wellbeing",
+        "ai",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The New Future of Work in Healthcare: 4 Areas of Opportunity for Hospitals and Health Systems",
+      "proposed": [
+        "futureOfWork",
+        "awareness",
+        "healthcareProfessionals",
+        "healthcare"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Opportunity Cost of Wellbeing",
+      "proposed": [
+        "wellbeing",
+        "recognition",
+        "trendsResearch",
+        "awareness",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Opportunity Cost of Wellbeing in the Workplace (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The People Data Playbook",
+      "proposed": [
+        "ai",
+        "appreciation",
+        "companyCulture",
+        "compensationBenefits",
+        "engagement",
+        "experience",
+        "futureOfWork",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "wellbeing",
+        "thoughtLeadership",
+        "financeProcurement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Power of Recognition Done Right",
+      "proposed": [
+        "futureOfWork",
+        "humanResources",
+        "recognition",
+        "companyCulture",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Power of Recognition Done Right",
+      "proposed": [
+        "recognition",
+        "companyCulture"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Power of Recognition in a Recession",
+      "proposed": [
+        "recognition",
+        "performance",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Pursuit of Happiness: 3 Keys to Sustainable Job Satisfaction",
+      "proposed": [
+        "experience",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Continuous Performance Management",
+      "proposed": [
+        "performance",
+        "engagement",
+        "retentionTurnover",
+        "feedback",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Human Applications",
+      "proposed": [
+        "futureOfWork",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Recognition in a Time of Crisis",
+      "proposed": [
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Recognition in a Time of Crisis: How to Amplify Engagement",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Social Recognition",
+      "proposed": [
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The ROI of Social Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The State of Humanity at Work",
+      "proposed": [
+        "humanResources",
+        "recognition",
+        "appreciation",
+        "futureOfDei",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The State of Recognition in Western Europe: Findings From the Gallup-Workhuman Report (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Total Economic Impact™ Of Workhuman",
+      "proposed": [
+        "recognition",
+        "retentionTurnover",
+        "compensationBenefits",
+        "awareness",
+        "decision",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Total Economic Impact™ Of Workhuman",
+      "proposed": [
+        "recognition",
+        "compensationBenefits"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Ultimate Guide to Employee Wellbeing",
+      "proposed": [
+        "wellbeing",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Ultimate Guide to Employee Wellbeing (EMEA)",
+      "proposed": [
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "The Value of Billing on Issuance",
+      "proposed": [
+        "compensationBenefits",
+        "humanResources",
+        "companyCulture",
+        "recognition",
+        "awareness",
+        "financeProcurement",
+        "executivesLeadership",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "There Is No One Size Fits All Recognition (EMEA)",
+      "proposed": [
+        "recognition",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "There Is No One-Size-Fits-All Recognition",
+      "proposed": [
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Think Smart, Act Smarter: 3 Tips for Success with HI",
+      "proposed": [
+        "ai",
+        "recognition",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Think Smart, Act Smarter: 3 Tips for Success with HI",
+      "proposed": [
+        "ai",
+        "futureOfWork",
+        "recognition",
+        "decision",
+        "humanResources",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Thriving in the Next Evolution of Work",
+      "proposed": [
+        "futureOfWork",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Thriving in the Next Evolution of Work (EMEA)",
+      "proposed": [
+        "executivesLeadership",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Thriving Through M&As: The Positive Impact and ROI of Recognition",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "awareness",
+        "executivesLeadership",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Tips for Recognizing Your Manufacturing Workforce",
+      "proposed": [
+        "appreciation",
+        "companyCulture",
+        "recognition",
+        "awareness",
+        "manufacturingIndustrial"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Two Years into COVID: The State of Human Connection at Work",
+      "proposed": [
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Unleashing the Human Element at Work: Transforming Workplaces Through Recognition",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "compensationBenefits",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Unlock the Skills-Powered Organization: How Recognition Data Uncovers Skills Data and Unleashes Potential",
+      "proposed": [
+        "ai",
+        "futureOfWork",
+        "humanResources",
+        "recognition",
+        "awareness",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Unlock the Skills-Powered Organization: How Recognition Data Uncovers Skills Data and Unleashes Potential",
+      "proposed": [
+        "recognition"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Upgrading the Employee Experience in Tech Companies",
+      "proposed": [
+        "ai",
+        "appreciation",
+        "companyCulture",
+        "compensationBenefits",
+        "engagement",
+        "experience",
+        "futureOfWork",
+        "remoteWork",
+        "retentionTurnover",
+        "recognition",
+        "awareness",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Upskill or Stand Still: AI Isn’t Going to Wait for You",
+      "proposed": [
+        "experience",
+        "futureOfWork",
+        "performance",
+        "ai",
+        "awareness",
+        "trendsResearch"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Upskill or Stand Still: AI Isn’t Going to Wait for You",
+      "proposed": [
+        "ai"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Use Predictive Analytics to Calculate Turnover Risk",
+      "proposed": [
+        "retentionTurnover",
+        "awareness",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Using Recognition to Change Culture: How Reach, Frequency, Value, and the Words We Use Provide the Data to Shape Business Outcomes",
+      "proposed": [
+        "recognition",
+        "ai",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Using Recognition to Uplift Wellbeing and Daily Emotions",
+      "proposed": [
+        "companyCulture",
+        "experience",
+        "wellbeing",
+        "recognition",
+        "trendsResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Using Recognition to Uplift Wellbeing and Daily Emotions EMEA",
+      "proposed": [
+        "recognition",
+        "wellbeing",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "What is Human Data and Why Is It Important?",
+      "proposed": [
+        "ai",
+        "companyCulture",
+        "futureOfWork",
+        "humanResources",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "What is Human Data and Why Is It Important?",
+      "proposed": [
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "What's the Real ROI of Social Recognition?",
+      "proposed": [
+        "humanResources",
+        "companyCulture",
+        "performance",
+        "recognition",
+        "retentionTurnover",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "What’s Wrong With Cash and Debit Cards in Recognition?",
+      "proposed": [
+        "appreciation",
+        "awardsAccolades",
+        "companyCulture",
+        "compensationBenefits",
+        "futureOfWork",
+        "humanResources",
+        "performance",
+        "recognition",
+        "engagement",
+        "financeProcurement",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why It’s Time to Re-Evaluate the Annual Bonus",
+      "proposed": [
+        "compensationBenefits",
+        "performance",
+        "awareness",
+        "financeProcurement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why This World Gratitude Day May Be the Most Important Ever",
+      "proposed": [
+        "appreciation",
+        "recognition",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why Workhuman Now",
+      "proposed": [
+        "recognition",
+        "engagement",
+        "wellbeing",
+        "awareness",
+        "decision"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why Workplace Culture Matters in the Hybrid Era",
+      "proposed": [
+        "companyCulture",
+        "remoteWork",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why Your Organization Needs Human Intelligence",
+      "proposed": [
+        "engagement"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Why Your Organization Needs Human Intelligence",
+      "proposed": [
+        "ai",
+        "futureOfWork",
+        "humanResources",
+        "engagement",
+        "decision",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Win the IT Talent War with Social Recognition",
+      "proposed": [
+        "recognition",
+        "awareness",
+        "humanResources",
+        "informationTechnology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workhuman Cloud: The Bridge Between Diversity, Equity, and Inclusion",
+      "proposed": [
+        "futureOfDei",
+        "retentionTurnover",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workhuman Named Strategic Leader in Fosway 9-Grid for Talent and People Success 2024",
+      "proposed": [
+        "futureOfWork",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workhuman Named Strategic Leader in Fosway 9-Grid for Talent and People Success 2024",
+      "proposed": [
+        "recognition",
+        "futureOfWork",
+        "peerValidation",
+        "awareness",
+        "decision",
+        "executivesLeadership",
+        "humanResources"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workhuman Named the #1 Vendor for Employee Recognition Software by G2",
+      "proposed": [
+        "recognition",
+        "peerValidation",
+        "awareness",
+        "decision",
+        "technology"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workhuman Recognized as a Customers’ Choice in 2024 Gartner® Peer Insights™ Voice of the Customer Report",
+      "proposed": [
+        "recognition",
+        "analystResearch",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workplace Fact or Fiction",
+      "proposed": [
+        "companyCulture",
+        "humanResources",
+        "awareness",
+        "trendsResearch",
+        "executivesLeadership"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Workplace Fact or Fiction (EMEA)",
+      "proposed": [
+        "companyCulture",
+        "emea"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Your Employee Retention Checklist",
+      "proposed": [
+        "retentionTurnover",
+        "companyCulture",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    },
+    {
+      "title": "Your Guide to Celebrating Employee Appreciation Day",
+      "proposed": [
+        "appreciation",
+        "awareness"
+      ],
+      "notes": "Auto-generated from document taxonomy analysis. Review before apply."
+    }
+  ]
+}

@@ -65,14 +65,14 @@ const tagToRegion = {
 
 // ─── RESOURCE TYPE TAG → BUYING STAGE MAPPING ───
 const resourceToBuyingStage = {
-  'resources__research': 'awareness',        // Research = Awareness stage
-  'resources__thought_leadership': 'awareness',
-  'resources__workhuman_iq_report': 'awareness',
-  'resources__product_briefs': 'consideration', // Product briefs = Consideration
-  'resourcesGartner': 'consideration',        // Analyst = Consideration
-  'resourcesGallup': 'awareness',             // Research partner
-  'resourcesG2': 'decision',                  // Peer reviews = Decision
-  'resourcesWhyWorkhuman': 'decision',        // Why us = Decision
+  'resources__research': 'awareness',
+  'resources__thought_leadership': 'thoughtLeadership',
+  'resources__workhuman_iq_report': 'trendsResearch',
+  'resources__product_briefs': 'solutionOverview',
+  'resourcesGartner': 'analystResearch',
+  'resourcesGallup': 'trendsResearch',
+  'resourcesG2': 'peerValidation',
+  'resourcesWhyWorkhuman': 'decision',
 };
 
 // ─── KEYWORD-BASED SIGNALS ───
@@ -105,7 +105,7 @@ const industryKeywords = {
   healthcare: ['healthcare', 'hospital', 'clinical', 'patient', 'nursing'],
   financialServices: ['banking', 'financial', 'insurance', 'fintech'],
   technology: ['technology', 'software', 'saas', 'tech company'],
-  manufacturing: ['manufacturing', 'factory', 'production'],
+  manufacturingIndustrial: ['manufacturing', 'factory', 'production'],
   consumerGoodsRetail: ['retail', 'consumer goods', 'cpg', 'store'],
 };
 
@@ -250,8 +250,10 @@ for (const r of results) {
     stageCounts[s] = (stageCounts[s] || 0) + 1;
   }
 }
-for (const [stage, count] of Object.entries(stageCounts).sort((a, b) => b[1] - a[1])) {
-  console.log(`  ${stage.padEnd(20)} ${count}`);
+const stageLabel = {};
+for (const c of conceptsByScheme.buyingStage || []) stageLabel[c.id] = c.label;
+for (const [id, count] of Object.entries(stageCounts).sort((a, b) => b[1] - a[1])) {
+  console.log(`  ${(stageLabel[id] || id).padEnd(30)} ${count}`);
 }
 
 // Audience distribution
@@ -301,7 +303,7 @@ for (const doc of richDocs) {
   for (const [scheme, concepts] of Object.entries(doc.recommended)) {
     if (concepts.length) {
       const labels = concepts.map(cid => {
-        const lookup = conceptsByScheme[scheme === 'buyingStage' ? 'buyingStage' : scheme];
+        const lookup = conceptsByScheme[scheme];
         const found = (lookup || []).find(c => c.id === cid);
         return found ? found.label : cid;
       });

@@ -1,4 +1,12 @@
 {
+  "scripts": {
+    "analyze:taxonomy:document": "node scripts/analyzeDocumentTaxonomy.js",
+    "generate:taxonomy:document": "node scripts/generateDocumentTaxonomyMapping.js",
+    "apply:taxonomy:document:dry": "node scripts/applyDocumentTaxonomy.js",
+    "apply:taxonomy:document": "node scripts/applyDocumentTaxonomy.js --apply",
+    "apply:taxonomy:document:dry:safe": "node scripts/applyDocumentTaxonomy.js --safe-scheduled",
+    "apply:taxonomy:document:safe": "node scripts/applyDocumentTaxonomy.js --apply --safe-scheduled"
+  },
   "dependencies": {
     "contentful": "^11.8.6",
     "contentful-management": "^11.35.1",
