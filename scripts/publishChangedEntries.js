@@ -8,7 +8,7 @@ const client = contentfulManagement.createClient({
 
 const spaceId = process.env.CONTENTFUL_SPACE_ID;
 const environmentId = process.env.CONTENTFUL_ENVIRONMENT_ID;
-const contentType = 'imageWithAiTags'; // Replace with your specific content type
+const contentType = 'document'; // Replace with your specific content type
 
 // Function to fetch entries with pagination
 async function fetchEntries(environment, skip = 0, limit = 100) {
@@ -25,8 +25,9 @@ async function publishChangedEntry(entry, count, totalEntries) {
     const currentVersion = entry.sys.version;
     const publishedVersion = entry.sys.publishedVersion || 0;
 
-    // Check if the entry is in changed mode (version > publishedVersion)
-    if (currentVersion > publishedVersion) {
+    // Check if the entry is in changed mode (version > publishedVersion + 1)
+    // After a publish, version === publishedVersion + 1, so only re-publish if there's a real content change
+    if (currentVersion > publishedVersion + 1) {
       // Publish the entry
       await entry.publish();
       console.log(`${count}/${totalEntries} - Published entry: ${entry.sys.id} (version: ${currentVersion}, published: ${publishedVersion})`);

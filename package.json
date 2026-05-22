@@ -6,7 +6,14 @@
     "apply:taxonomy:document": "node scripts/applyDocumentTaxonomy.js --apply",
     "apply:taxonomy:document:dry:safe": "node scripts/applyDocumentTaxonomy.js --safe-scheduled",
     "apply:taxonomy:document:safe": "node scripts/applyDocumentTaxonomy.js --apply --safe-scheduled",
-    "export:document:images": "node scripts/exportDocumentCoverImages.js"
+    "export:document:images": "node scripts/exportDocumentCoverImages.js",
+    "apply:document:cover:dry": "node scripts/applyDocumentCoverImages.js",
+    "apply:document:cover": "node scripts/applyDocumentCoverImages.js --apply",
+    "apply:document:cover:dry:safe": "node scripts/applyDocumentCoverImages.js --safe-scheduled",
+    "apply:document:cover:safe": "node scripts/applyDocumentCoverImages.js --apply --safe-scheduled",
+    "remove:cover:from-body:dry": "node scripts/removeCoverImageFromBody.js",
+    "remove:cover:from-body": "node scripts/removeCoverImageFromBody.js --apply",
+    "remove:cover:from-body:safe": "node scripts/removeCoverImageFromBody.js --apply --safe-scheduled"
   },
   "dependencies": {
     "contentful": "^11.8.6",
