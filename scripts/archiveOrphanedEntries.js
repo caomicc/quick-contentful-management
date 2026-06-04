@@ -78,9 +78,8 @@ async function archiveEntry(environment, entryId) {
 }
 
 // Main function
-async function archiveEntries(contentType, referenceTypes, dryRun = false, minAgeDays = 7, ageField = 'Created At') {
+async function archiveEntries(contentType, referenceTypes, dryRun = false, minAgeDays = 7, ageField = 'Created At', csvFilePath = './orphaned_entries_draft.csv') {
   try {
-    const csvFilePath = './orphaned_entries_draft.csv';
 
     if (dryRun) {
       console.log('🔍 DRY RUN MODE - No changes will be made\n');
@@ -229,6 +228,7 @@ function parseArgs() {
   let dryRun = false;
   let minAgeDays = 7;
   let ageField = 'Created At';
+  let csvFilePath = './orphaned_entries_draft.csv';
 
   for (let i = 0; i < args.length; i++) {
     const arg = args[i];
@@ -262,6 +262,9 @@ function parseArgs() {
       } else if (refType === 'both') {
         referenceTypes = ['No References', 'Archived References'];
       }
+      i++;
+    } else if (arg === '--csv') {
+      csvFilePath = args[i + 1];
       i++;
     } else if (arg === '--help' || arg === '-h') {
       console.log(`
@@ -309,9 +312,9 @@ Examples:
     }
   }
 
-  return { contentType, referenceTypes, dryRun, minAgeDays, ageField };
+  return { contentType, referenceTypes, dryRun, minAgeDays, ageField, csvFilePath };
 }
 
 // Run the script
-const { contentType, referenceTypes, dryRun, minAgeDays, ageField } = parseArgs();
-archiveEntries(contentType, referenceTypes, dryRun, minAgeDays, ageField);
+const { contentType, referenceTypes, dryRun, minAgeDays, ageField, csvFilePath } = parseArgs();
+archiveEntries(contentType, referenceTypes, dryRun, minAgeDays, ageField, csvFilePath);
